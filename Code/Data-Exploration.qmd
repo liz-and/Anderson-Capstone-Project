@@ -1,0 +1,172 @@
+---
+title: "Data Exploration"
+format: html
+editor: visual
+---
+
+# Data Exploration
+
+## Set up
+
+First, setting up the document.
+
+```{r}
+rm(list=ls())
+library(here)
+library(tidyverse)
+library(ggfortify)
+```
+
+Next, read in the data
+
+```{r}
+plot <- read.csv(here("Data", "Moose_Plot_Data.csv"))
+tree <- read.csv(here("Data", "Moose_Tree_Data.csv"))
+```
+
+## Data types
+
+```{r}
+glimpse(plot)
+```
+
+```{r}
+glimpse(tree)
+```
+
+With glimpse, I can see that I need to change the data type for the binary/logical variables. These are: hilltop, swamp, wetland_forest, harvest in the plot variable.
+
+And browsed, stripped, broken in the tree variable.
+
+I also need to change the species variable to factor data, and plot could be factor data too.
+
+I will change these here:
+
+```{r}
+plot$hilltop <- as.logical(plot$hilltop)
+plot$swamp <- as.logical(plot$swamp)
+plot$wetland_forest <- as.logical(plot$wetland_forest)
+plot$harvest <- as.logical(plot$harvest)
+
+tree$browsed <- as.logical(tree$browsed)
+tree$stripped <- as.logical(tree$stripped)
+tree$broken <- as.logical(tree$broken)
+
+tree$species <- as.factor(tree$species)
+tree$plot <- as.factor(tree$plot)
+```
+
+I will also change Watershed to categorical and the numbers 0 and 1 be replaced with the names of the two watersheds to make it less confusing.
+
+```{r}
+
+#First fix Quabbin Forest, the watershed labeled as 0
+fixwatershed0 <- which(plot$watershed == "0")
+plot$watershed[fixwatershed0] <- "Quabbin"
+
+#Then fix Ware River Forest, the watershed labeled as 1
+fixwatershed1 <- which(plot$watershed == "1")
+plot$watershed[fixwatershed1] <- "Ware River"
+
+#Now convert it to factor then check the levels to make sure it all worked.
+plot$watershed <- as.factor(plot$watershed)
+levels(plot$watershed)
+```
+
+## Detecting outliers
+
+```{r}
+# Checking browse_index first.
+# Run code to get a summary of descriptive stats to compare the max and mins with the quartiles, median, and mean. 
+
+summary(plot$browse_index)
+```
+
+```{r}
+#Make a rough boxplot of this variable to check it out. 
+boxplot(plot$browse_index)
+```
+
+The max value seems like it may be an outlier, considering how far from the mean and 3rd quartile that it is.
+
+```{r}
+# Find out more about this row:
+
+which(plot$browse_index == 143.18) #This didn't work but I organized the rows from greatest to least in the table and it returned row number 156. 
+
+slice(plot, 156)
+```
+
+I'm going to leave this data point, as this could possibly be an area that has a lot more moose browsing. The other values in the row seem normal. Considering that this data was used in a thesis and was very well organized when I got it, I could assume that it has been thoroughly checked over already as well.
+
+```{r}
+#Now check the summary stats for the whole dataset just to make things quicker. 
+plot |>
+  summary()
+```
+
+After reviewing the summary stats of the whole data set, it seems that the nature of the data is that there's many 0 values which some larger values. Considering that the data is about moose, who naturally might be absent from certain areas but have a higher density in other areas, these points that might seem like outliers could make sense. For this reason, and considering that the data is from a paper that likely had thorough analysis and review of the data, I'm going to leave all the points.
+
+## Creating new variables
+
+Ideally I'd like to create a new column that combines the three columns currently called "browsed", "stripped", and "broken." Maybe I could use mutate to get this...
+
+```{r}
+# I found the unite function through googling. It combines the three columns but ends up with the three values still distinct, just all in one column. This isn't quite what I want. 
+
+unite(tree, col='interaction', c('browsed', 'stripped', 'broken'), sep = '/')
+```
+
+```{r}
+# Add a new column that combines browsed, stripped, and broken using mutate (function that modifies columns). Found a model of similar code through googling. 
+
+tree.updated <- tree |>
+  mutate(interaction = browsed + stripped + broken)
+
+# However, this function added the value in the three columns together, instead of how I wanted, which is to keep the binary yes/no of whether there was moose interaction with the tree. (see next code chunk)
+
+```
+
+```{r}
+#First change the column to factor data so I can see the levels. 
+tree.updated$interaction <- as.factor(tree.updated$interaction)
+
+# Check out the levels. Has 0, 1, and 2. 
+levels(tree.updated$interaction)
+
+#I just want 0 and 1. The 2 indicates that there were two types of interactions. This is extra info for what I want. I will change the rows with 2 to be 1 so that it's binary data.
+#First make a fix object with all the rows that have 2. 
+fix.interaction <- which(tree.updated$interaction == "2")
+
+#Then apply the fix object to change all those rows with 2 to be 1.
+tree.updated$interaction[fix.interaction] <- "1"
+tree.updated$interaction <- factor(tree.updated$interaction)
+```
+
+```{r}
+#Filter for just the rows with a 1 value for interaction. This indicates that they were interacted with in some way. There are 648 rows where this is true. 
+tree.updated |>
+  filter(interaction == "1")
+
+#Then filter for rows where interaction is 0. There are 1,507 rows where this is the case. 
+tree.updated |>
+  filter(interaction == "0")
+
+#Both of these add up to 2,155 rows. Meaning there should be 1,758 rows where the value is NA for interaction. 
+tree.updated |>
+  filter(interaction == "NA") #Doesn't seem to work to filter for NA values...
+```
+
+The NA's in the 'browsed' column indicate that no stems were within the available browse range or the status of browsed/unbrowsed was inconclusive so the stem was not assessed.
+
+## Save updated dataset
+
+Use write.csv to save the tree.updated dataset for use in place of the original Moose_Tree_Data.csv. The new dataset has the interaction variable to use in future analysis.
+
+The Moose_Plot_Data.csv has not been modified and can be used for future analysis.
+
+```{r}
+#use write.csv - specify the data frame, specify where to save, specify what to save as
+
+write.csv(tree.updated, here("Data", "Updated_Moose_Tree_Data.csv"))
+```
