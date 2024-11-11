@@ -48,7 +48,7 @@ Columns are:
 
 
 
-Moose_Tree_Data.csv --> has data on each tree that was surveyed. 
+Updated_Moose_Tree_Data.csv --> has data on each tree that was surveyed. 
 
 Columns are: 
 - plot = the unique plot identification number
@@ -63,4 +63,6 @@ Columns are:
 
 - stripped = whether the tree was stripped at the height of above 1.8meters and below 3meters. 0 is stem bark not stripped, 1 is stem bark stripped.
 
-- broken = whether the tree was broken at the height of above 1.8meters and below 3meters. 0 is stem not broken by moose, 1 is stem broken by moose. 
+- broken = whether the tree was broken at the height of above 1.8meters and below 3meters. 0 is stem not broken by moose, 1 is stem broken by moose.
+
+- interaction = a combination of browsed, stripped, and broken into a binary interaction or no interaction (True/1, false/0) 
