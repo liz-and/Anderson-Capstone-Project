@@ -141,6 +141,8 @@ fix.interaction <- which(tree.updated$interaction == "2")
 #Then apply the fix object to change all those rows with 2 to be 1.
 tree.updated$interaction[fix.interaction] <- "1"
 tree.updated$interaction <- factor(tree.updated$interaction)
+
+levels(tree.updated$interaction)
 ```
 
 ```{r}
@@ -227,6 +229,9 @@ The Moose_Plot_Data.csv has not been modified and can be used for future analysi
 #use write.csv - specify the data frame, specify where to save, specify what to save as
 
 write.csv(tree.updated, here("Data", "Updated_Moose_Tree_Data.csv"))
+
+#Save updated dataset for plot as well
+write.csv(plot, here("Data", "Updated_Moose_Plot_Data.csv"))
 ```
 
 ## Exploratory data analysis
@@ -238,7 +243,8 @@ Make sure all the data is accurate and up to date.
 ```{r}
 tree.updated <- read.csv(here("Data", "Updated_Moose_Tree_Data.csv")) 
 # Should be the same as what had earlier, just testing that can read in the new csv file. 
-# Should already have plot from above code
+
+plot <- read.csv(here("Data", "Updated_Moose_Plot_Data.csv"))
 ```
 
 ### Summary statistics:
