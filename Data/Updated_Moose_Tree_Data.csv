@@ -77,7 +77,7 @@
 "76","64","hemlock",26.5,1,NA,FALSE,FALSE,NA
 "77","64","hemlock",42.1,1,TRUE,FALSE,FALSE,"1"
 "78","64","hemlock",48.7,1,NA,FALSE,FALSE,NA
-"79","64","hemlock ",66,1,NA,FALSE,FALSE,NA
+"79","64","hemlock",66,1,NA,FALSE,FALSE,NA
 "80","64","red maple",8.2,1,NA,FALSE,FALSE,NA
 "81","64","red maple",18.2,1,FALSE,FALSE,FALSE,"0"
 "82","64","red maple",20.6,1,NA,FALSE,FALSE,NA
@@ -99,7 +99,7 @@
 "98","66","black birch",NA,1,TRUE,FALSE,FALSE,"1"
 "99","66","american elm",10.9,1,FALSE,FALSE,FALSE,"0"
 "100","66","black birch",2.8,1,FALSE,FALSE,FALSE,"0"
-"101","66","black birch ",5.4,1,FALSE,FALSE,FALSE,"0"
+"101","66","black birch",5.4,1,FALSE,FALSE,FALSE,"0"
 "102","66","black cherry",2.6,1,FALSE,FALSE,FALSE,"0"
 "103","66","black cherry",4.8,1,FALSE,FALSE,FALSE,"0"
 "104","66","black cherry",21.4,1,NA,FALSE,FALSE,NA
@@ -288,7 +288,7 @@
 "287","90","white pine",3.6,1,FALSE,FALSE,FALSE,"0"
 "288","90","white pine",61.6,1,NA,FALSE,FALSE,NA
 "289","92","white pine",NA,1,FALSE,FALSE,FALSE,"0"
-"290","92","Chestnut",NA,1,FALSE,FALSE,FALSE,"0"
+"290","92","chestnut",NA,1,FALSE,FALSE,FALSE,"0"
 "291","92","black oak",12.4,1,FALSE,FALSE,FALSE,"0"
 "292","92","black oak",29,1,NA,FALSE,FALSE,NA
 "293","92","red maple",5.1,1,FALSE,FALSE,FALSE,"0"
@@ -306,7 +306,7 @@
 "305","95","red maple",2.5,1,TRUE,FALSE,FALSE,"1"
 "306","95","red maple",NA,2,FALSE,FALSE,FALSE,"0"
 "307","95","red maple",NA,1,TRUE,FALSE,FALSE,"1"
-"308","95","Chestnut",NA,1,FALSE,FALSE,FALSE,"0"
+"308","95","chestnut",NA,1,FALSE,FALSE,FALSE,"0"
 "309","95","white pine",NA,8,TRUE,FALSE,FALSE,"1"
 "310","95","white pine",NA,3,FALSE,FALSE,FALSE,"0"
 "311","95","red maple",2.5,1,FALSE,FALSE,FALSE,"0"
@@ -517,11 +517,11 @@
 "516","113","black cherry",24.1,1,NA,FALSE,FALSE,NA
 "517","113","red maple",5.2,1,FALSE,FALSE,FALSE,"0"
 "518","113","red maple",9.6,1,NA,FALSE,FALSE,NA
-"519","113","red maple ",12.2,1,FALSE,FALSE,FALSE,"0"
+"519","113","red maple",12.2,1,FALSE,FALSE,FALSE,"0"
 "520","113","red oak",22.6,1,NA,FALSE,FALSE,NA
 "521","113","red oak",23.9,1,NA,FALSE,FALSE,NA
 "522","113","red oak",29.1,1,NA,FALSE,FALSE,NA
-"523","113","red oak ",24.8,1,NA,FALSE,FALSE,NA
+"523","113","red oak",24.8,1,NA,FALSE,FALSE,NA
 "524","113","red pine",20.8,1,NA,FALSE,FALSE,NA
 "525","113","white oak",18.7,1,FALSE,FALSE,FALSE,"0"
 "526","113","white pine",3.1,1,FALSE,FALSE,FALSE,"0"
@@ -543,7 +543,7 @@
 "542","115","black birch",NA,1,FALSE,FALSE,FALSE,"0"
 "543","115","winterberry",NA,1,FALSE,FALSE,FALSE,"0"
 "544","115","american hazelnut",NA,2,TRUE,FALSE,FALSE,"1"
-"545","115","hawthorne",NA,1,NA,FALSE,FALSE,NA
+"545","115","hawthorn",NA,1,NA,FALSE,FALSE,NA
 "546","115","alternate dogwood",NA,1,TRUE,FALSE,FALSE,"1"
 "547","115","musclewood",NA,1,TRUE,FALSE,FALSE,"1"
 "548","115","musclewood",NA,1,FALSE,FALSE,FALSE,"0"
@@ -636,7 +636,7 @@
 "635","120","white oak",3.1,1,FALSE,FALSE,FALSE,"0"
 "636","120","white pine",30.8,1,NA,FALSE,FALSE,NA
 "637","120","white pine",38.4,1,NA,FALSE,FALSE,NA
-"638","120","white pine ",45.9,1,NA,FALSE,FALSE,NA
+"638","120","white pine",45.9,1,NA,FALSE,FALSE,NA
 "639","125","black birch",NA,1,FALSE,FALSE,FALSE,"0"
 "640","125","black birch",8.2,1,FALSE,FALSE,FALSE,"0"
 "641","125","black birch",8.4,1,FALSE,FALSE,FALSE,"0"
@@ -660,7 +660,7 @@
 "659","130","hemlock",9.9,1,NA,FALSE,FALSE,NA
 "660","130","hemlock",10.3,1,NA,FALSE,FALSE,NA
 "661","130","hemlock",13.8,1,NA,FALSE,FALSE,NA
-"662","130","Hemlock",20.9,1,NA,FALSE,FALSE,NA
+"662","130","hemlock",20.9,1,NA,FALSE,FALSE,NA
 "663","130","hemlock",40.3,1,NA,FALSE,FALSE,NA
 "664","130","red maple",29.1,1,NA,FALSE,FALSE,NA
 "665","130","red oak",29.5,1,NA,FALSE,FALSE,NA
@@ -692,7 +692,7 @@
 "691","133","yellow birch",7,1,FALSE,FALSE,FALSE,"0"
 "692","133","yellow birch",13.6,1,TRUE,FALSE,FALSE,"1"
 "693","133","yellow birch",14.3,1,FALSE,FALSE,FALSE,"0"
-"694","134","white pine ",2.8,1,FALSE,FALSE,FALSE,"0"
+"694","134","white pine",2.8,1,FALSE,FALSE,FALSE,"0"
 "695","134","red maple",NA,1,FALSE,FALSE,FALSE,"0"
 "696","134","red maple",NA,4,TRUE,FALSE,FALSE,"1"
 "697","134","chestnut",NA,2,FALSE,FALSE,FALSE,"0"
@@ -1036,11 +1036,11 @@
 "1035","174","hemlock",23.3,1,FALSE,FALSE,FALSE,"0"
 "1036","174","hemlock",28.9,1,TRUE,FALSE,FALSE,"1"
 "1037","174","hemlock",35,1,TRUE,FALSE,FALSE,"1"
-"1038","174","Red maple",5.5,1,FALSE,FALSE,FALSE,"0"
+"1038","174","red maple",5.5,1,FALSE,FALSE,FALSE,"0"
 "1039","174","red maple",6.5,1,FALSE,FALSE,FALSE,"0"
-"1040","174","Red maple",9.6,1,NA,FALSE,FALSE,NA
-"1041","174","Red maple",9.9,1,NA,FALSE,FALSE,NA
-"1042","174","Red maple",11.5,1,NA,FALSE,FALSE,NA
+"1040","174","red maple",9.6,1,NA,FALSE,FALSE,NA
+"1041","174","red maple",9.9,1,NA,FALSE,FALSE,NA
+"1042","174","red maple",11.5,1,NA,FALSE,FALSE,NA
 "1043","174","red maple",19.3,1,NA,FALSE,FALSE,NA
 "1044","174","white oak",33.5,1,NA,FALSE,FALSE,NA
 "1045","174","white oak",34.8,1,NA,FALSE,FALSE,NA
@@ -2693,8 +2693,8 @@
 "2692","432","black birch",5.2,1,FALSE,FALSE,FALSE,"0"
 "2693","432","black birch",5.8,1,FALSE,FALSE,FALSE,"0"
 "2694","432","black birch",18.8,1,NA,FALSE,FALSE,NA
-"2695","432","sugarmaple",54.5,1,NA,FALSE,FALSE,NA
-"2696","432","sugarmaple",85,1,NA,FALSE,FALSE,NA
+"2695","432","sugar maple",54.5,1,NA,FALSE,FALSE,NA
+"2696","432","sugar maple",85,1,NA,FALSE,FALSE,NA
 "2697","432","yellow birch",6.4,1,NA,FALSE,FALSE,NA
 "2698","435","white pine",NA,1,FALSE,FALSE,FALSE,"0"
 "2699","435","high bush blueberry",NA,2,TRUE,FALSE,FALSE,"1"
@@ -3885,7 +3885,7 @@
 "3884","540","white pine",6.5,1,FALSE,FALSE,FALSE,"0"
 "3885","540","white pine",6.8,1,FALSE,FALSE,FALSE,"0"
 "3886","540","white pine",7,1,FALSE,FALSE,FALSE,"0"
-"3887","540","whte pine",6,1,FALSE,FALSE,FALSE,"0"
+"3887","540","white pine",6,1,FALSE,FALSE,FALSE,"0"
 "3888","541","red maple",NA,3,FALSE,FALSE,FALSE,"0"
 "3889","541","red maple",NA,3,TRUE,FALSE,FALSE,"1"
 "3890","541","gray birch",NA,1,FALSE,FALSE,FALSE,"0"

@@ -1,0 +1,21 @@
+---
+title: "data-exploration-feedback.qmd"
+format: html
+editor: visual
+---
+
+## Data Exploration Feedback
+
+Hi Liz,
+
+Looking great so far! A few thoughts.
+
+1.  I don't think you need to change the plot habitats (swamp, hilltop, etc.) to logical - you might be better served to leave them as 0/1 data. Same for tree browsed/stripped/broken. I would leave them as is.
+2.  Do you recall how to use ggplot for your box plots? They will look a bit nicer/be easier to interpret if you do.
+3.  I think your decision to keep all the points rather than get rid of outliers is a good one. But I'd like to see you doing more to plot your data to get a feel for the distribution - you could facet to make the plotting faster.
+4.  Your data (many of your variables) are what we refer to as "zero-inflated" because you have lots of zero values - which is fine. Happens a lot in ecology, and we may have to take it into account during the analysis.
+5.  At line 121, you are going to end up using something called "pivot_longer" to reformat your data so that you can have a single column called "interaction" with values of browsed, stripped, or broken – I appreciate that you tried to figure it out!
+6.  In your scatterplots, you may wish to think about whether you could fit a line to the points if you only considered the red or the blue points but not the whole point cloud - in other words, does the possible association depend on if they are hunted or not, etc?
+7.  For your first hypothesis, whether there is a relationship b/w whether a tree was interacted with and species/dbh, I think your response variable is actually going to be the NUMBER of interactions of each type (browse, strip, broken) and you may add the type of interaction as another predictor.
+
+You are making nice progress!
