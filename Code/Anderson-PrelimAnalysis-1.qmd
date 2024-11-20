@@ -1,0 +1,9 @@
+---
+title: "Preliminary Data Analysis 1"
+format: html
+editor: visual
+---
+
+## Data Analysis 1 -
+
+In this document I will go through the workflow of conducting a statistical analysis on the data from these files:
