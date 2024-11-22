@@ -1,0 +1,157 @@
+---
+title: "Preliminary Data Analysis 1"
+format: html
+editor: visual
+---
+
+# Data Analysis 1 - Multiple regression
+
+In this document I will go through the workflow of conducting a mutliple regression statistical analysis on the data from the file Updated_Moose_Plot_Data.csv
+
+The question I'm asking is: Is there a relationship between the predictor variables and moose browse index?
+
+## Set up
+
+First I'll set up the document, then read in the data.
+
+```{r}
+rm(list=ls())
+library(here)
+library(tidyverse)
+library(ggfortify)
+```
+
+```{r}
+Plot <- read.csv(here("Data", "Updated_Moose_Plot_Data.csv"))
+```
+
+## Variables
+
+The response variable is:
+
+-   browse_index
+
+The predictor variables I want to use are:
+
+-   elev_m
+
+-   dist_h2o_m
+
+-   harvest_intensity_m2.ha
+
+-   dist_dev_m
+
+-   dist_conifer
+
+-   deer_density
+
+If binary data works well, I could also include these below, but I'll try without first so that I'm using all ratio data.
+
+-   habitat type
+
+    -   hilltop
+
+    -   swamp
+
+    -   wetland_forest
+
+-   harvest
+
+## Model
+
+I am using this [Link](https://www.datacamp.com/tutorial/multiple-linear-regression-r-tutorial) to figure out the code for a multiple regression.
+
+Based on that source, the model is fit similar to a linear regression, just with multiple predictors separated by +
+
+```{r}
+browseindex.model <- lm(browse_index ~ elev_m + dist_h2o_m + dist_conifer_m + harvest_intensity_m2.ha + dist_dev_m + deer_density, data = Plot)
+```
+
+## Check assumptions
+
+The source recommends displaying the model residuals on a histogram now.
+
+```{r}
+model_residuals = browseindex.model$residuals
+
+hist(model_residuals)
+
+# ggplot(browseindex.model, aes(x=residuals))+
+ # geom_histogram()
+
+#Tried using ggplot but wasn't working out. The hist(model_residuals method worked though)
+```
+
+This histogram seems pretty normally distributed, with a bit of a right skew.
+
+Now just trying autoplot which is not done in the source, but I think gives the same info that the author is coding for.
+
+```{r}
+autoplot(browseindex.model)
+```
+
+This isn't the greatest, but I don't think it's terrible. The residuals vs fitted line is a little bit off, and the normal q-q is also a bit off, but is straight for the most part. Scale-location has a big dip at the start, however. The residuals vs leverage seems ok, meaning there's not a sigificant outlier.
+
+The source does a multicollinearity assumption check, but I'm not entirely sure what that is for or if it would be helpful for my analysis. I think it might be to see if there's a correlation between any of the predictor variables.
+
+## Run the multiple regression
+
+Use the anova function as done for linear regression with the model created.
+
+```{r}
+anova(browseindex.model)
+```
+
+From this, I can conclude that elevation and harvest intensity have a significant relationship with the moose browse index (p \<\< 0.01 for both).
+
+The `summary()` function gives more information:
+
+```{r}
+summary(browseindex.model)
+```
+
+### Interpret
+
+From this I can conclude that there is a significant relationship between moose browse index (the intercept) and elevation, as well as harvest intensity (F = 7.244, df = 6, 63, p \<0.01). The other predictors do not have a significant relationship with browse index.
+
+-   The adjusted R squared tells that 35.19% of the variation can be explained by the predictors.
+
+-   The first df is 6 because there are 7 variables used, so 7-1=6.
+
+-   The second df is 63 because 86 observations weren't used because they weren't complete cases. 156-86=70, and 70-7=63.
+
+## Adding in the binary data to see if it works
+
+### Model
+
+```{r}
+browseindex.model2 <- lm(browse_index ~ elev_m + dist_h2o_m + dist_conifer_m + harvest_intensity_m2.ha + dist_dev_m + deer_density + harvest + hilltop + swamp + wetland_forest, data = Plot)
+```
+
+### Check assumptions
+
+```{r}
+autoplot(browseindex.model2)
+```
+
+This is similar to the run with just ratio data in all the plot, the residuals vs leverage is just different on the x-axis.
+
+### Run model
+
+```{r}
+anova(browseindex.model2)
+```
+
+This shows the same predictors as being significant as in the first run without the binary data. It can be concluded that elevation and harvest intensity have a siginficant relationship with browse index (p\<\< 0.01)
+
+```{r}
+summary(browseindex.model2)
+```
+
+These results are also similar to the ratio predictors only run, however the significance is less. I can still conclude that elevation and harvest intensity have a significant relationship with browse index (F = 4.54, df = 10 and 59, p\<0.01 - although it's p\<0.05 for elevation).
+
+-   The adjusted R-sq says that 33.91% of the variation in the response can be explained by the predictors.
+
+-   10 degrees of freedom comes from 11 variables minus 1.
+
+-   59 degrees of freedom comes from the 86 deleted observations from 156 = 76. I would think that next you would subtract 10 from 76, but that's not the case with 59 degrees of freedom, so I'm not positive where this number comes from.

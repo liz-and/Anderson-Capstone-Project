@@ -1,0 +1,62 @@
+---
+title: "Prelim data analysis 2"
+format: html
+editor: visual
+---
+
+# Data Analysis 2 - Logistic Regression
+
+In this file I step through the process of running a logistic regression using data from the file: Updated_Moose_Tree_Data.csv
+
+The question that I'm asking is: Is there a relationship between whether a tree was interacted with and the tree species, dbh, and/or type of interaction?
+
+## Set up
+
+Prep the document
+
+```{r}
+rm(list=ls())
+library(here)
+library(tidyverse)
+library(ggfortify)
+```
+
+Read in the data
+
+```{r}
+Tree <- read.csv(here("Data", "Updated_Moose_Tree_Data.csv"))
+```
+
+## Variables
+
+The response variable is interaction, which is binary. 0 is no interaction, 1 is yes interaction.
+
+The predictor variables are:
+
+-   species (factor)
+
+-   dbh_cm (ratio
+
+-   Interaction.name (factor - need to change though, listed as character currently, even though I thought I changed it in the data exploration...)
+
+```{r}
+Tree$Interaction.name <- as.factor(Tree$Interaction.name)
+```
+
+I ran code in order to get the Interaction and Interaction.name variables in the data exploration, but I'll put it here as text as a reference.
+
+*`pivot_longer` function used*
+
+tree.updated2 \<- tree \|\> pivot_longer(cols = c("browsed", "stripped", "broken"), names_to = "Interaction.name", values_to = "Interaction")
+
+*Need to make Interaction.name factor data*
+
+tree.updated2$Interaction.name <- as.factor(tree.updated2$Interaction.name)
+
+tree.updated2$Interaction.name <- factor(tree.updated2$Interaction.name)
+
+*This will let me use the type of interaction as another predictor.*
+
+Here's a [Link](https://www.datacamp.com/tutorial/logistic-regression-R) to a source I found on how to run logistic regression.
+
+The model is a bit confusing, and needs information about "mixture" (either lasso model or ridge regression) and "penalty" (strength of regularization). There is also options for set_engine() and set_mode(), and fit(). I will await further instructions/assistance as this was as far as I could understand with the webpage.
