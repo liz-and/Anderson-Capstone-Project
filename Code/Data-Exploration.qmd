@@ -34,24 +34,21 @@ glimpse(plot)
 glimpse(tree)
 ```
 
-With glimpse, I can see that I also need to change the species variable to factor data, and plot could be factor data too.
+With glimpse, I can see that I need to change the species variable to factor data, and plot could be factor data too.
 
-The binary data I want to keep coded as 0, 1, and NA - *maybe I convert this to factor data too?*
+The binary data I want to keep coded as 0, 1, and NA
+
+Harvest can be factor because it's binary but easier to work with when kept as 0 and 1
 
 I will change these here:
 
 ```{r}
-plot$hilltop <- as.logical(plot$hilltop)
-plot$swamp <- as.logical(plot$swamp)
-plot$wetland_forest <- as.logical(plot$wetland_forest)
-plot$harvest <- as.logical(plot$harvest)
-
-tree$browsed <- as.logical(tree$browsed)
-tree$stripped <- as.logical(tree$stripped)
-tree$broken <- as.logical(tree$broken)
-
 tree$species <- as.factor(tree$species)
 tree$plot <- as.factor(tree$plot)
+
+tree$browsed <- as.integer(tree$browsed)
+
+plot$harvest <- as.factor(plot$harvest)
 ```
 
 I will also change Watershed to categorical and the numbers 0 and 1 be replaced with the names of the two watersheds to make it less confusing.
@@ -92,7 +89,8 @@ The max value seems like it may be an outlier, considering how far from the mean
 ```{r}
 # Find out more about this row:
 
-which(plot$browse_index == 143.18) #This didn't work but I organized the rows from greatest to least in the table and it returned row number 156. 
+# which(plot$browse_index == 143.18) 
+#This didn't work but I organized the rows from greatest to least in the table and it returned row number 156. 
 
 slice(plot, 156)
 ```
@@ -117,11 +115,13 @@ Ideally I'd like to create a new column that combines the three columns currentl
 # unite(tree, col='interaction', c('browsed', 'stripped', 'broken'), sep = '/')
 ```
 
+Leaving the code below just to be able to return to it if needed, but ended up using other code, see the section below.
+
 ```{r}
 # Add a new column that combines browsed, stripped, and broken using mutate (function that modifies columns). Found a model of similar code through googling. 
 
-tree.updated <- tree |>
-  mutate(interaction = browsed + stripped + broken)
+### tree.updated <- tree |>
+  # mutate(interaction = browsed + stripped + broken)
 
 # However, this function added the value in the three columns together, instead of how I wanted, which is to keep the binary yes/no of whether there was moose interaction with the tree. (see next code chunk)
 
@@ -129,93 +129,92 @@ tree.updated <- tree |>
 
 ```{r}
 #First change the column to factor data so I can see the levels. 
-tree.updated$interaction <- as.factor(tree.updated$interaction)
+# tree.updated$interaction <- as.factor(tree.updated$interaction)
 
 # Check out the levels. Has 0, 1, and 2. 
-levels(tree.updated$interaction)
+  # levels(tree.updated$interaction)
 
 #I just want 0 and 1. The 2 indicates that there were two types of interactions. This is extra info for what I want. I will change the rows with 2 to be 1 so that it's binary data.
 #First make a fix object with all the rows that have 2. 
-fix.interaction <- which(tree.updated$interaction == "2")
+
+  #fix.interaction <- which(tree.updated$interaction == "2")
 
 #Then apply the fix object to change all those rows with 2 to be 1.
-tree.updated$interaction[fix.interaction] <- "1"
-tree.updated$interaction <- factor(tree.updated$interaction)
+  #tree.updated$interaction[fix.interaction] <- "1"
+  #tree.updated$interaction <- factor(tree.updated$interaction)
 
-levels(tree.updated$interaction)
+  #levels(tree.updated$interaction)
 ```
+
+There's also a weird value that is 6.3 when it should be just 1 or 2. I checked the original data and it is there as well, so this could just be a mistake on the author's part. I'll consider it as being browsed and change to 1.
 
 ```{r}
-#Filter for just the rows with a 1 value for interaction. This indicates that they were interacted with in some way. There are 648 rows where this is true. 
-tree.updated |>
-  filter(interaction == "1")
 
-#Then filter for rows where interaction is 0. There are 1,507 rows where this is the case. 
-tree.updated |>
-  filter(interaction == "0")
-
-#Both of these add up to 2,155 rows. Meaning there should be 1,758 rows where the value is NA for interaction. 
-tree.updated |>
-  filter(interaction == "NA") #Doesn't seem to work to filter for NA values...
+#Edit in the tree dataset (original)
+fix6.3browseagain <- which(tree$browsed == "6.3")
+tree$browsed[fix6.3browseagain] <- "1"
 ```
+
+### New method of getting the interaction column
+
+`pivot_longer` function used
+
+```{r}
+tree.updated2 <- tree |> 
+  pivot_longer(cols = c("browsed", "stripped", "broken"), names_to = "Interaction.name", values_to = "Interaction")
+```
+
+This will let me use the type of interaction as another predictor.
 
 The NA's in the 'browsed' column indicate that no stems were within the available browse range or the status of browsed/unbrowsed was inconclusive so the stem was not assessed.
-
-Change the interaction column to binary data type
-
-```{r}
-## tree.updated$interaction <- as.logical(tree.updated$interaction)
-# Tried to run the above code but it just ended up making all the rows NA
-glimpse(tree.updated)
-```
 
 Now look more into some structure
 
 ```{r}
-levels(tree.updated$species) 
+levels(tree.updated2$species) 
 # Noticed that there are inconsistencies with these species names that I didn't catch earlier. 
 ```
 
 Fix the species names:
 
 ```{r}
-fix.blackbirch <- which(tree.updated$species == "black birch ")
-tree.updated$species[fix.blackbirch] <- "black birch"
-tree.updated$species <- factor(tree.updated$species)
+fix.blackbirch <- which(tree.updated2$species == "black birch ")
+tree.updated2$species[fix.blackbirch] <- "black birch"
+tree.updated2$species <- factor(tree.updated2$species)
 
-fix.chestnut <- which(tree.updated$species == "Chestnut")
-tree.updated$species[fix.chestnut] <- "chestnut"
-tree.updated$species <- factor(tree.updated$species)
+fix.chestnut <- which(tree.updated2$species == "Chestnut")
+tree.updated2$species[fix.chestnut] <- "chestnut"
+tree.updated2$species <- factor(tree.updated2$species)
 
-fix.hawthorn <- which(tree.updated$species == "hawthorne")
-tree.updated$species[fix.hawthorn] <- "hawthorn"
-tree.updated$species <- factor(tree.updated$species)
+fix.hawthorn <- which(tree.updated2$species == "hawthorne")
+tree.updated2$species[fix.hawthorn] <- "hawthorn"
+tree.updated2$species <- factor(tree.updated2$species)
 
-fix.hemlock <- which(tree.updated$species %in% c("hemlock", "Hemlock", "hemlock "))
-tree.updated$species[fix.hemlock] <- "hemlock"
-tree.updated$species <- factor(tree.updated$species)
+fix.hemlock <- which(tree.updated2$species %in% c("hemlock", "Hemlock", "hemlock "))
+tree.updated2$species[fix.hemlock] <- "hemlock"
+tree.updated2$species <- factor(tree.updated2$species)
 
-fix.redmaple <- which(tree.updated$species %in% c("red maple", "Red maple", "red maple "))
-tree.updated$species[fix.redmaple] <- "red maple"
-tree.updated$species <- factor(tree.updated$species)
+fix.redmaple <- which(tree.updated2$species %in% c("red maple", "Red maple", "red maple "))
+tree.updated2$species[fix.redmaple] <- "red maple"
+tree.updated2$species <- factor(tree.updated2$species)
 
-fix.redoak <- which(tree.updated$species == "red oak ")
-tree.updated$species[fix.redoak] <- "red oak"
-tree.updated$species <- factor(tree.updated$species)
+fix.redoak <- which(tree.updated2$species == "red oak ")
+tree.updated2$species[fix.redoak] <- "red oak"
+tree.updated2$species <- factor(tree.updated2$species)
 
-fix.sugarmaple <- which(tree.updated$species == "sugarmaple")
-tree.updated$species[fix.sugarmaple] <- "sugar maple"
-tree.updated$species <- factor(tree.updated$species)
+fix.sugarmaple <- which(tree.updated2$species == "sugarmaple")
+tree.updated2$species[fix.sugarmaple] <- "sugar maple"
+tree.updated2$species <- factor(tree.updated2$species)
 
-fix.whitepine <- which(tree.updated$species %in% c("white pine", "whte pine", "white pine "))
-tree.updated$species[fix.whitepine] <- "white pine"
-tree.updated$species <- factor(tree.updated$species)
+fix.whitepine <- which(tree.updated2$species %in% c("white pine", "whte pine", "white pine "))
+tree.updated2$species[fix.whitepine] <- "white pine"
+tree.updated2$species <- factor(tree.updated2$species)
 ```
 
 Check on plot levels
 
 ```{r}
-levels(tree.updated$plot) 
+levels(tree.updated2$plot) 
 # There are 541 levels which makes sense because that's how many plots there are. There are 3,913 total observations/rows though, so theres many rows for each level. 
 ```
 
@@ -223,12 +222,10 @@ levels(tree.updated$plot)
 
 Use write.csv to save the tree.updated dataset for use in place of the original Moose_Tree_Data.csv. The new dataset has the interaction variable to use in future analysis.
 
-The Moose_Plot_Data.csv has not been modified and can be used for future analysis.
-
 ```{r}
 #use write.csv - specify the data frame, specify where to save, specify what to save as
 
-write.csv(tree.updated, here("Data", "Updated_Moose_Tree_Data.csv"))
+write.csv(tree.updated2, here("Data", "Updated_Moose_Tree_Data.csv"))
 
 #Save updated dataset for plot as well
 write.csv(plot, here("Data", "Updated_Moose_Plot_Data.csv"))
@@ -238,7 +235,14 @@ write.csv(plot, here("Data", "Updated_Moose_Plot_Data.csv"))
 
 Time for some summary statistics and plots!
 
-Make sure all the data is accurate and up to date.
+First clear environment and then read in the updated data to make sure all the data is accurate and up to date.
+
+```{r}
+rm(list=ls())
+library(here)
+library(tidyverse)
+library(ggfortify)
+```
 
 ```{r}
 tree.updated <- read.csv(here("Data", "Updated_Moose_Tree_Data.csv")) 
@@ -296,7 +300,7 @@ ggplot(plot, aes(x=browse_index))+
 #Use the plot dataset, with browse index as the x variable. Histogram chooses the y automatically, in this case it's count. Facet wrap divides the output into two histograms based on the variable harvest. 
 ```
 
-This plot shows the browse index on the x and the number of observations of each value on the y. It's split between whether harvesting occurs in the plot or not. The larger bar at the low end of the false graph could be due to an unequal sample size between the two groups, rather than a real difference. The over shape looks similar between the two histograms, but there is a slight increase in browse_index in the true harvested points.
+This plot shows the browse index on the x and the number of observations of each value on the y. It's split between whether harvesting occurs in the plot or not. The larger bar at the low end of the false graph could be due to an unequal sample size between the two groups, rather than a real difference. The overall shape looks similar between the two histograms, but there is a slight increase in browse_index in the true harvested points.
 
 ```{r}
 ggplot(plot, aes(x=browse_index))+
@@ -309,12 +313,6 @@ ggplot(plot, aes(x=browse_index))+
 The variation in sizes could once again be due to a difference in sample size. However there does seem to be an increase around the 100 browse index mark in the Ware River watershed compared to the Quabbin.
 
 #### [Scatterplots]{.underline}
-
-```{r}
-## Change the data type of interaction for the next graph to work properly. I'm not sure why it works to do it now, but didn't work earlier. 
-
-tree.updated$interaction <- as.logical(tree.updated$interaction)
-```
 
 ```{r}
 ggplot(tree.updated, aes(x=species, y=dbh_cm, colour = interaction))+
