@@ -1,0 +1,49 @@
+---
+title: "prelim-analysis-feedback"
+format: html
+editor: visual
+---
+
+## Preliminary data analysis feedback
+
+### Multiple regression
+
+File: Anderson-PrelimAnalysis-MultRegression
+
+Notes: Line 48 - Yes - you can use categorical, including binary, predictors as well as continuous predictors in multiple regression.
+
+Nice work following a link to learn about multiple regression!
+
+Line 93 - Your autoplot suggests that your data don't actually fit a normal distribution and the residuals vs. fitted plot shows problems as well. For the final analysis, we might try `glm` and look for a better family.
+
+Good work! But for your final analysis, you need to try something called "best subsets regression" and model selection, which is detailed in the notes I have provided in the CapDAP examples github project. It also includes code for how to deal with the possible colienarity in your data.
+
+Overall, good work.
+
+### Logistic regression
+
+File: Anderson-PrelimAnalysis-LogisticReg
+
+I'm not sure it makes sense to use type of interaction as a predictor for whether the tree was interacted with. I actually was thinking that the type of interaction might have been important in the multiple regression with browse index as the response variable.
+
+Line 40 - remember - you need to reassign data types (e.g. factor, date) every time you load the data - even when you change data to factor, that information is not saved when you write the .csv. This is just to say that it is not a surprise that you needed to re-make things into factor.
+
+I love that you have been digging in on figuring out how to do these regressions. I think we will NOT have you do a lasso or ridge regression model but just straight-up logistic regression. You are not going to have a "training" data set and the model data set, and you won't need to use `fit()` and all that. Also take a look at the files I made about logistic regression. One thing that will help with greatly is interpretation. I have code on that topic in the CapDAP Example github repo.
+
+### General
+
+What do you think some preliminary plots might be to look at the data and guess what predictors might be important?
+
+We will go over some of this in class on Wednesday, but let me know if you'd like to meet. What I will be looking for in terms of the analyses for the final draft:
+
+1.  More closely adhering to the first part of our stats workflow where you plot and guess results before building model. I appreciate that you made some plots in your data exploration, but I'd like to see you thinking more about what plots you could make as part of your analysis workflow that might inform your predictions of outcomes. You cannot make a single plot, but should be looking at individual plots of response vs. single predictors. See the examples in Cap-DAP-Examples project.
+
+2.  Clearer statements of what your null hypotheses are.
+
+3.  Deciding to use either:
+
+    -   An *explanatory approach* to multiple regression, in which you pre-determine a set of models that you wish to consider, based on biology, and then run them and decide with is best
+    -   A *exploratory approach* to multiple regression, in which, for both your multiple and logistic regression, you use a "best subsets" type of approach and model selection to "discover" which predictors might be most important.
+    -   We will talk about these in class this week.
+
+You are doing a great job at keeping things well organized and commenting your code as well as using markdown!
