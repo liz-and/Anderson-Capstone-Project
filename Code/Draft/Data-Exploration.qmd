@@ -164,6 +164,13 @@ tree.updated2 <- tree |>
   pivot_longer(cols = c("browsed", "stripped", "broken"), names_to = "Interaction.name", values_to = "Interaction")
 ```
 
+```{r}
+# Need to make Interaction.name factor data
+tree.updated2$Interaction.name <- as.factor(tree.updated2$Interaction.name)
+
+tree.updated2$Interaction.name <- factor(tree.updated2$Interaction.name)
+```
+
 This will let me use the type of interaction as another predictor.
 
 The NA's in the 'browsed' column indicate that no stems were within the available browse range or the status of browsed/unbrowsed was inconclusive so the stem was not assessed.
