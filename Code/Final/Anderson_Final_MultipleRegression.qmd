@@ -1,0 +1,446 @@
+---
+title: "CapDAP final multiple regression"
+format: html
+editor: visual
+---
+
+# Multiple Regression
+
+In this document I will go through the workflow of conducting a mutliple regression statistical analysis on the data from the file Updated_Moose_Plot_Data.csv
+
+## Set up
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library(here)
+library(Hmisc) #for testing significance of correlations
+library(GGally) #for making pairwise plots of variables
+library(corrplot) #for looking at correlation matrices
+library(ggcorrplot) #for plotting correlation matrices
+```
+
+**Read in Data**
+
+```{r}
+Plot <- read.csv(here("Data", "Updated_Moose_Plot_Data.csv"))
+```
+
+**Get just the complete cases**
+
+```{r}
+Plot <- Plot[complete.cases(Plot), ]
+```
+
+Takes it from 156 rows to 70 rows with 22 total variables.
+
+**Fix data types**
+
+Fix watershed to be a factor
+
+```{r}
+Plot$watershed <- as.factor(Plot$watershed)
+```
+
+## Hypotheses
+
+*I will use an exploratory approach to determine which predictor variable is the best predictor of moose browse index.*
+
+[Null Hypothesis:]{.underline} None of the variables will be predictor of browse index.
+
+[Alternative Hypothesis:]{.underline} One of more of the variables will be predictors of browse_index. These variables may be distance to water (dist_h2o_m), elevation (elev_m), harvest intensity (harvest_intensity_m2.ha), wetland forest (wetland_forest), or distance to development (dist_dev_m).
+
+[Biological Justification:]{.underline} Moose eat aquatic plants and are good swimmers, often going in water to cool down (USDA Forest Service, n.d.). They might choose to be closer to water, or in a forest with wetlands. They are adapted to colder temperatures, so they might choose higher elevations where the temperature is naturally cooler (USDA Forest Service, n.d.). Moose are solitary animals, and it's rare to see one (Massachusetts Division of Fisheries & Wildlife, n.d.). This might be because they choose habitat at farther distances from development. Additionally, moose make trade offs when choosing whether to inhabit old growth or new growth forests. Old growth provides shelter, but new growth provides food, which may be more important (USDA Forest Service, n.d.). Harvested forests have more new growth (Massachusetts Division of Fisheries & Wildlife, n.d.).
+
+*See sources at the end of this test.*
+
+## Variables
+
+**Response variable:**
+
+-   browse_index – Ratio data
+
+| Predictor Variables     | Data Types |
+|-------------------------|------------|
+| lat                     | Interval   |
+| elev_m                  | Ratio      |
+| dist_h2o_m              | Ratio      |
+| hilltop                 | Binary     |
+| swamp                   | Binary     |
+| wetland_forest          | Binary     |
+| tall_shrubs             | Ratio      |
+| dist_conifer_m          | Ratio      |
+| sugar_maple_ba          | Ratio      |
+| red_maple_ba            | Ratio      |
+| spruce_fir_ba           | Ratio      |
+| oak_ba                  | Ratio      |
+| white_pine_ba           | Ratio      |
+| harvest_intensity_m2.ha | Ratio      |
+| watershed               | Nominal    |
+| deer_density            | Ratio      |
+| harvest                 | Binary     |
+| dist_dev_m              | Ratio      |
+
+## Correlations, Plots, Guessing relationships
+
+### First plot the response variable
+
+```{r}
+ggplot(Plot, aes(browse_index))+
+  geom_histogram()+
+  theme_bw()
+```
+
+This histogram shows that this data set is very 0 heavy, with 25 out of the 70 rows having 0 for the browse_index.
+
+```{r}
+range(Plot$browse_index, na.rm=T)
+```
+
+Browse_index ranges from 0 to 143.
+
+### Correlations
+
+Test if any of the predictor variables are highly correlated, as we wouldn't want to use both. Variables that have correlation coefficients \> +/- 0.7 are considered too highly correlated.
+
+First need to move watershed to the far left because it is categorical so I can get correlation info for the rest.
+
+```{r}
+Plot <- Plot |>
+  relocate(watershed, .after = browse_index)
+```
+
+Now run the correlation test
+
+```{r}
+cor_tests <- cor(Plot[,5:22], method = "pearson")
+cor_tests <- round(cor_tests, 2) #round for easier viewing
+```
+
+Now see which correlation results are statistically significant.
+
+```{r}
+cor_tests_results <- rcorr(as.matrix(Plot[,5:22]))
+```
+
+Flatten to make it easier to understand the results. (function copied directly from the CapDAP example)
+
+```{r}
+flattenCorrMatrix<-function(cormat,pmat){
+  ut<-upper.tri(cormat)
+  data.frame(
+    row = rownames (cormat)[row(cormat) [ut]],
+    column = rownames(cormat)[col(cormat)[ut]],
+    cor = (cormat)[ut],
+    p = pmat[ut]
+  )
+}
+```
+
+```{r}
+Plots_table <- flattenCorrMatrix(cor_tests_results$r, cor_tests_results$P)
+```
+
+Filter for the pairwise correlations with correlation coefficients that are \>= to 0.7 or -0.7.
+
+```{r}
+highly_correlated <- Plots_table %>% filter(cor >= 0.7 | cor <= -0.7)
+```
+
+Went from 153 rows to 7 that are significantly highly correlated.
+
+Harvest intensity and harvest are highly correlated so I'll just use harvest intensity.
+
+Swamp, wetland forest, tall shrubs, and spruce fir basal area were all highly correlated with each other, so I will just use tall shrubs because it has the most non-zero values.
+
+Here's a visualization of the correlations.
+
+```{r}
+ggcorrplot(cor_tests_results$r, hc.order = TRUE, type = "lower", lab = T, outline.col = "white", p.mat = cor_tests_results$P, insig = "blank")
+```
+
+Now drop the variables that are too highly correlated. Also going to drop watershed because it's all Quabbin.
+
+```{r}
+drop <- c("harvest", "swamp", "wetland_forest", "spruce_fir_ba")
+drop2 <- "watershed"
+
+Plot <- Plot %>% select(-drop)
+Plot <- Plot %>% select(-drop2)
+```
+
+Now there are 70 observations and 14 predictor variables.
+
+Create a new csv to use for the models.
+
+```{r}
+write.csv(Plot, here("Data", "multregression_cleaned.csv"), row.names = F)
+```
+
+### Guesstimate predictors using correlation
+
+Look at how highly correlated the response variable is with the predictors to guess which predictors will be best in the multiple regression model.
+
+```{r}
+predictor_cors <- data.frame(cor(Plot[,4:17], Plot$browse_index))
+predictor_cors <- predictor_cors %>% rename(correlation = cor.Plot...4.17...Plot.browse_index.)
+
+predictor_cors %>% arrange(desc(correlation)) %>% View()
+```
+
+The highest correlated predictors will the most positive and the most negative correlations.
+
+In this case, it's harvest intensity (at 0.5370188) and elevation (at 0.4170336) on the positive side. On the negative side it's oak basal area (at -0.1197530) and deer density (at -0.07061546).
+
+### Plots with individual predictors
+
+I will plot the 4 predictors that have the highest correlation with the response variable, browse index.
+
+```{r}
+ggplot(Plot, aes(x=harvest_intensity_m2.ha, y=browse_index))+
+  geom_point()+
+  xlab("Harvest Intensity (m^2/ha)")+
+  ylab("Browse index")+
+  theme_bw()
+```
+
+This plot makes sense as moose make trade offs when choosing whether to be in old growth or new growth forests. Old growth forests are best for shelter, while new growth forests are best for food, with plenty of young growth (U.S. Forest Service).
+
+This plot has a lot of 0 values for harvest intensity, however.
+
+```{r}
+ggplot(Plot, aes(x=elev_m, y=browse_index))+
+  geom_point()+
+  xlab("Elevation (m)")+
+  ylab("Browse index")+
+  theme_bw()
+```
+
+This plot shows the relationship between elevation and browse index. There seems like there could be a slightly sloped line applied, with a general trend of higher browse index and higher elevations. This would make sense as moose prefer cooler temperatures (National Wildlife Federation) that may be found at higher elevations.
+
+This plot has much less 0 values for elevation.
+
+```{r}
+ggplot(Plot, aes(x=oak_ba, y=browse_index))+
+  geom_point()+
+  xlab("Relative % of basal oak area in plot")+
+  ylab("Browse index")+
+  theme_bw()
+```
+
+Oaks are listed as a tree species that moose prefer, so this makes sense as a potential good predictor (Massachusetts Division of Fisheries and Wildlife).
+
+There are a good amount of zero values for relative % of basal oak area though.
+
+```{r}
+ggplot(Plot, aes(x=deer_density, y=browse_index))+
+  geom_point()+
+  xlab("Deer density")+
+  ylab("Browse index")+
+  theme_bw()
+```
+
+Deer and moose do eat similar foods, so they could be competitors which might influence browse index. However, there doesn't seem to be major trend here.
+
+## Create Model
+
+First need to load some more packages to use, clear the environment, and load the cleaned for multiple regression data file.
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library(performance) #for checking model performance
+library(broom) #for tidying regression output
+library(leaps) #allows best subsets linear regression
+library(MASS) #for stepAIC function
+library(data.table) #for confidence intervals
+library(here)
+```
+
+```{r}
+Plot <- read.csv(here("Data", "multregression_cleaned.csv"))
+```
+
+### Best subsets regressions
+
+Next, build a best subsets regression to look at all the possible models and determine which is best.
+
+Make a matrix with the response variable and predictor variables only. Means I need to drop the plot number variable, and the X variable.
+
+```{r}
+preds <- Plot %>% dplyr::select(-(plot), -(X))
+```
+
+Build the models:
+
+```{r}
+all_subsets.mods <-regsubsets(
+  preds$browse_index ~ ., #specifies the model and . tells it to use all predictors
+  data = preds,
+  nbest = 1 #tells it to pick the one best model for each number of predictors
+  )
+all_subsets.mods
+all_summary <-summary(all_subsets.mods)
+outmat<- as.data.frame(all_summary$outmat)
+all_summary$adjr2
+```
+
+The model with 4 predictors has the highest adjusted R2 value.
+
+#### Plots to view model results
+
+```{r}
+plot(all_subsets.mods, scale = "r2") #plots the R^2 value for each variable across all models
+```
+
+Another plot, with Mallow's Cp
+
+```{r}
+#plotting with base R
+plot(all_summary$cp)
+plot(all_subsets.mods, scale = "Cp")
+```
+
+Now a plot of BIC
+
+```{r}
+plot(all_summary$bic)
+plot(all_subsets.mods, scale = "bic")
+```
+
+From these plots, it seems that the best model is the one with 2 predictors in it. The predictors in a 2 predictor model are elevation (elev_m) and harvest intensity (harvest_intensity_m2.ha).
+
+### Stepwise Regression
+
+Start by defining the intercept-only model:
+
+```{r}
+m.intercept_only <- glm(preds$browse_index ~ 1, data = preds)
+```
+
+Next define the model with all predictors
+
+```{r}
+m.all.preds <- glm(preds$browse_index ~ ., data = preds)
+```
+
+Now perform the stepwise regression to move through.
+
+```{r}
+m.stepwise <- step(m.intercept_only, direction = "both", scope = formula(m.all.preds))
+```
+
+This method returned the same 2 predictors in the model, harvest intensity and elevation.
+
+#### Stepwise with the stepAIC function.
+
+Build the full model
+
+```{r}
+full <- glm(browse_index~ ., family = gaussian, data = preds)
+summary(full)
+```
+
+Harvest intensity and elevation were most significant in this model.
+
+Now begin the stepwise procedure:
+
+```{r}
+step <- stepAIC(full, trace = F)
+step$anova
+```
+
+This method also returned harvest intensity and elevation as the best predictors.
+
+Because they are all the same model, don't need to compare them.
+
+Create the model:
+
+```{r}
+mod_best <- lm(browse_index ~ harvest_intensity_m2.ha + elev_m, data = preds)
+```
+
+## Check how final model fits assumptions
+
+```{r}
+check_model(final_mod)
+```
+
+The model seems to fit most of the assumptions. There is a dip in the Homogeneity of Variance assumption, and the Posterior Predictive Check doesn't quite line up perfectly. The rest seem good.
+
+## Run the model
+
+The best model, according to all the tests run above, is the model with 2 predictors (harvest intensity and elevation).
+
+Create the final model:
+
+```{r}
+final_mod <- lm(browse_index ~ harvest_intensity_m2.ha + elev_m, data = preds)
+
+summary(final_mod)
+anova(final_mod)
+```
+
+### Interpretation
+
+From the summary, I see that the model is significant (F=21.65 with 2 and 67 df, p=5.602e-08).
+
+Both harvest intensity and elevation are significant at levels between 0.001 and 0, and between 0.01 and 0.001 respectively.
+
+## 
+
+## Replot and Interpretation
+
+First, tidy up regression results and put into data frames to more easily work with them. This uses the `broom` package.
+
+```{r}
+coefs <- tidy(final_mod)
+coefs
+```
+
+Get the confidence interval:
+
+```{r}
+ci <- data.table(confint(final_mod), keep.rownames = 'term')
+```
+
+Combine coefs and ci
+
+```{r}
+cidf <- cbind(coefs, ci)
+cidf
+```
+
+```{r}
+colnames(cidf)
+cidf <-cidf[,-6] #got rid of second term column
+
+cidf <-cidf %>% rename(
+  "lower" = "2.5 %",
+  "upper" = "97.5 %"
+)
+
+cidf$term <- as.factor(cidf$term)
+```
+
+Now make a plot:
+
+```{r}
+ggplot(cidf, aes(estimate, term))+
+  geom_vline(xintercept = 0, linetype = 2)+
+  geom_point(size = 3)+
+  geom_errorbarh(aes(xmax = lower, xmin = upper), height = 0.2)+
+  theme_bw()
+```
+
+This plot shows the confidence intervals for harvest intensity and elevation are slightly above 0 and don't overlap with 0, making them significant (F=21.65 with 2 and 67 df, p=5.602e-08). This means that when either harvest intensity or elevation increase, there is a very slight but significant increase in browse index.
+
+These results were part of what I expected, considering moose biology. Moose browse index increasing where there's a higher harvest intensity makes sense because moose prefer fresh growth to eat, which is more abundant in recently harvested areas (Massachusetts Division of Fisheries & Wildlife, n.d.). It is important to keep in mind that too much harvest would counteract the benefits that a moderate amount of harvest has, as there wouldn't be enough cover or other resources for moose (Johnson et al, 2024). Moose are adapted to colder temperatures, so seeking out higher elevations that likely have cooler temperatures makes sense (USDA Forest Service, n.d.). I was surprised that wetland and water distance did not have an impact, as moose eat wetland plants and spend time in water to cool down (USDA Forest Service, n.d.). However, there was very few non-zero data points for those variables, so perhaps with more sampling in those areas there could be different results.
+
+### Citations
+
+Johnson, C. J., & Rea, R. V. (2024). Response of moose to forest harvest and management: A literature review. *Canadian Journal of Forest Research*, *54*(4), 366–388. <https://doi.org/10.1139/cjfr-2023-0158>
+
+Massachusetts Division of Fisheries & Wildlife. (n.d.). Moose in Massachusetts. Retrieved December 17, 2024, from <https://www.mass.gov/doc/living-with-moose-fact-sheet/download>
+
+USDA Forest Service. (n.d.). Moose. Retrieved December 17, 2024, from <https://www.fs.usda.gov/detail/npnht/learningcenter/history-culture/?cid=fseprd675553>

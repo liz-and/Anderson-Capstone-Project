@@ -1,0 +1,60 @@
+---
+title: "Making new column Interaction"
+format: html
+editor: visual
+---
+
+Goal of this document is to make a new column that combines the original binary variables browsed, stripped, and broken to just one column: Interaction. Interaction will be binary 0(no) and 1(yes).
+
+Worked with Erika Dec 18 to figure this out.
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library(broom) #for tidying model results
+library(data.table) #for getting confidence intervals
+library(bestglm) #for best subsets with glm models
+library(MASS) #for step AIC
+library(glmulti) #for another approach to model selection
+library(oddsratio) #converts log odds to odds ratios
+library(visreg) #for visualizing regression output
+library(here)
+```
+
+Read in
+
+```{r}
+Old_tree <- read.csv(here("Data", "Moose_Tree_Data.csv"))
+```
+
+```{r}
+Old_tree <- mutate(Old_tree, Interaction = rowSums(cbind(browsed, stripped, broken), na.rm = T))
+```
+
+Now fix a couple errors: the 6.3 is a typo, so change to 1. The values of 2 show that there was multiple types of interaction, but I just care whether there was interaction, so change these to 1.
+
+```{r}
+fix6.3 <- which(Old_tree$Interaction == 6.3)
+
+Old_tree$Interaction[fix6.3] <- 1
+#Success
+```
+
+```{r}
+fix2 <- which(Old_tree$Interaction == 2)
+
+Old_tree$Interaction[fix2] <- 1
+#Success
+```
+
+Lastly, I want to remove browsed, stripped, and broken, as I'm not using them for predictors in my logistic regression.
+
+```{r}
+Old_tree <- Old_tree[-c(5:7)]
+```
+
+Save the new dataset to use for the multiple logistic regression.
+
+```{r}
+write.csv(Old_tree, here("Data", "FinalUpdated_Moose_Tree_Data.csv"))
+```

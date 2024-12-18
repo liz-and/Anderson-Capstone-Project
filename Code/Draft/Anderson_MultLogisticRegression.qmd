@@ -1,0 +1,244 @@
+---
+title: "CapDAP multiple logistic regression"
+format: html
+editor: visual
+---
+
+# Multiple Logistic Regression
+
+In this file I will go through the workflow of running a logistic regression using data from the file: FinalUpdated_Moose_Tree_Data.csv
+
+## Set up
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library(broom) #for tidying model results
+library(data.table) #for getting confidence intervals
+library(bestglm) #for best subsets with glm models
+library(MASS) #for step AIC
+library(glmulti) #for another approach to model selection
+library(oddsratio) #converts log odds to odds ratios
+library(visreg) #for visualizing regression output
+library(here)
+```
+
+Read in the data:
+
+```{r}
+Tree <- read.csv(here("Data", "FinalUpdated_Moose_Tree_Data.csv"))
+```
+
+Fix data types
+
+```{r}
+Tree$species <- as.factor(Tree$species)
+```
+
+Just want complete cases for the regression
+
+```{r}
+Tree <- Tree[complete.cases(Tree), ]
+```
+
+Went from 3913 rows to 3397 rows.
+
+Make a new column with interaction coded as yes and no to make the plots look better.
+
+```{r}
+yes <- which(Tree$Interaction == 1)
+no <- which(Tree$Interaction == 0)
+
+Tree$InteractionYN <- NA
+
+Tree$InteractionYN[yes] <- "Yes"
+Tree$InteractionYN[no] <- "No"
+```
+
+## Variables
+
+Response: Interaction (was the tree browsed, stripped, and/or broken by a moose) — Binary coded as 0(no) and 1(yes)
+
+Predictors:
+
+-   species — Nominal
+
+-   dbh_cm (the tree diameter at breast height) — Ratio
+
+-   count (the number of stems on the tree) — Interval
+
+### 
+
+## Hypotheses
+
+*I will use an exploratory approach to determine which predictor variable is the best predictor of Interaction.*
+
+Question:
+
+[Null Hypothesis:]{.underline} Neither species, dbh_cm, or count are significant predictors of Interaction by moose.
+
+[Alternative Hypothesis:]{.underline} One or more of the predictor variables will have a significant relationship with the response variable Interaction.
+
+[Biological Justification:]{.underline} According to the Massachusetts Division of Fisheries & Wildlife, moose prefer willow, aspen, maple, oak, and fir trees. Interaction may be more likely with these species. Moose also prefer new growth for food (Massachusetts Division of Fisheries & Wildlife, n.d.), so a smaller dbh might be a predictor of Interaction. Lastly, count could be a predictor because moose might choose a tree with more stems as there are more resources.
+
+## 
+
+## Plot
+
+Look at the response variable
+
+```{r}
+ggplot(Tree, aes(Interaction))+
+  geom_histogram()+
+  theme_bw()
+```
+
+This shows that there were much more trees that were not interacted with, than those that were interacted with.
+
+Look at relationships between the response variable and predictors
+
+**Interaction and Species:**
+
+```{r}
+ggplot(Tree, aes(x = species, y = InteractionYN))+
+  geom_point()+
+  theme_bw()+
+  xlab("Species")+
+  ylab("Interaction")+
+  theme(axis.text.x = element_text(angle = 60, size = 6, vjust = 0.6)) #adjust x axis so that species names are readable
+```
+
+This plot shows that there are some species that have interaction, and more that don't.
+
+**Interaction and DBH:**
+
+```{r}
+ggplot(Tree, aes(x = dbh_cm, y = InteractionYN))+
+  geom_point()+
+  theme_bw()+
+  xlab("DBH (cm)")+
+  ylab("Interaction")
+```
+
+This seems to show that there are more interactions at a smaller DBH, as the yes interaction points are more dense on the left.
+
+**Interaction and Count**
+
+```{r}
+ggplot(Tree, aes(x = count, y = InteractionYN))+
+  geom_point()+
+  theme_bw()+
+  xlab("Count")+
+  ylab("Interaction")
+```
+
+Without all the rows (not just the complete cases) count went up higher than 2. However with the complete cases it only goes to 2, so I don't think it will be a very good predictor.
+
+### Guess relationships
+
+From these plots, I would guess that dbh will have the highest impact on interaction, then species, and count will not have much if any impact.
+
+## Create Model
+
+### Best subsets
+
+Need to reformat to run this. Need to rename the response variable 'y' and put it on the far right (already is), and only include the possible predictors as other columns.
+
+```{r}
+preds <- Tree[-c(1,2,7)] #remove the columns X, plot, and InteractionYN
+
+preds <- preds %>% rename("y" = "Interaction") #rename Interaction to y
+```
+
+Now use the `bestglm()` function
+
+```{r}
+best_logistic <- bestglm(Xy = preds, family = binomial, IC = "AIC")
+```
+
+Now show top models
+
+```{r}
+best_logistic$BestModels
+```
+
+This shows that models 1 and 2 are within 2 AIC units of each other. Also, models 3 and 4 are within 2 AIC units of each other.
+
+See what the package selected as the best model
+
+```{r}
+best_logistic$BestModel
+```
+
+Species (with a bunch of the levels) was selected, as was dbh_cm to be included in the model.
+
+### Best subsets with glmulti package
+
+```{r}
+best_log2 <- glmulti(
+  Interaction ~ species +
+    dbh_cm, level = 1, #no interaction terms considered
+    data = Tree, family = binomial)
+```
+
+Then look at 5 best models
+
+```{r}
+best_log2@formulas
+```
+
+Now look at the result for the best model
+
+```{r}
+summary(best_log2@objects[[1]])
+summary(best_logistic$BestModel)
+```
+
+Get the same results, and can see that only dbh_cm is significant.
+
+### Stepwise logistic regression with stepAIC
+
+Define the full model first:
+
+```{r}
+full_log <- glm(y ~ ., family = binomial, data = preds)
+summary(full_log)
+```
+
+Now start stepwise procedure
+
+```{r}
+step_log <- stepAIC(full_log, trace = T)
+step_log$anova
+```
+
+End up with same final model: species + dbh_cm
+
+## Choose, run, interpret best model
+
+```{r}
+final_log_mod <- glm(Interaction ~ species + dbh_cm, family = binomial, data = Tree)
+
+summary(final_log_mod)
+anova(final_log_mod)
+```
+
+The summary shows that a 1 unit increase in dbh results in a 2.745e-02 decrease in interaction. The same goes for each of the species listed and the estimate column. DBH is the only one that is significant.
+
+Convert from log odds to odds ratios for better interpretation:
+
+```{r}
+or_glm(
+  data = Tree,
+  model = final_log_mod,
+  incr = list(
+    species = 1, 
+    dbh_cm = 1, 
+    ))
+```
+
+## Check Model Assumptions
+
+## Run and Interpret Model
+
+## Replot

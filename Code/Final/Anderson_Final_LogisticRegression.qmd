@@ -1,0 +1,148 @@
+---
+title: "Final Logistic Regression (Single)"
+format: html
+editor: visual
+---
+
+# Logistic Regression
+
+In this file I will go through the workflow of running a logistic regression using data from the file: FinalUpdated_Moose_Tree_Data.csv
+
+## Set up
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library(ggfortify)
+library(oddsratio) #converts log odds to odds ratios
+library(visreg) #for visualizing regression output
+library(here)
+```
+
+Read in the data:
+
+```{r}
+Tree <- read.csv(here("Data", "FinalUpdated_Moose_Tree_Data.csv"))
+```
+
+Fix data types
+
+```{r}
+Tree$species <- as.factor(Tree$species)
+```
+
+Just want complete cases for the regression
+
+```{r}
+Tree <- Tree[complete.cases(Tree), ]
+```
+
+Went from 3913 rows to 3397 rows.
+
+## Variables
+
+Response:
+
+-   Interaction (was the tree browsed, stripped, and/or broken by a moose) — Binary coded as 0(no) and 1(yes)
+
+Predictor:
+
+-   dbh_cm (the tree diameter at breast height) — Ratio
+
+## Hypotheses
+
+Question: Does dbh_cm have an impact on moose interaction?
+
+[Null Hypothesis:]{.underline} dbh_cm is not a significant predictor of Interaction by moose.
+
+[Alternative Hypothesis:]{.underline} dbh_cm is a significant predictor of interaction by moose.
+
+[Biological Justification:]{.underline} According to the Massachusetts Division of Fisheries & Wildlife, moose prefer new growth for food, so a smaller dbh might be a predictor of Interaction.
+
+## Plots
+
+Make a new column with interaction coded as yes and no to make the plots look better.
+
+```{r}
+yes <- which(Tree$Interaction == 1)
+no <- which(Tree$Interaction == 0)
+
+Tree$InteractionYN <- NA
+
+Tree$InteractionYN[yes] <- "Yes"
+Tree$InteractionYN[no] <- "No"
+
+Tree$InteractionYN <- as.factor(Tree$InteractionYN)
+```
+
+Look at the response variable
+
+```{r}
+ggplot(Tree, aes(InteractionYN))+
+  geom_histogram(stat="count")+ #Allow for the x axis to be categorical, not continuous
+  theme_bw()+ #remove gray background
+  xlab("Interaction") #change x axis title
+```
+
+This shows that there were much more trees that were not interacted with, than those that were interacted with.
+
+**Interaction and DBH:**
+
+```{r}
+ggplot(Tree, aes(x = dbh_cm, y = InteractionYN))+
+  geom_point()+
+  theme_bw()+ 
+  xlab("DBH (cm)")+ #change x axis title
+  ylab("Interaction") #change y axis title
+```
+
+This seems to show that there are more interactions at a smaller DBH, as the yes interaction points are more dense on the left. My guess is that dbh_cm will be a significant predictor or moose interaction.
+
+## Fit and run the model
+
+Use generalized linear model in order to tell R that responses are binary.
+
+```{r}
+dbh.mod <- glm(Interaction ~ dbh_cm, family = "binomial", data = Tree) #Fit the model with dbh as a function of interaction using the binomial family and the tree data set. 
+summary(dbh.mod) 
+```
+
+The coefficients in this output indicate the average change in the odds of interaction occuring with each increase in dbh by 1 unit. This shows that with a 1 unit increase in dbh, the log odds of moose interaction *decreases* by 0.032484.
+
+Now calculate the odds ratio to see what that means.
+
+```{r}
+or_glm(
+  data = Tree, 
+  model= dbh.mod, 
+  incr = list(dbh_cm = 1))
+```
+
+This shows that the oddsratio for dbh_cm = 0.968. This means that for every 1 unit of increase in dbh, the odds that a moose will interact with that tree is 0.968, or 0.968 times less likely.
+
+## Replot and Interpretation
+
+Plot the results of the odds ratio
+
+```{r}
+ggplot(Tree, aes(dbh_cm, Interaction))+
+  geom_point()+
+  stat_smooth(method = "glm", method.args = list(family = "binomial"), se = F)
+```
+
+Now make a plot based on probabilities using the `visreg` package:
+
+```{r}
+visreg(dbh.mod, "dbh_cm", 
+       gg = T, #use ggplot vs. base R
+       scale = "response")+
+  labs(x = "Tree DBH (cm)",
+       y = "Prob. of moose interaction")+ #Change the axes titles
+  theme_bw()
+```
+
+These results show that as tree DHB increases by 1, the probability of moose interaction with that tree decreases by 0.968. This is not a large decrease, but is significant (z = -7.071, p = 1.54e-12) based on the generalized linear model run. This result supports my alternative hypothesis, and is supported biologically. Moose prefer new growth trees (Massachusetts Division of Fisheries & Wildlife, n.d.), so they interact more with trees of a smaller dbh when browsing.
+
+### Citations
+
+Massachusetts Division of Fisheries & Wildlife. (n.d.). Moose in Massachusetts. Retrieved December 17, 2024, from <https://www.mass.gov/doc/living-with-moose-fact-sheet/download>

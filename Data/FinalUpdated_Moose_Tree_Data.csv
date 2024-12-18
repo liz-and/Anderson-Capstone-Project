@@ -1,0 +1,3914 @@
+"","plot","species","dbh_cm","count","Interaction"
+"1",45,"black birch",NA,1,0
+"2",45,"chestnut",NA,1,1
+"3",45,"black birch",2.5,1,1
+"4",45,"black birch",3.4,1,0
+"5",45,"black birch",3.8,1,0
+"6",45,"black birch",8.4,1,0
+"7",45,"black birch",9,1,1
+"8",45,"black birch",11.2,1,0
+"9",45,"red oak",47.7,1,0
+"10",45,"red oak",63.3,1,0
+"11",45,"white oak",42.4,1,0
+"12",45,"white pine",14.9,1,0
+"13",45,"white pine",17.5,1,0
+"14",45,"white pine",20.5,1,0
+"15",45,"white pine",20.9,1,0
+"16",51,"high bush blueberry",NA,6,0
+"17",51,"red maple",3,1,0
+"18",51,"red maple",9,1,0
+"19",51,"red maple",12.2,1,0
+"20",51,"red maple",13,1,0
+"21",51,"red maple",13.9,1,0
+"22",51,"red maple",15.9,1,0
+"23",51,"red maple",19.4,1,0
+"24",51,"red oak",52.4,1,0
+"25",51,"red oak",52.6,1,0
+"26",51,"red oak",52.6,1,0
+"27",51,"white pine",5.3,1,0
+"28",51,"white pine",7.5,1,0
+"29",51,"white pine",11.4,1,0
+"30",51,"white pine",13,1,0
+"31",51,"white pine",16.4,1,0
+"32",51,"white pine",20.4,1,0
+"33",51,"yellow birch",4.6,1,0
+"34",51,"yellow birch",50.9,1,0
+"35",54,"witch hazel",NA,2,0
+"36",54,"black birch",7.5,1,0
+"37",54,"black birch",18.4,1,0
+"38",54,"red maple",20.7,1,0
+"39",54,"red maple",22.9,1,0
+"40",54,"red maple",23.2,1,0
+"41",54,"sugar maple",9.3,1,0
+"42",54,"sugar maple",26.2,1,0
+"43",54,"white ash",14.9,1,0
+"44",54,"white ash",16.4,1,0
+"45",54,"white ash",17.8,1,0
+"46",54,"white pine",6.2,1,0
+"47",54,"white pine",7.1,1,0
+"48",54,"yellow birch",3,1,0
+"49",54,"yellow birch",6.7,1,0
+"50",54,"yellow birch",9.8,1,0
+"51",61,"alder",NA,4,0
+"52",61,"hawthorn",NA,1,0
+"53",61,"high bush blueberry",NA,2,0
+"54",61,"nannyberry",NA,1,1
+"55",61,"winterberry",NA,1,1
+"56",61,"white pine",1.2,1,0
+"57",61,"chestnut",3.9,1,0
+"58",61,"red maple",30.5,1,0
+"59",61,"red maple",33.8,1,1
+"60",61,"red maple",52.3,1,1
+"61",61,"white pine",5.1,1,0
+"62",61,"white pine",19.4,1,0
+"63",61,"yellow birch",3,1,1
+"64",61,"yellow birch",3.8,1,0
+"65",61,"yellow birch",9.9,1,0
+"66",61,"yellow birch",11.7,1,1
+"67",61,"yellow birch",12.9,1,0
+"68",61,"yellow birch",14.4,1,0
+"69",61,"yellow birch",15.6,1,0
+"70",61,"yellow birch",22.8,1,1
+"71",61,"yellow birch",33.5,1,1
+"72",64,"hemlock",7.6,1,1
+"73",64,"hemlock",10.8,1,1
+"74",64,"hemlock",19,1,0
+"75",64,"hemlock",20.8,1,1
+"76",64,"hemlock",26.5,1,0
+"77",64,"hemlock",42.1,1,1
+"78",64,"hemlock",48.7,1,0
+"79",64,"hemlock ",66,1,0
+"80",64,"red maple",8.2,1,0
+"81",64,"red maple",18.2,1,0
+"82",64,"red maple",20.6,1,0
+"83",64,"red oak",67,1,0
+"84",64,"white pine",32.1,1,0
+"85",64,"white pine",48.6,1,0
+"86",66,"red maple",NA,11,0
+"87",66,"high bush blueberry",NA,1,0
+"88",66,"hazelnut",NA,3,0
+"89",66,"white pine",NA,1,0
+"90",66,"red oak",NA,4,0
+"91",66,"black birch",NA,1,0
+"92",66,"red maple",NA,2,1
+"93",66,"red maple",NA,1,1
+"94",66,"black cherry",NA,4,0
+"95",66,"winterberry",NA,11,0
+"96",66,"lyonia",NA,1,0
+"97",66,"black birch",NA,1,0
+"98",66,"black birch",NA,1,1
+"99",66,"american elm",10.9,1,0
+"100",66,"black birch",2.8,1,0
+"101",66,"black birch ",5.4,1,0
+"102",66,"black cherry",2.6,1,0
+"103",66,"black cherry",4.8,1,0
+"104",66,"black cherry",21.4,1,0
+"105",66,"chestnut",2.7,1,0
+"106",66,"chestnut",3.7,1,0
+"107",66,"red maple",2.5,1,0
+"108",66,"red maple",2.5,1,0
+"109",66,"red maple",2.7,1,0
+"110",66,"red maple",2.7,1,0
+"111",66,"red maple",2.9,1,0
+"112",66,"red maple",2.9,1,1
+"113",66,"red maple",3.1,1,0
+"114",66,"red maple",3.3,1,0
+"115",66,"red maple",3.4,1,0
+"116",66,"red maple",3.5,1,0
+"117",66,"red maple",3.6,1,0
+"118",66,"red maple",4,1,0
+"119",66,"red maple",4.4,1,0
+"120",66,"red maple",4.4,1,0
+"121",66,"red maple",4.5,1,0
+"122",66,"red maple",4.5,1,0
+"123",66,"red maple",4.7,1,0
+"124",66,"red maple",5,1,0
+"125",66,"red maple",5.2,1,0
+"126",66,"red maple",6.2,1,0
+"127",66,"red maple",6.5,1,0
+"128",66,"red maple",8.3,1,0
+"129",66,"red maple",9.3,1,0
+"130",66,"red maple",20.1,1,0
+"131",66,"red oak",2.5,1,0
+"132",66,"red oak",3,1,0
+"133",66,"red oak",4.1,1,0
+"134",66,"red oak",12.3,1,0
+"135",66,"shadbush",3.9,1,0
+"136",66,"sugar maple",9.8,1,0
+"137",66,"white ash",14.5,1,0
+"138",66,"white pine",2.5,1,0
+"139",66,"white pine",6.6,1,0
+"140",66,"white pine",9.2,1,0
+"141",66,"white pine",9.8,1,0
+"142",75,"musclewood",NA,8,0
+"143",75,"shadbush",NA,3,1
+"144",75,"shadbush",NA,2,0
+"145",75,"high bush blueberry",NA,1,0
+"146",75,"high bush blueberry",NA,1,1
+"147",75,"white pine",NA,2,0
+"148",75,"winterberry",NA,4,0
+"149",75,"black cherry",4.3,1,0
+"150",75,"Carpinus",6.4,1,1
+"151",75,"hickory",2.5,1,0
+"152",75,"hickory",7.7,1,0
+"153",75,"hickory",14,1,0
+"154",75,"musclewood",2.6,1,0
+"155",75,"musclewood",2.9,1,0
+"156",75,"musclewood",3.2,1,0
+"157",75,"musclewood",3.4,1,0
+"158",75,"musclewood",3.6,1,1
+"159",75,"musclewood",3.7,1,0
+"160",75,"musclewood",3.7,1,0
+"161",75,"musclewood",3.8,1,0
+"162",75,"musclewood",4.1,1,0
+"163",75,"musclewood",4.3,1,0
+"164",75,"musclewood",4.3,1,0
+"165",75,"musclewood",4.4,1,1
+"166",75,"musclewood",4.5,1,1
+"167",75,"musclewood",4.7,1,0
+"168",75,"musclewood",4.8,1,0
+"169",75,"musclewood",5.1,1,1
+"170",75,"musclewood",5.2,1,0
+"171",75,"musclewood",5.2,1,0
+"172",75,"musclewood",5.3,1,0
+"173",75,"musclewood",5.4,1,0
+"174",75,"musclewood",6.8,1,0
+"175",75,"musclewood",7.2,1,0
+"176",75,"musclewood",7.4,1,0
+"177",75,"musclewood",7.5,1,0
+"178",75,"musclewood",7.5,1,0
+"179",75,"musclewood",7.8,1,0
+"180",75,"musclewood",7.9,1,0
+"181",75,"musclewood",8.1,1,0
+"182",75,"musclewood",9.7,1,0
+"183",75,"musclewood",10.1,1,0
+"184",75,"red maple",6.4,1,0
+"185",75,"red maple",8.3,1,0
+"186",75,"red maple",12.6,1,0
+"187",75,"red maple",33.9,1,0
+"188",75,"red oak",4.7,1,0
+"189",75,"shadbush",3.6,1,0
+"190",75,"white oak",42.2,1,0
+"191",75,"white pine",6,1,0
+"192",75,"white pine",15.9,1,0
+"193",80,"hemlock",7.2,1,0
+"194",80,"hemlock",10.2,1,0
+"195",80,"hemlock",11.4,1,0
+"196",80,"hemlock",13.3,1,0
+"197",80,"hemlock",22.5,1,0
+"198",80,"hemlock",24.6,1,0
+"199",80,"hemlock",26.1,1,0
+"200",80,"hemlock",29.4,1,0
+"201",80,"hemlock",30.3,1,0
+"202",80,"hemlock",30.4,1,0
+"203",80,"hemlock",31,1,0
+"204",80,"hemlock",39.7,1,0
+"205",80,"red maple",20.1,1,0
+"206",80,"red maple",21.9,1,0
+"207",80,"white pine",12.8,1,0
+"208",80,"white pine",13.2,1,0
+"209",81,"black birch",NA,20,0
+"210",81,"white oak",NA,1,0
+"211",81,"hemlock",5,1,0
+"212",81,"hemlock",5,1,0
+"213",81,"hemlock",5.8,1,0
+"214",81,"hemlock",6,1,0
+"215",81,"hemlock",6.1,1,0
+"216",81,"hemlock",6.6,1,0
+"217",81,"hemlock",7.6,1,0
+"218",81,"hemlock",8.5,1,0
+"219",81,"hemlock",8.9,1,0
+"220",81,"hemlock",9.1,1,0
+"221",81,"hemlock",9.1,1,0
+"222",81,"hemlock",13.6,1,0
+"223",81,"hemlock",13.7,1,0
+"224",81,"hemlock",17.1,1,0
+"225",81,"hemlock",18,1,0
+"226",81,"hemlock",18.3,1,0
+"227",81,"hemlock",19.7,1,0
+"228",81,"hemlock",19.8,1,0
+"229",81,"hemlock",21.3,1,0
+"230",81,"hemlock",23.4,1,0
+"231",81,"hemlock",23.6,1,0
+"232",81,"hemlock",24.7,1,0
+"233",81,"red maple",11.4,1,0
+"234",81,"red oak",30.8,1,0
+"235",81,"white pine",56.7,1,0
+"236",84,"white pine",NA,16,0
+"237",84,"black birch",NA,1,0
+"238",84,"high bush blueberry",NA,7,0
+"239",84,"musclewood",NA,5,1
+"240",84,"musclewood",NA,2,0
+"241",84,"black birch",NA,1,1
+"242",84,"lyonia",NA,1,0
+"243",84,"beech",NA,1,0
+"244",84,"black birch",4.4,1,0
+"245",84,"black birch",4.6,1,0
+"246",84,"black birch",5.3,1,0
+"247",84,"red maple",17.1,1,0
+"248",84,"red maple",24.2,1,0
+"249",84,"red maple",29.8,1,0
+"250",84,"red maple",32.9,1,0
+"251",84,"red maple",37.5,1,0
+"252",84,"red maple",38.5,1,0
+"253",84,"red oak",13.1,1,0
+"254",84,"white ash",10.5,1,0
+"255",84,"white pine",2.8,1,0
+"256",84,"white pine",2.8,1,0
+"257",84,"white pine",2.9,1,0
+"258",84,"white pine",3,1,0
+"259",84,"white pine",3,1,0
+"260",84,"white pine",3,1,0
+"261",84,"white pine",3.1,1,0
+"262",84,"white pine",3.2,1,0
+"263",84,"white pine",3.9,1,0
+"264",84,"white pine",3.9,1,0
+"265",84,"white pine",4,1,0
+"266",84,"white pine",4.3,1,0
+"267",84,"white pine",4.5,1,0
+"268",84,"white pine",4.6,1,0
+"269",90,"black birch",NA,8,1
+"270",90,"black birch",NA,3,0
+"271",90,"white pine",NA,2,1
+"272",90,"black cherry",NA,3,1
+"273",90,"hickory",NA,1,0
+"274",90,"white pine",NA,4,0
+"275",90,"black cherry",NA,2,0
+"276",90,"red maple",NA,2,1
+"277",90,"black oak",NA,1,0
+"278",90,"black birch",2.6,1,0
+"279",90,"black birch",2.7,1,1
+"280",90,"black birch",3.4,1,1
+"281",90,"black birch",3.8,1,1
+"282",90,"black birch",3.8,1,1
+"283",90,"black birch",4.6,1,0
+"284",90,"black oak",44.9,1,0
+"285",90,"red maple",3.2,1,1
+"286",90,"white pine",3.1,1,1
+"287",90,"white pine",3.6,1,0
+"288",90,"white pine",61.6,1,0
+"289",92,"white pine",NA,1,0
+"290",92,"Chestnut",NA,1,0
+"291",92,"black oak",12.4,1,0
+"292",92,"black oak",29,1,0
+"293",92,"red maple",5.1,1,0
+"294",92,"red maple",6.3,1,0
+"295",92,"red maple",8.7,1,0
+"296",92,"red maple",9.5,1,0
+"297",92,"red maple",16.9,1,0
+"298",92,"red oak",6.6,1,0
+"299",92,"red oak",11.4,1,0
+"300",92,"red oak",27.1,1,0
+"301",92,"red oak",29.7,1,0
+"302",92,"red oak",30.9,1,0
+"303",92,"red oak",40.7,1,0
+"304",92,"white oak",41.4,1,0
+"305",95,"red maple",2.5,1,1
+"306",95,"red maple",NA,2,0
+"307",95,"red maple",NA,1,1
+"308",95,"Chestnut",NA,1,0
+"309",95,"white pine",NA,8,1
+"310",95,"white pine",NA,3,0
+"311",95,"red maple",2.5,1,0
+"312",95,"red maple",2.5,1,0
+"313",95,"white pine",2.6,1,0
+"314",95,"white pine",2.6,1,1
+"315",95,"white pine",2.7,1,0
+"316",95,"red maple",2.8,1,0
+"317",95,"red maple",2.8,1,0
+"318",95,"white pine",2.8,1,1
+"319",95,"white pine",2.9,1,0
+"320",95,"white pine",3,1,1
+"321",95,"red maple",3.2,1,0
+"322",95,"red maple",3.2,1,1
+"323",95,"red maple",3.4,1,1
+"324",95,"black oak",3.5,1,0
+"325",95,"red maple",4,1,0
+"326",95,"red maple",4,1,0
+"327",95,"red maple",4,1,1
+"328",95,"red maple",4.1,1,0
+"329",95,"red maple",4.3,1,0
+"330",95,"red maple",5.7,1,0
+"331",95,"white pine",9.5,1,0
+"332",95,"red oak",10.9,1,0
+"333",95,"red maple",15.7,1,1
+"334",95,"white pine",22,1,0
+"335",95,"white oak",30.9,1,0
+"336",95,"white oak",42.7,1,0
+"337",100,"hemlock",NA,1,0
+"338",100,"black birch",14.4,1,0
+"339",100,"black birch",17.3,1,0
+"340",100,"black birch",22.5,1,0
+"341",100,"hemlock",4.1,1,1
+"342",100,"hemlock",6.3,1,0
+"343",100,"hemlock",9.2,1,1
+"344",100,"hemlock",9.7,1,0
+"345",100,"hemlock",12.8,1,1
+"346",100,"hemlock",15.8,1,0
+"347",100,"hemlock",17.2,1,1
+"348",100,"hemlock",21.9,1,1
+"349",100,"hemlock",25.8,1,1
+"350",100,"paper birch",18.4,1,0
+"351",100,"paper birch",18.7,1,0
+"352",100,"red maple",11.8,1,1
+"353",100,"red maple",16.9,1,0
+"354",100,"red maple",18.7,1,0
+"355",100,"red oak",10,1,0
+"356",100,"red oak",23.6,1,0
+"357",100,"red oak",24.2,1,0
+"358",100,"white pine",9,1,0
+"359",100,"white pine",9.2,1,0
+"360",100,"white pine",11.2,1,0
+"361",100,"white pine",11.6,1,0
+"362",100,"white pine",13.4,1,0
+"363",100,"white pine",15.5,1,0
+"364",100,"white pine",19.5,1,0
+"365",100,"white pine",22.3,1,0
+"366",101,"black birch",11.5,1,0
+"367",101,"black birch",9.4,1,0
+"368",101,"black birch",43.5,1,0
+"369",101,"black birch",34.4,1,0
+"370",101,"red oak",2.5,1,0
+"371",101,"red maple",34,1,0
+"372",101,"red maple",17.2,1,0
+"373",101,"white pine",17.2,1,0
+"374",101,"red maple",20.2,1,0
+"375",101,"red maple",18.7,1,0
+"376",101,"red maple",14.4,1,0
+"377",101,"white oak",34.8,1,0
+"378",102,"black birch",NA,1,0
+"379",102,"chestnut",NA,1,0
+"380",102,"red maple",NA,1,0
+"381",102,"white pine",NA,110,0
+"382",102,"black birch",2.6,1,0
+"383",102,"black birch",8.9,1,0
+"384",102,"black birch",13.7,1,0
+"385",102,"black birch",18.5,1,0
+"386",102,"black birch",18.8,1,0
+"387",102,"black birch",20.5,1,0
+"388",102,"black birch",23.9,1,0
+"389",102,"black birch",24,1,0
+"390",102,"black birch",27,1,0
+"391",102,"black birch",34.2,1,0
+"392",102,"black birch",37.3,1,0
+"393",102,"chestnut",2.7,1,0
+"394",102,"white ash",20.1,1,0
+"395",102,"white ash",21.3,1,0
+"396",102,"white ash",24.5,1,0
+"397",102,"white ash",27,1,0
+"398",102,"white ash",31.8,1,0
+"399",102,"white oak",14.9,1,0
+"400",102,"white pine",2.5,1,0
+"401",102,"white pine",2.5,1,0
+"402",102,"white pine",2.5,1,0
+"403",102,"white pine",2.6,1,0
+"404",102,"white pine",2.6,1,0
+"405",102,"white pine",2.6,1,0
+"406",102,"white pine",2.7,2,0
+"407",102,"white pine",2.9,1,0
+"408",102,"white pine",2.9,1,0
+"409",102,"white pine",3,1,0
+"410",102,"white pine",3.1,1,0
+"411",102,"white pine",3.3,1,0
+"412",102,"white pine",3.3,1,0
+"413",102,"white pine",3.3,1,0
+"414",102,"white pine",3.4,1,0
+"415",102,"white pine",3.5,1,0
+"416",102,"white pine",3.8,1,0
+"417",102,"white pine",4.2,1,0
+"418",102,"white pine",4.5,1,0
+"419",102,"white pine",4.9,1,0
+"420",102,"white pine",6.1,1,0
+"421",102,"white pine",6.5,1,0
+"422",102,"white pine",6.8,1,0
+"423",102,"white pine",7.8,1,0
+"424",102,"white pine",8.9,1,0
+"425",102,"white pine",9.1,1,0
+"426",102,"white pine",9.4,1,0
+"427",102,"white pine",20.6,1,0
+"428",102,"yellow birch",12.7,1,0
+"429",103,"black birch",NA,1,1
+"430",103,"white pine",NA,9,0
+"431",103,"witch hazel",NA,3,0
+"432",103,"black birch",8.5,1,1
+"433",103,"black birch",15,1,0
+"434",103,"black birch",15,1,0
+"435",103,"black birch",15.8,1,0
+"436",103,"black birch",16,1,0
+"437",103,"black birch",16.8,1,0
+"438",103,"black birch",19.3,1,0
+"439",103,"black birch",19.4,1,0
+"440",103,"black birch",19.6,1,0
+"441",103,"black birch",20,1,0
+"442",103,"black birch",20.1,1,0
+"443",103,"black birch",20.6,1,0
+"444",103,"black oak",32.2,1,0
+"445",103,"red maple",3.4,1,0
+"446",103,"red maple",3.4,1,0
+"447",103,"red maple",5.2,1,0
+"448",103,"red maple",6.5,1,0
+"449",103,"red maple",8.2,1,0
+"450",103,"red maple",10.8,1,0
+"451",103,"red maple",12.7,1,0
+"452",103,"red maple",17.7,1,0
+"453",103,"red maple",18.5,1,0
+"454",103,"red maple",19,1,0
+"455",103,"red maple",19.2,1,0
+"456",103,"red maple",21.7,1,0
+"457",103,"red oak",25.2,1,0
+"458",103,"white pine",2.9,1,0
+"459",103,"white pine",3,1,0
+"460",103,"white pine",3.4,1,0
+"461",103,"white pine",3.8,1,0
+"462",103,"white pine",3.9,1,0
+"463",103,"white pine",4.3,1,0
+"464",103,"white pine",4.7,1,0
+"465",103,"white pine",4.8,1,0
+"466",103,"white pine",5.1,1,0
+"467",103,"white pine",5.3,1,1
+"468",103,"white pine",5.8,1,0
+"469",103,"white pine",6.4,1,0
+"470",105,"black birch",NA,14,0
+"471",105,"winterberry",NA,5,0
+"472",105,"high bush blueberry",NA,1,0
+"473",105,"black birch",6.2,1,0
+"474",105,"black birch",7.5,1,0
+"475",105,"black birch",10.2,1,0
+"476",105,"black birch",12.3,1,0
+"477",105,"red maple",10.5,1,0
+"478",105,"red maple",24.4,1,0
+"479",105,"red maple",26.8,1,0
+"480",105,"red maple",27.9,1,0
+"481",105,"red maple",29,1,0
+"482",105,"red maple",35.9,1,0
+"483",105,"white ash",8,1,0
+"484",107,"white pine",NA,3,0
+"485",107,"red maple",NA,1,1
+"486",107,"black birch",7.3,1,0
+"487",107,"black oak",15.6,1,0
+"488",107,"black oak",24.8,1,0
+"489",107,"red maple",6.3,1,0
+"490",107,"red maple",6.9,1,0
+"491",107,"red oak",9,1,0
+"492",107,"red oak",13.1,1,0
+"493",107,"red oak",15.4,1,0
+"494",107,"red oak",15.7,1,0
+"495",107,"red oak",17.8,1,0
+"496",107,"red oak",20.2,1,0
+"497",107,"red oak",25.2,1,0
+"498",107,"red oak",28.7,1,0
+"499",107,"white oak",13.4,1,0
+"500",108,"black oak",50.3,1,0
+"501",108,"red maple",30.1,1,0
+"502",108,"red maple",30.5,1,0
+"503",108,"red maple",16.4,1,0
+"504",108,"red maple",5.8,1,1
+"505",108,"red maple",27.3,1,0
+"506",108,"red maple",17.8,1,0
+"507",108,"red oak",37.8,1,0
+"508",108,"sugar maple",30.4,1,0
+"509",108,"white pine",NA,4,0
+"510",108,"black birch",NA,2,0
+"511",113,"white pine",NA,2,0
+"512",113,"nannyberry",NA,1,0
+"513",113,"bigtooth aspen",17.9,1,0
+"514",113,"bigtooth aspen",18.7,1,0
+"515",113,"bigtooth aspen",26.9,1,0
+"516",113,"black cherry",24.1,1,0
+"517",113,"red maple",5.2,1,0
+"518",113,"red maple",9.6,1,0
+"519",113,"red maple ",12.2,1,0
+"520",113,"red oak",22.6,1,0
+"521",113,"red oak",23.9,1,0
+"522",113,"red oak",29.1,1,0
+"523",113,"red oak ",24.8,1,0
+"524",113,"red pine",20.8,1,0
+"525",113,"white oak",18.7,1,0
+"526",113,"white pine",3.1,1,0
+"527",113,"white pine",21.4,1,0
+"528",113,"white pine",27,1,0
+"529",113,"white pine",47.5,1,0
+"530",113,"white pine",50.9,1,0
+"531",113,"white pine",59.4,1,0
+"532",115,"white oak",NA,1,0
+"533",115,"black birch",NA,3,1
+"534",115,"european buckthorn",NA,1,0
+"535",115,"red oak",NA,2,1
+"536",115,"white oak",NA,1,1
+"537",115,"black cherry",NA,3,1
+"538",115,"white pine",NA,2,0
+"539",115,"white pine",NA,1,1
+"540",115,"red maple",NA,1,1
+"541",115,"hop hornbeam",NA,5,1
+"542",115,"black birch",NA,1,0
+"543",115,"winterberry",NA,1,0
+"544",115,"american hazelnut",NA,2,1
+"545",115,"hawthorne",NA,1,0
+"546",115,"alternate dogwood",NA,1,1
+"547",115,"musclewood",NA,1,1
+"548",115,"musclewood",NA,1,0
+"549",115,"american hazelnut",NA,1,0
+"550",115,"black birch",2.7,1,1
+"551",115,"black birch",3.6,1,0
+"552",115,"black birch",6,1,0
+"553",115,"black cherry",39.4,1,0
+"554",115,"hop hornbeam",2.6,1,0
+"555",115,"hop hornbeam",9.4,1,1
+"556",115,"hop hornbeam",15.8,1,0
+"557",115,"musclewood",2.7,1,1
+"558",115,"musclewood",3.5,1,1
+"559",115,"musclewood",5,1,0
+"560",115,"musclewood",6.2,1,0
+"561",115,"musclewood",6.9,1,0
+"562",115,"red maple",2.8,1,1
+"563",115,"red maple",3.1,1,0
+"564",115,"red maple",3.7,1,0
+"565",115,"red maple",3.8,1,1
+"566",115,"red maple",3.9,1,1
+"567",115,"red maple",4.1,1,0
+"568",115,"red maple",4.7,1,1
+"569",115,"red maple",4.8,1,1
+"570",115,"red maple",4.9,1,0
+"571",115,"red maple",4.9,1,1
+"572",115,"red maple",5.1,1,1
+"573",115,"red maple",5.7,1,0
+"574",115,"red maple",6.4,1,0
+"575",115,"red maple",9.2,1,0
+"576",115,"red maple",39.4,1,0
+"577",115,"white ash",4.8,1,0
+"578",115,"white oak",28.6,1,0
+"579",115,"white pine",59.9,1,0
+"580",119,"white oak",NA,2,1
+"581",119,"red maple",NA,4,1
+"582",119,"white pine",NA,1,0
+"583",119,"black cherry",16.5,1,0
+"584",119,"red maple",3.1,1,1
+"585",119,"red maple",3.5,1,0
+"586",119,"red maple",11,1,1
+"587",119,"red oak",10.7,1,0
+"588",119,"white pine",12.5,1,0
+"589",119,"white pine",15.7,1,0
+"590",119,"white pine",17.2,1,0
+"591",119,"white pine",19.2,1,0
+"592",119,"white pine",20.2,1,0
+"593",119,"white pine",20.5,1,0
+"594",119,"white pine",22.3,1,0
+"595",119,"white pine",23.5,1,0
+"596",119,"white pine",27.5,1,0
+"597",119,"white pine",28.7,1,0
+"598",119,"white pine",28.8,1,0
+"599",119,"white pine",32.1,1,0
+"600",119,"white pine",35.6,1,0
+"601",119,"white pine",36.6,1,0
+"602",119,"white pine",42.2,1,0
+"603",119,"white pine",48.8,1,0
+"604",119,"white pine",76,1,0
+"605",120,"black oak",NA,2,0
+"606",120,"white oak",NA,3,0
+"607",120,"red maple",NA,2,0
+"608",120,"black cherry",16.7,1,0
+"609",120,"black cherry",27.6,1,0
+"610",120,"black oak",2.6,1,0
+"611",120,"black oak",2.7,1,0
+"612",120,"black oak",3.4,1,0
+"613",120,"black oak",7.5,1,0
+"614",120,"norway spruce",10.6,1,0
+"615",120,"norway spruce",11.1,1,0
+"616",120,"norway spruce",13.5,1,0
+"617",120,"norway spruce",14.9,1,0
+"618",120,"norway spruce",17.8,1,0
+"619",120,"norway spruce",18.1,1,0
+"620",120,"norway spruce",18.6,1,0
+"621",120,"norway spruce",21.4,1,0
+"622",120,"norway spruce",22.3,1,0
+"623",120,"norway spruce",30.1,1,0
+"624",120,"norway spruce",34,1,0
+"625",120,"red maple",2.5,1,0
+"626",120,"red maple",2.9,1,0
+"627",120,"red maple",3,1,0
+"628",120,"red maple",3.3,1,0
+"629",120,"red maple",3.5,1,0
+"630",120,"red maple",3.6,1,0
+"631",120,"red maple",3.6,1,1
+"632",120,"red maple",3.7,1,1
+"633",120,"red maple",3.9,1,0
+"634",120,"red maple",4.8,1,0
+"635",120,"white oak",3.1,1,0
+"636",120,"white pine",30.8,1,0
+"637",120,"white pine",38.4,1,0
+"638",120,"white pine ",45.9,1,0
+"639",125,"black birch",NA,1,0
+"640",125,"black birch",8.2,1,0
+"641",125,"black birch",8.4,1,0
+"642",125,"black birch",12.5,1,0
+"643",125,"paper birch",8.9,1,0
+"644",125,"red maple",3.9,1,0
+"645",125,"red maple",4.2,1,0
+"646",125,"red maple",4.4,1,0
+"647",125,"red maple",7.4,1,0
+"648",125,"red maple",7.4,1,0
+"649",125,"red maple",9.8,1,0
+"650",125,"red maple",11.1,1,0
+"651",125,"red maple",14.4,1,0
+"652",125,"red oak",25.5,1,0
+"653",125,"red oak",30.2,1,0
+"654",125,"white pine",56.1,1,0
+"655",125,"white pine",71,1,0
+"656",130,"mountain laurel",NA,1,0
+"657",130,"hemlock",2.9,1,0
+"658",130,"hemlock",8.4,1,0
+"659",130,"hemlock",9.9,1,0
+"660",130,"hemlock",10.3,1,0
+"661",130,"hemlock",13.8,1,0
+"662",130,"Hemlock",20.9,1,0
+"663",130,"hemlock",40.3,1,0
+"664",130,"red maple",29.1,1,0
+"665",130,"red oak",29.5,1,0
+"666",130,"red oak",31.3,1,0
+"667",130,"red oak",32.3,1,0
+"668",130,"yellow birch",37,1,0
+"669",130,"yellow birch",41.5,1,0
+"670",133,"black birch",9.3,1,0
+"671",133,"black birch",9.6,1,0
+"672",133,"black birch",13.7,1,0
+"673",133,"black birch",14.3,1,0
+"674",133,"black birch",15.1,1,0
+"675",133,"black birch",15.2,1,0
+"676",133,"black birch",20.6,1,0
+"677",133,"black birch",20.9,1,0
+"678",133,"chestnut",7.3,1,1
+"679",133,"high bush blueberry",NA,1,1
+"680",133,"paper birch",14.6,1,0
+"681",133,"red maple",3.8,1,0
+"682",133,"red maple",14.2,1,1
+"683",133,"red maple",15.4,1,1
+"684",133,"red maple",16.7,1,1
+"685",133,"red maple",23.5,1,1
+"686",133,"red maple",32.4,1,0
+"687",133,"yellow birch",1.2,1,1
+"688",133,"yellow birch",3.8,1,1
+"689",133,"yellow birch",4.1,1,1
+"690",133,"yellow birch",5.6,1,1
+"691",133,"yellow birch",7,1,0
+"692",133,"yellow birch",13.6,1,1
+"693",133,"yellow birch",14.3,1,0
+"694",134,"white pine ",2.8,1,0
+"695",134,"red maple",NA,1,0
+"696",134,"red maple",NA,4,1
+"697",134,"chestnut",NA,2,0
+"698",134,"white pine",NA,6,0
+"699",134,"black birch",NA,1,1
+"700",134,"shadbush",NA,1,0
+"701",134,"witch hazel",NA,1,1
+"702",134,"high bush blueberry",NA,1,0
+"703",134,"chestnut",3.6,1,1
+"704",134,"white pine",8.2,1,0
+"705",134,"white pine",8.3,1,0
+"706",134,"red maple",12.7,1,1
+"707",134,"red maple",15.1,1,1
+"708",134,"red oak",27,1,0
+"709",134,"red oak",28.7,1,0
+"710",134,"red oak",35.1,1,0
+"711",134,"red oak",35.7,1,0
+"712",134,"red oak",35.8,1,0
+"713",134,"red oak",46.1,1,0
+"714",136,"black birch",NA,8,0
+"715",136,"black birch",NA,1,1
+"716",136,"black birch",2.8,1,0
+"717",136,"black birch",2.8,1,0
+"718",136,"black birch",3.4,1,0
+"719",136,"black birch",3.5,1,0
+"720",136,"black birch",3.7,1,0
+"721",136,"black birch",4.4,1,0
+"722",136,"black birch",4.7,1,0
+"723",136,"black birch",4.9,1,0
+"724",136,"black birch",6.2,1,0
+"725",136,"black birch",6.9,1,0
+"726",136,"hemlock",2.6,1,0
+"727",136,"hemlock",NA,4,0
+"728",136,"hemlock",NA,1,1
+"729",136,"hemlock",3.2,1,0
+"730",136,"hemlock",5.1,1,0
+"731",136,"hemlock",6.3,1,0
+"732",136,"hemlock",11.6,1,0
+"733",136,"red oak",NA,3,0
+"734",136,"red oak",NA,1,1
+"735",136,"red oak",2.6,1,0
+"736",136,"red oak",2.8,1,0
+"737",136,"white pine",NA,3,0
+"738",136,"white pine",4,1,0
+"739",136,"white pine",5.3,1,0
+"740",136,"white pine",5.8,1,0
+"741",136,"white pine",9.2,1,0
+"742",136,"white pine",10.5,1,0
+"743",136,"white pine",21,1,0
+"744",141,"black birch",NA,1,0
+"745",141,"mountain laurel",NA,18,0
+"746",141,"white pine",NA,2,0
+"747",141,"witch hazel",NA,8,0
+"748",141,"black oak",19.7,1,0
+"749",141,"black oak",34.7,1,0
+"750",141,"red maple",3,1,0
+"751",141,"red maple",3,1,0
+"752",141,"red maple",3.1,1,0
+"753",141,"red maple",4.7,1,0
+"754",141,"red maple",5.3,1,0
+"755",141,"red maple",6.1,1,0
+"756",141,"red maple",8.2,1,0
+"757",141,"red maple",8.6,1,0
+"758",141,"red maple",10.9,1,0
+"759",141,"red maple",17.5,1,0
+"760",141,"red maple",24.1,1,0
+"761",141,"red maple",29.2,1,0
+"762",141,"red maple",30.4,1,0
+"763",141,"red oak",31,1,0
+"764",141,"red oak",43.1,1,0
+"765",141,"red oak",46.9,1,0
+"766",141,"white pine",3.4,1,0
+"767",141,"white pine",4.8,1,0
+"768",141,"white pine",20.2,1,0
+"769",141,"white pine",34.9,1,0
+"770",141,"white pine",48.3,1,0
+"771",141,"white pine",51.5,1,0
+"772",147,"azalea",NA,3,0
+"773",147,"nannyberry",NA,1,0
+"774",147,"red maple",NA,3,0
+"775",147,"white pine",NA,1,0
+"776",147,"black cherry",5.4,1,0
+"777",147,"hemlock",36.6,1,0
+"778",147,"red maple",2.5,1,0
+"779",147,"red maple",3.5,1,0
+"780",147,"red maple",3.6,1,0
+"781",147,"red maple",5.7,1,0
+"782",147,"red oak",7.3,1,0
+"783",147,"white oak",11,1,0
+"784",147,"white oak",19.1,1,0
+"785",147,"white oak",36.4,1,0
+"786",147,"white oak",49.1,1,0
+"787",147,"white oak",65.5,1,0
+"788",147,"white pine",6,1,0
+"789",147,"white pine",6.1,1,0
+"790",147,"white pine",7,1,0
+"791",147,"white pine",32.7,1,0
+"792",153,"mountain laurel",NA,1,0
+"793",153,"black birch",10.6,1,0
+"794",153,"hemlock",3.3,1,0
+"795",153,"hemlock",4.5,1,0
+"796",153,"hemlock",4.5,1,0
+"797",153,"hemlock",4.8,1,0
+"798",153,"hemlock",5.3,1,0
+"799",153,"hemlock",6.7,1,0
+"800",153,"hemlock",8.1,1,0
+"801",153,"hemlock",8.5,1,0
+"802",153,"hemlock",13,1,0
+"803",153,"hemlock",14.4,1,0
+"804",153,"hemlock",16.7,1,0
+"805",153,"hemlock",16.8,1,0
+"806",153,"hemlock",22.3,1,0
+"807",153,"hemlock",24.6,1,0
+"808",153,"hemlock",26.5,1,0
+"809",153,"hemlock",29,1,0
+"810",153,"hemlock",29.7,1,0
+"811",153,"hemlock",33.8,1,0
+"812",153,"red maple",6.6,1,0
+"813",153,"red oak",16.4,1,0
+"814",153,"red oak",19.1,1,0
+"815",153,"red oak",30.6,1,0
+"816",153,"red oak",30.6,1,0
+"817",153,"white pine",10.7,1,0
+"818",153,"white pine",14.2,1,0
+"819",153,"white pine",17.8,1,0
+"820",153,"white pine",17.8,1,0
+"821",153,"white pine",18.6,1,0
+"822",153,"white pine",35.4,1,0
+"823",155,"black birch",NA,1,0
+"824",155,"red maple",NA,1,0
+"825",155,"black birch",2.8,1,0
+"826",155,"hemlock",6.7,1,0
+"827",155,"hemlock",7.6,1,0
+"828",155,"hemlock",9.2,1,0
+"829",155,"hemlock",10.1,1,0
+"830",155,"hemlock",17.2,1,0
+"831",155,"hemlock",20.9,1,0
+"832",155,"hemlock",30.7,1,0
+"833",155,"hemlock",36.2,1,0
+"834",155,"red maple",7.7,1,0
+"835",155,"red maple",14.6,1,0
+"836",155,"white pine",59.2,1,0
+"837",155,"white pine",63,1,0
+"838",155,"white pine",67.5,1,0
+"839",156,"high bush blueberry",NA,1,0
+"840",156,"red maple",NA,1,0
+"841",156,"white pine",NA,1,0
+"842",156,"black cherry",NA,1,0
+"843",156,"yellow birch",NA,1,0
+"844",156,"black oak",29.5,1,0
+"845",156,"hickory",6.7,1,0
+"846",156,"red maple",15.4,1,0
+"847",156,"red maple",16.6,1,0
+"848",156,"red maple",20.8,1,0
+"849",156,"white ash",21.2,1,0
+"850",156,"white pine",2.7,1,0
+"851",156,"yellow birch",3.6,1,0
+"852",156,"yellow birch",4.5,1,0
+"853",156,"yellow birch",12.6,1,1
+"854",156,"yellow birch",28.3,1,0
+"855",157,"white pine",NA,15,0
+"856",157,"larch",18.6,1,0
+"857",157,"larch",27.9,1,0
+"858",157,"larch",36.3,1,0
+"859",157,"white pine",20.4,1,0
+"860",157,"white pine",33.7,1,0
+"861",157,"white pine",43.8,1,0
+"862",157,"white pine",49.7,1,0
+"863",157,"white pine",51.5,1,0
+"864",160,"witch hazel",NA,1,1
+"865",160,"chestnut",2.9,1,0
+"866",160,"hemlock",11,1,0
+"867",160,"red maple",4.6,1,0
+"868",160,"red maple",14.3,1,0
+"869",160,"red maple",18.3,1,0
+"870",160,"red oak",37,1,0
+"871",160,"white oak",27.8,1,0
+"872",160,"white pine",4.7,1,0
+"873",160,"white pine",10,1,0
+"874",160,"white pine",12,1,0
+"875",160,"white pine",12.9,1,0
+"876",160,"white pine",13.8,1,0
+"877",160,"white pine",15.2,1,0
+"878",160,"white pine",16.6,1,0
+"879",160,"white pine",38.2,1,0
+"880",160,"white pine",38.8,1,0
+"881",160,"white pine",40.1,1,0
+"882",160,"white pine",43.7,1,0
+"883",160,"white pine",48.6,1,0
+"884",162,"white ash",NA,2,0
+"885",162,"hop hornbeam",NA,1,0
+"886",162,"chestnut",NA,2,0
+"887",162,"hop hornbeam",NA,2,1
+"888",162,"black birch",3.3,1,1
+"889",162,"chestnut",4.1,1,0
+"890",162,"chestnut",5,1,0
+"891",162,"chestnut",6.2,1,0
+"892",162,"chestnut",8.9,1,0
+"893",162,"chestnut",9.1,1,1
+"894",162,"chestnut",9.6,1,0
+"895",162,"hemlock",2.6,1,1
+"896",162,"hemlock",4.4,1,1
+"897",162,"hemlock",5.3,1,1
+"898",162,"hop hornbeam",6.3,1,0
+"899",162,"hop hornbeam",7.7,1,0
+"900",162,"red maple",9.9,1,1
+"901",162,"red maple",51.9,1,0
+"902",162,"sugar maple",24.1,1,0
+"903",166,"black birch",NA,26,0
+"904",166,"black birch",10.4,1,0
+"905",166,"hemlock",43.6,1,1
+"906",166,"hemlock",45,1,1
+"907",166,"white oak",22.1,1,0
+"908",166,"white pine",22.5,1,0
+"909",166,"white pine",33.9,1,0
+"910",166,"white pine",64.6,1,0
+"911",168,"white pine",NA,16,0
+"912",168,"red maple",NA,3,0
+"913",168,"red oak",NA,1,1
+"914",168,"black birch",NA,12,0
+"915",168,"black birch",7.3,1,0
+"916",168,"red maple",2.7,1,0
+"917",168,"red maple",3.3,1,0
+"918",168,"red maple",4.5,1,0
+"919",168,"red maple",5.1,1,0
+"920",168,"red maple",7.2,1,0
+"921",168,"red oak",2.5,1,0
+"922",168,"red oak",2.6,1,0
+"923",168,"red oak",21.6,1,0
+"924",168,"red oak",39.1,1,0
+"925",168,"white birch",27.9,1,0
+"926",168,"white pine",2.5,1,0
+"927",168,"white pine",2.5,1,0
+"928",168,"white pine",2.6,1,0
+"929",168,"white pine",2.7,1,0
+"930",168,"white pine",2.8,1,0
+"931",168,"white pine",2.9,1,0
+"932",168,"white pine",2.9,1,0
+"933",168,"white pine",3,1,0
+"934",168,"white pine",3.2,1,0
+"935",168,"white pine",3.3,1,0
+"936",168,"white pine",3.9,1,0
+"937",168,"white pine",3.9,1,0
+"938",168,"white pine",4.4,1,0
+"939",168,"white pine",4.4,1,0
+"940",168,"white pine",4.9,1,0
+"941",168,"white pine",5,1,0
+"942",168,"white pine",5.7,1,0
+"943",168,"white pine",15.4,1,0
+"944",168,"white pine",17.1,1,0
+"945",168,"white oak",39.3,1,0
+"946",170,"mountain laurel",NA,1,0
+"947",170,"black birch",3.5,1,0
+"948",170,"black birch",4,1,0
+"949",170,"black birch",4.9,1,0
+"950",170,"hemlock",2.7,1,1
+"951",170,"hemlock",3.1,1,0
+"952",170,"hemlock",4,1,0
+"953",170,"hemlock",8,1,0
+"954",170,"hemlock",8.6,1,0
+"955",170,"hemlock",9.1,1,0
+"956",170,"hemlock",9.4,1,0
+"957",170,"hemlock",10.5,1,0
+"958",170,"hemlock",17.2,1,0
+"959",170,"hemlock",22.6,1,0
+"960",170,"hemlock",25.8,1,0
+"961",170,"hemlock",26.2,1,0
+"962",170,"red maple",11.7,1,0
+"963",170,"red maple",20.5,1,0
+"964",170,"red maple",22.9,1,0
+"965",170,"red maple",27.1,1,0
+"966",170,"red maple",27.6,1,0
+"967",170,"red maple",28.1,1,0
+"968",170,"red maple",28.2,1,0
+"969",170,"red maple",29.9,1,0
+"970",170,"red maple",32.4,1,0
+"971",170,"red oak",18.2,1,0
+"972",171,"witch hazel",NA,1,0
+"973",171,"red maple",NA,1,1
+"974",171,"white pine",NA,1,0
+"975",171,"beech",4.8,1,0
+"976",171,"black birch",2.7,1,0
+"977",171,"black birch",3.1,1,0
+"978",171,"black birch",3.1,1,0
+"979",171,"black birch",3.8,1,0
+"980",171,"black birch",4.1,1,0
+"981",171,"black birch",4.1,1,0
+"982",171,"black birch",5.2,1,0
+"983",171,"black birch",5.6,1,0
+"984",171,"black birch",6,1,0
+"985",171,"black birch",6.4,1,0
+"986",171,"black birch",6.7,1,0
+"987",171,"black birch",6.8,1,0
+"988",171,"black birch",7.9,1,0
+"989",171,"black birch",8,1,0
+"990",171,"black birch",8.8,1,0
+"991",171,"black birch",8.8,1,0
+"992",171,"black birch",8.9,1,0
+"993",171,"black birch",9.5,1,0
+"994",171,"black birch",9.5,1,0
+"995",171,"black birch",10.5,1,0
+"996",171,"hickory",4,1,0
+"997",171,"red maple",3.9,1,0
+"998",171,"red maple",5.3,1,0
+"999",171,"red maple",8.8,1,0
+"1000",171,"red maple",11.9,1,0
+"1001",171,"red maple",11.9,1,0
+"1002",171,"red maple",14.1,1,0
+"1003",171,"red oak",3,1,0
+"1004",171,"white ash",20.4,1,0
+"1005",171,"white ash",21.6,1,0
+"1006",171,"white ash",24.2,1,0
+"1007",171,"white ash",28,1,0
+"1008",171,"white ash",31.8,1,0
+"1009",171,"white ash",33.5,1,0
+"1010",171,"white pine",3.3,1,0
+"1011",171,"white pine",3.7,1,0
+"1012",171,"white pine",4.2,1,0
+"1013",171,"white pine",4.4,1,0
+"1014",171,"white pine",5.1,1,0
+"1015",171,"white pine",5.3,1,0
+"1016",171,"white pine",6,1,0
+"1017",171,"white pine",6.2,1,0
+"1018",171,"white pine",6.5,1,0
+"1019",171,"white pine",8,1,0
+"1020",171,"white pine",37.9,1,0
+"1021",171,"white pine",45.6,1,0
+"1022",171,"white pine",56.3,1,0
+"1023",174,"witch hazel",NA,1,1
+"1024",174,"witch hazel",NA,1,0
+"1025",174,"black birch",2.5,1,0
+"1026",174,"black birch",7.5,1,0
+"1027",174,"black birch",15.3,1,0
+"1028",174,"black birch",15.6,1,0
+"1029",174,"hemlock",5.7,1,1
+"1030",174,"hemlock",9.6,1,0
+"1031",174,"hemlock",16.7,1,0
+"1032",174,"hemlock",16.9,1,0
+"1033",174,"hemlock",18,1,0
+"1034",174,"hemlock",20.3,1,0
+"1035",174,"hemlock",23.3,1,0
+"1036",174,"hemlock",28.9,1,1
+"1037",174,"hemlock",35,1,1
+"1038",174,"Red maple",5.5,1,0
+"1039",174,"red maple",6.5,1,0
+"1040",174,"Red maple",9.6,1,0
+"1041",174,"Red maple",9.9,1,0
+"1042",174,"Red maple",11.5,1,0
+"1043",174,"red maple",19.3,1,0
+"1044",174,"white oak",33.5,1,0
+"1045",174,"white oak",34.8,1,0
+"1046",174,"white oak",36.7,1,0
+"1047",176,"chestnut",NA,4,0
+"1048",176,"high bush blueberry",NA,3,0
+"1049",176,"maple leaf viburnum",NA,1,0
+"1050",176,"red maple",NA,1,0
+"1051",176,"winterberry",NA,6,0
+"1052",176,"black oak",12.1,1,0
+"1053",176,"black oak",17.6,1,0
+"1054",176,"black oak",63.5,1,0
+"1055",176,"red maple",2.9,1,0
+"1056",176,"red maple",3.3,1,0
+"1057",176,"red maple",4.3,1,0
+"1058",176,"red maple",4.8,1,0
+"1059",176,"red maple",5.4,1,0
+"1060",176,"red maple",6.2,1,0
+"1061",176,"red maple",9,1,0
+"1062",176,"red maple",10,1,0
+"1063",176,"red maple",12.7,1,0
+"1064",176,"red oak",2.8,1,0
+"1065",176,"red oak",33.9,1,0
+"1066",176,"white pine",3.2,1,0
+"1067",176,"white pine",23.7,1,0
+"1068",176,"white pine",27,1,0
+"1069",176,"white pine",55,1,0
+"1070",180,"red maple",NA,4,0
+"1071",180,"black cherry",NA,2,0
+"1072",180,"white pine",NA,3,0
+"1073",180,"white oak",NA,1,0
+"1074",180,"beech",NA,2,0
+"1075",180,"nannyberry",NA,1,0
+"1076",180,"red maple",3.2,1,0
+"1077",180,"red maple",3.3,1,0
+"1078",180,"red maple",3.4,1,0
+"1079",180,"red maple",3.5,1,0
+"1080",180,"red maple",3.6,1,0
+"1081",180,"red maple",3.8,1,0
+"1082",180,"red maple",3.9,1,0
+"1083",180,"red maple",4,1,0
+"1084",180,"red maple",4.2,1,0
+"1085",180,"red maple",4.3,1,0
+"1086",180,"red maple",4.7,1,0
+"1087",180,"red maple",6,1,0
+"1088",180,"red oak",7.5,1,0
+"1089",180,"red oak",27.5,1,0
+"1090",180,"red oak",38.1,1,0
+"1091",180,"white pine",3,1,0
+"1092",180,"white pine",3.2,1,0
+"1093",180,"white pine",3.2,1,0
+"1094",180,"white pine",3.8,1,0
+"1095",180,"white pine",4,1,0
+"1096",180,"white pine",20.2,1,0
+"1097",180,"white pine",38.7,1,0
+"1098",180,"white pine",54.5,1,0
+"1099",182,"white pine",NA,5,0
+"1100",182,"white pine",NA,3,1
+"1101",182,"red maple",NA,1,0
+"1102",182,"sugar maple",NA,1,0
+"1103",182,"black cherry",NA,1,0
+"1104",182,"winterberry",NA,2,0
+"1105",182,"sugar maple",18.8,1,0
+"1106",182,"sugar maple",19.3,1,0
+"1107",182,"sugar maple",36.6,1,0
+"1108",182,"white pine",2.5,1,1
+"1109",182,"white pine",2.9,1,0
+"1110",182,"white pine",3,1,1
+"1111",182,"white pine",3,1,1
+"1112",182,"white pine",3.2,1,1
+"1113",182,"white pine",3.2,1,1
+"1114",182,"white pine",3.4,1,0
+"1115",182,"white pine",3.5,1,1
+"1116",182,"white pine",3.7,1,0
+"1117",182,"white pine",3.7,1,1
+"1118",182,"white pine",3.9,1,0
+"1119",182,"white pine",3.9,1,0
+"1120",182,"white pine",3.9,1,0
+"1121",182,"white pine",4,1,0
+"1122",182,"white pine",4,1,0
+"1123",182,"white pine",4.1,1,1
+"1124",182,"white pine",4.1,1,0
+"1125",182,"white pine",4.2,1,1
+"1126",182,"white pine",4.2,1,1
+"1127",182,"white pine",4.3,1,0
+"1128",182,"white pine",4.4,1,1
+"1129",182,"white pine",4.6,1,0
+"1130",182,"white pine",4.6,1,0
+"1131",182,"white pine",4.6,1,0
+"1132",182,"white pine",4.6,1,0
+"1133",182,"white pine",4.7,1,1
+"1134",182,"white pine",5,1,0
+"1135",182,"white pine",5,1,1
+"1136",182,"white pine",5,1,1
+"1137",182,"white pine",5,1,1
+"1138",182,"white pine",5,1,0
+"1139",182,"white pine",5.4,1,0
+"1140",182,"white pine",5.5,1,1
+"1141",182,"white pine",5.5,1,0
+"1142",182,"white pine",5.6,1,0
+"1143",182,"white pine",5.7,1,0
+"1144",182,"white pine",5.7,1,1
+"1145",182,"white pine",5.8,1,0
+"1146",182,"white pine",5.8,1,0
+"1147",182,"white pine",5.9,1,0
+"1148",182,"white pine",6,1,0
+"1149",182,"white pine",6.3,1,0
+"1150",182,"white pine",6.5,1,0
+"1151",182,"white pine",7.2,1,1
+"1152",182,"white pine",8.5,1,0
+"1153",182,"white pine",8.6,1,0
+"1154",185,"white pine",NA,1,0
+"1155",185,"witch hazel",NA,1,1
+"1156",185,"black birch",2.5,1,0
+"1157",185,"black birch",3,1,0
+"1158",185,"black birch",3.4,1,0
+"1159",185,"black birch",3.4,1,0
+"1160",185,"black birch",4.2,1,0
+"1161",185,"black birch",4.5,1,0
+"1162",185,"black birch",4.8,1,0
+"1163",185,"black birch",5.4,1,0
+"1164",185,"black birch",9.9,1,0
+"1165",185,"red maple",3,1,0
+"1166",185,"red maple",3.5,1,0
+"1167",185,"red maple",4.1,1,0
+"1168",185,"red maple",4.7,1,0
+"1169",185,"red maple",5.6,1,0
+"1170",185,"red maple",6.1,1,0
+"1171",185,"red maple",8.2,1,0
+"1172",185,"red maple",9.7,1,0
+"1173",185,"red maple",11.7,1,0
+"1174",185,"red maple",18.3,1,0
+"1175",185,"red maple",22.9,1,0
+"1176",185,"red maple",24.4,1,0
+"1177",185,"red maple",28,1,0
+"1178",185,"white pine",2.7,1,0
+"1179",185,"white pine",3,1,0
+"1180",185,"white pine",3.2,1,0
+"1181",185,"white pine",3.2,1,0
+"1182",185,"white pine",3.5,1,0
+"1183",185,"white pine",5,1,0
+"1184",185,"white pine",5.2,1,0
+"1185",185,"white pine",5.7,1,0
+"1186",185,"white pine",7.7,1,0
+"1187",185,"white pine",9.5,1,0
+"1188",185,"white pine",9.5,1,0
+"1189",186,"white pine",NA,1,0
+"1190",186,"black birch",8.3,1,0
+"1191",186,"black birch",21.4,1,0
+"1192",186,"chestnut oak",17,1,0
+"1193",186,"red maple",5.5,1,0
+"1194",186,"red maple",5.8,1,0
+"1195",186,"red maple",7,1,0
+"1196",186,"red maple",9,1,0
+"1197",186,"red maple",9.5,1,0
+"1198",186,"red maple",9.9,1,0
+"1199",186,"red maple",10.4,1,0
+"1200",186,"red maple",10.8,1,0
+"1201",186,"red maple",12,1,0
+"1202",186,"red maple",16,1,0
+"1203",186,"red maple",16.9,1,0
+"1204",186,"red oak",15.5,1,0
+"1205",186,"red oak",25,1,0
+"1206",186,"red oak",34,1,0
+"1207",186,"red oak",36.1,1,0
+"1208",186,"red oak",36.2,1,0
+"1209",186,"white pine",2.9,1,0
+"1210",186,"white pine",4,1,0
+"1211",186,"white pine",4.5,1,0
+"1212",186,"white pine",4.6,1,0
+"1213",186,"white pine",6,1,0
+"1214",186,"white pine",6.2,1,0
+"1215",186,"white pine",7.4,1,0
+"1216",186,"white pine",11.6,1,0
+"1217",186,"white pine",13.6,1,0
+"1218",187,"black birch",10.5,1,0
+"1219",187,"black birch",11.3,1,0
+"1220",187,"black birch",13.6,1,0
+"1221",187,"black birch",14.7,1,0
+"1222",187,"black birch",16,1,0
+"1223",187,"black birch",17,1,0
+"1224",187,"black birch",17.1,1,0
+"1225",187,"black birch",17.2,1,0
+"1226",187,"black birch",17.3,1,0
+"1227",187,"black birch",18.4,1,0
+"1228",187,"black birch",21.2,1,0
+"1229",187,"black birch",21.4,1,0
+"1230",187,"black birch",23.2,1,0
+"1231",187,"black birch",23.6,1,0
+"1232",187,"black birch",23.7,1,0
+"1233",187,"black birch",25.2,1,0
+"1234",187,"black birch",26.2,1,0
+"1235",187,"black cherry",21.2,1,0
+"1236",187,"hemlock",4,1,0
+"1237",187,"hemlock",6.3,1,0
+"1238",187,"hemlock",7.2,1,0
+"1239",187,"hemlock",7.3,1,0
+"1240",187,"hemlock",8.5,1,0
+"1241",187,"hemlock",8.6,1,0
+"1242",187,"hemlock",8.8,1,0
+"1243",187,"hemlock",9.5,1,0
+"1244",187,"hemlock",10.2,1,0
+"1245",187,"hemlock",10.6,1,0
+"1246",187,"hemlock",10.8,1,0
+"1247",187,"hemlock",11.1,1,0
+"1248",187,"hemlock",11.7,1,0
+"1249",187,"hemlock",11.9,1,0
+"1250",187,"hemlock",12.4,1,0
+"1251",187,"hemlock",13,1,0
+"1252",187,"hemlock",13.1,1,0
+"1253",187,"hemlock",13.5,1,0
+"1254",187,"hemlock",14,1,0
+"1255",187,"hemlock",14.8,1,0
+"1256",187,"hemlock",14.9,1,0
+"1257",187,"hemlock",15.2,1,0
+"1258",187,"hemlock",16.5,1,0
+"1259",187,"hemlock",16.7,1,0
+"1260",187,"hemlock",16.9,1,0
+"1261",187,"hemlock",17,1,0
+"1262",187,"hemlock",19.9,1,0
+"1263",187,"hemlock",21.8,1,0
+"1264",187,"red maple",11.5,1,0
+"1265",187,"red maple",11.6,1,0
+"1266",187,"red oak",16,1,0
+"1267",187,"red oak",19.2,1,0
+"1268",187,"red oak",22.5,1,0
+"1269",195,"hemlock",NA,2,0
+"1270",195,"hemlock",6.9,1,0
+"1271",195,"hemlock",7,1,0
+"1272",195,"hemlock",8.8,1,0
+"1273",195,"hemlock",9.6,1,0
+"1274",195,"hemlock",11,1,0
+"1275",195,"hemlock",11.8,1,0
+"1276",195,"hemlock",11.8,1,0
+"1277",195,"hemlock",12.3,1,0
+"1278",195,"hemlock",12.6,1,0
+"1279",195,"hemlock",16.2,1,0
+"1280",195,"hemlock",16.3,1,0
+"1281",195,"hemlock",17.1,1,0
+"1282",195,"hemlock",23.2,1,0
+"1283",195,"hemlock",23.6,1,0
+"1284",195,"hemlock",24.8,1,0
+"1285",195,"hemlock",34.3,1,0
+"1286",195,"red maple",7.6,1,0
+"1287",195,"red maple",8.3,1,0
+"1288",195,"red maple",9.6,1,0
+"1289",195,"red maple",10.4,1,0
+"1290",195,"red maple",10.5,1,0
+"1291",195,"red maple",12.3,1,0
+"1292",195,"red maple",15,1,0
+"1293",195,"red maple",17.8,1,0
+"1294",195,"red maple",19.2,1,0
+"1295",195,"red oak",6.1,1,0
+"1296",195,"red oak",12.8,1,0
+"1297",195,"red oak",15.8,1,0
+"1298",195,"red oak",17.4,1,0
+"1299",195,"red oak",22.1,1,0
+"1300",195,"red oak",26.5,1,0
+"1301",195,"red oak",35.7,1,0
+"1302",195,"white birch",7.5,1,0
+"1303",195,"white birch",15.5,1,0
+"1304",195,"white birch",19.1,1,0
+"1305",195,"white pine",12.8,1,0
+"1306",195,"white pine",13.7,1,0
+"1307",195,"white pine",20.1,1,0
+"1308",195,"white pine",23.7,1,0
+"1309",195,"white pine",24.3,1,0
+"1310",195,"white pine",32.2,1,0
+"1311",195,"white pine",32.7,1,0
+"1312",206,"red maple",NA,2,0
+"1313",206,"sugar maple",NA,4,0
+"1314",206,"black cherry",NA,1,0
+"1315",206,"black cherry",NA,1,1
+"1316",206,"arrowwood",NA,1,0
+"1317",206,"black cherry",3.1,1,0
+"1318",206,"black cherry",6.7,1,0
+"1319",206,"black cherry",11,1,0
+"1320",206,"black cherry",11.8,1,0
+"1321",206,"black cherry",18.1,1,0
+"1322",206,"red maple",9.3,1,0
+"1323",206,"red maple",18.9,1,0
+"1324",206,"red oak",2.9,1,0
+"1325",206,"sugar maple",3.1,1,0
+"1326",206,"sugar maple",3.4,1,0
+"1327",206,"sugar maple",20.4,1,0
+"1328",206,"sugar maple",20.6,1,0
+"1329",206,"sugar maple",23.8,1,0
+"1330",206,"sugar maple",25.6,1,0
+"1331",206,"white ash",4.9,1,0
+"1332",206,"white ash",10.9,1,0
+"1333",206,"white ash",11.1,1,0
+"1334",206,"white ash",12,1,0
+"1335",206,"white ash",15.6,1,0
+"1336",206,"white ash",22.7,1,0
+"1337",206,"white ash",28.6,1,0
+"1338",206,"white ash",29.7,1,0
+"1339",206,"white ash",31.5,1,0
+"1340",206,"white ash",38,1,0
+"1341",206,"white ash",44.9,1,0
+"1342",210,"high bush blueberry",NA,2,0
+"1343",210,"white oak",NA,1,0
+"1344",210,"winterberry",NA,2,0
+"1345",210,"beech",NA,2,0
+"1346",210,"black birch",NA,1,0
+"1347",210,"red maple",13,1,0
+"1348",210,"red maple",16.5,1,0
+"1349",210,"red maple",17.8,1,0
+"1350",210,"red maple",21,1,0
+"1351",210,"red maple",22.3,1,0
+"1352",210,"red maple",22.9,1,0
+"1353",210,"red maple",24.6,1,0
+"1354",210,"red maple",28.1,1,0
+"1355",210,"red maple",33,1,0
+"1356",210,"red maple",38.4,1,0
+"1357",210,"white pine",15.4,1,0
+"1358",210,"yellow birch",2.8,1,0
+"1359",210,"yellow birch",3.2,1,0
+"1360",210,"yellow birch",4.5,1,0
+"1361",210,"yellow birch",4.7,1,0
+"1362",210,"yellow birch",5.5,1,0
+"1363",210,"yellow birch",6.4,1,0
+"1364",210,"yellow birch",6.5,1,0
+"1365",210,"yellow birch",6.7,1,0
+"1366",210,"yellow birch",7.2,1,0
+"1367",210,"yellow birch",8.5,1,0
+"1368",210,"yellow birch",8.5,1,0
+"1369",210,"yellow birch",8.5,1,0
+"1370",210,"yellow birch",12.2,1,0
+"1371",210,"yellow birch",12.9,1,0
+"1372",210,"yellow birch",14,1,0
+"1373",210,"yellow birch",17,1,0
+"1374",210,"yellow birch",19.3,1,0
+"1375",210,"yellow birch",28.8,1,1
+"1376",211,"yellow birch",NA,1,0
+"1377",211,"black birch",NA,1,0
+"1378",211,"hop hornbeam",NA,2,0
+"1379",211,"black birch",10,1,0
+"1380",211,"black birch",13.6,1,0
+"1381",211,"hop hornbeam",4.6,1,0
+"1382",211,"red maple",24.7,1,0
+"1383",211,"red maple",44.2,1,0
+"1384",211,"sugar maple",3.3,1,0
+"1385",211,"sugar maple",3.8,1,0
+"1386",211,"sugar maple",4.8,1,0
+"1387",211,"sugar maple",5,1,0
+"1388",211,"sugar maple",5.3,1,0
+"1389",211,"sugar maple",5.4,1,0
+"1390",211,"sugar maple",5.5,1,0
+"1391",211,"sugar maple",9.2,1,0
+"1392",211,"sugar maple",11.2,1,0
+"1393",211,"sugar maple",20.6,1,0
+"1394",211,"sugar maple",28.5,1,0
+"1395",211,"sugar maple",30.7,1,0
+"1396",211,"sugar maple",38.1,1,0
+"1397",211,"white ash",58.6,1,0
+"1398",211,"yellow birch",10.5,1,0
+"1399",216,"winterberry",NA,1,0
+"1400",216,"high bush blueberry",NA,2,0
+"1401",216,"white oak",NA,1,0
+"1402",216,"high bush blueberry",NA,1,0
+"1403",216,"hemlock",15.5,1,0
+"1404",216,"hemlock",29.7,1,0
+"1405",216,"hemlock",35.5,1,0
+"1406",216,"hemlock",38.2,1,0
+"1407",216,"red maple",4,1,0
+"1408",216,"red maple",6.9,1,0
+"1409",216,"red maple",8.5,1,0
+"1410",216,"red maple",9.8,1,0
+"1411",216,"red maple",11,1,0
+"1412",216,"red maple",12.1,1,0
+"1413",216,"red maple",12.5,1,0
+"1414",216,"red maple",12.9,1,0
+"1415",216,"red maple",13,1,0
+"1416",216,"red maple",13.4,1,0
+"1417",216,"red maple",13.6,1,0
+"1418",216,"red maple",14,1,0
+"1419",216,"red maple",14,1,0
+"1420",216,"red maple",15.1,1,0
+"1421",216,"red maple",15.3,1,0
+"1422",216,"red maple",16.3,1,0
+"1423",216,"red maple",18.5,1,0
+"1424",216,"red maple",21.8,1,0
+"1425",216,"red maple",23.4,1,0
+"1426",216,"red maple",23.7,1,0
+"1427",216,"red oak",7.2,1,0
+"1428",216,"red spruce",11.4,1,0
+"1429",216,"red spruce",16,1,0
+"1430",216,"red spruce",21.2,1,0
+"1431",216,"white pine",12.2,1,0
+"1432",216,"white pine",14.5,1,0
+"1433",216,"white pine",17.3,1,0
+"1434",216,"white pine",18.6,1,0
+"1435",216,"white pine",35.3,1,0
+"1436",219,"black birch",32,1,0
+"1437",219,"black birch",43,1,0
+"1438",219,"black birch",10,1,1
+"1439",219,"black birch",11.1,1,0
+"1440",219,"black birch",31.7,1,0
+"1441",219,"black birch",29,1,0
+"1442",219,"white ash",5.4,1,0
+"1443",219,"white ash",10.5,1,0
+"1444",222,"witch hazel",NA,1,1
+"1445",222,"hemlock",NA,1,0
+"1446",222,"white pine",NA,1,0
+"1447",222,"basswood",21.2,1,0
+"1448",222,"hop hornbeam",10.9,1,0
+"1449",222,"hop hornbeam",12,1,0
+"1450",222,"sugar maple",13,1,0
+"1451",222,"sugar maple",17,1,0
+"1452",222,"white ash",12.4,1,0
+"1453",222,"white ash",19.8,1,0
+"1454",222,"white ash",21.3,1,0
+"1455",222,"white ash",26.1,1,0
+"1456",222,"white ash",35.9,1,0
+"1457",222,"white pine",2.5,1,0
+"1458",222,"white pine",3.2,1,0
+"1459",224,"black birch",NA,1,0
+"1460",224,"chestnut",NA,1,0
+"1461",224,"beech",NA,1,0
+"1462",224,"red maple",8.8,1,0
+"1463",224,"red maple",8.8,1,0
+"1464",224,"red maple",12.3,1,0
+"1465",224,"red maple",13.1,1,0
+"1466",224,"red maple",21.1,1,0
+"1467",224,"red oak",14.2,1,0
+"1468",224,"red oak",26.5,1,0
+"1469",224,"white pine",4.1,1,0
+"1470",224,"white pine",11.5,1,0
+"1471",224,"white pine",15.7,1,0
+"1472",224,"white pine",21.7,1,0
+"1473",224,"white pine",34.7,1,0
+"1474",224,"white pine",47.7,1,0
+"1475",226,"high bush blueberry",NA,5,0
+"1476",226,"high bush blueberry",NA,1,1
+"1477",226,"gray birch",6,1,0
+"1478",226,"red maple",4.6,1,0
+"1479",226,"red maple",8.6,1,0
+"1480",226,"red maple",13.9,1,0
+"1481",226,"red maple",14,1,0
+"1482",226,"red maple",15.4,1,0
+"1483",226,"red maple",15.8,1,0
+"1484",226,"red maple",15.8,1,0
+"1485",226,"red maple",15.8,1,0
+"1486",226,"red maple",16.8,1,0
+"1487",226,"red maple",17.3,1,0
+"1488",226,"red maple",17.6,1,0
+"1489",226,"red maple",20.3,1,0
+"1490",226,"red maple",21,1,0
+"1491",226,"red maple",22.4,1,0
+"1492",226,"red maple",23.1,1,0
+"1493",226,"red maple",25,1,0
+"1494",226,"red maple",26.4,1,0
+"1495",226,"red maple",34.6,1,0
+"1496",226,"red maple",48,1,0
+"1497",226,"white pine",16.2,1,0
+"1498",233,"white pine",NA,9,0
+"1499",233,"white pine",NA,2,1
+"1500",233,"red maple",NA,3,0
+"1501",233,"black birch",NA,4,0
+"1502",233,"red oak",NA,3,0
+"1503",233,"red maple",7.5,1,0
+"1504",233,"red maple",10.9,1,0
+"1505",233,"red maple",13.6,1,0
+"1506",233,"red maple",16.6,1,0
+"1507",233,"red maple",20.1,1,0
+"1508",233,"red oak",2.7,1,0
+"1509",233,"red oak",2.9,1,0
+"1510",233,"red oak",2.9,1,0
+"1511",233,"red oak",3.1,1,0
+"1512",233,"red oak",3.2,1,0
+"1513",233,"red oak",3.4,1,0
+"1514",233,"red oak",3.7,1,0
+"1515",233,"red oak",37,1,0
+"1516",233,"red oak",42,1,0
+"1517",233,"white pine",3,1,1
+"1518",233,"white pine",3,1,0
+"1519",233,"white pine",3.2,1,0
+"1520",233,"white pine",3.9,1,0
+"1521",233,"white pine",4,1,0
+"1522",233,"white pine",4.4,1,0
+"1523",237,"witch hazel",NA,3,0
+"1524",237,"mountain laurel",NA,1,0
+"1525",237,"witch hazel",NA,1,1
+"1526",237,"high bush blueberry",NA,3,0
+"1527",237,"white pine",NA,3,0
+"1528",237,"red maple",9.9,1,0
+"1529",237,"red maple",30.5,1,0
+"1530",237,"red maple",30.5,1,0
+"1531",237,"red maple",31.8,1,0
+"1532",237,"sugar maple",11.9,1,0
+"1533",237,"white ash",6.8,1,0
+"1534",237,"white pine",4.1,1,0
+"1535",237,"white pine",4.3,1,0
+"1536",237,"yellow birch",6.3,1,0
+"1537",237,"yellow birch",9.6,1,1
+"1538",237,"yellow birch",12.3,1,0
+"1539",237,"yellow birch",12.9,1,0
+"1540",237,"yellow birch",17.8,1,0
+"1541",237,"yellow birch",49,1,0
+"1542",241,"black birch",2.5,1,1
+"1543",244,"hemlock",NA,2,1
+"1544",244,"red maple",NA,1,1
+"1545",244,"hemlock",2.9,1,1
+"1546",244,"hemlock",3.1,1,1
+"1547",244,"hemlock",4.7,1,1
+"1548",244,"hemlock",6.3,1,1
+"1549",244,"hemlock",7.3,1,1
+"1550",244,"red maple",2.5,1,1
+"1551",244,"red maple",2.9,1,1
+"1552",244,"red maple",8.7,1,1
+"1553",244,"red maple",9.7,1,1
+"1554",244,"red maple",11.3,1,0
+"1555",244,"red maple",12,1,0
+"1556",244,"red maple",12.2,1,0
+"1557",244,"red maple",12.2,1,1
+"1558",244,"red maple",12.5,1,1
+"1559",244,"red maple",13.9,1,0
+"1560",244,"red maple",14.9,1,0
+"1561",244,"red maple",15.3,1,0
+"1562",244,"red maple",22.9,1,0
+"1563",244,"red oak",18.2,1,0
+"1564",244,"red oak",25.3,1,0
+"1565",244,"red oak",26.9,1,0
+"1566",244,"red oak",34.4,1,0
+"1567",244,"white oak",29,1,0
+"1568",244,"white oak",36.3,1,0
+"1569",244,"white pine",7.2,1,0
+"1570",247,"white pine",NA,2,0
+"1571",247,"white pine",NA,1,1
+"1572",247,"black oak",NA,3,1
+"1573",247,"black oak",NA,6,0
+"1574",247,"red oak",NA,2,1
+"1575",247,"hawthorn",NA,2,0
+"1576",247,"red oak",NA,2,0
+"1577",247,"black birch",NA,3,0
+"1578",247,"red maple",NA,2,1
+"1579",247,"white oak",NA,3,1
+"1580",247,"black birch",NA,3,1
+"1581",247,"high bush blueberry",NA,1,0
+"1582",247,"black cherry",29.4,1,0
+"1583",247,"black oak",2.7,1,0
+"1584",247,"black oak",4.5,1,0
+"1585",247,"black oak",25.9,1,0
+"1586",247,"red maple",2.9,1,0
+"1587",247,"red maple",3,1,0
+"1588",247,"red maple",6.4,1,1
+"1589",247,"red maple",47.1,1,0
+"1590",247,"red oak",3.2,1,0
+"1591",247,"red oak",5.8,1,1
+"1592",247,"red oak",7,1,0
+"1593",247,"white oak",2.6,1,0
+"1594",247,"white oak",19.2,1,0
+"1595",247,"white pine",2.6,1,0
+"1596",247,"white pine",4.9,1,0
+"1597",247,"white pine",6.5,1,0
+"1598",247,"white pine",21.7,1,0
+"1599",247,"white pine",25.2,1,0
+"1600",247,"white pine",40.2,1,0
+"1601",247,"yellow birch",2.5,1,0
+"1602",250,"chestnut",NA,1,0
+"1603",250,"red oak",NA,2,0
+"1604",250,"witch hazel",NA,2,0
+"1605",250,"white pine",NA,1,0
+"1606",250,"hemlock",7.3,1,0
+"1607",250,"hemlock",8.8,1,0
+"1608",250,"red maple",2.5,1,0
+"1609",250,"red maple",3,1,0
+"1610",250,"red maple",3.2,1,0
+"1611",250,"red maple",3.3,1,0
+"1612",250,"red maple",5.2,1,0
+"1613",250,"red maple",15.7,1,0
+"1614",250,"red maple",19.1,1,0
+"1615",250,"red maple",20.9,1,0
+"1616",250,"red maple",26.4,1,0
+"1617",250,"red oak",10.5,1,0
+"1618",250,"red oak",33.9,1,0
+"1619",250,"red oak",36.2,1,0
+"1620",250,"red oak",43.8,1,0
+"1621",250,"red oak",48.7,1,0
+"1622",250,"white ash",12.3,1,0
+"1623",250,"white pine",3.2,1,0
+"1624",250,"white pine",3.9,1,0
+"1625",250,"white pine",4.8,1,0
+"1626",250,"white pine",5.3,1,0
+"1627",250,"white pine",5.6,1,0
+"1628",250,"white pine",6.7,1,0
+"1629",250,"white pine",13.3,1,0
+"1630",250,"white pine",16.2,1,0
+"1631",250,"yellow birch",4,1,0
+"1632",250,"yellow birch",4.4,1,0
+"1633",250,"yellow birch",6.5,1,0
+"1634",250,"yellow birch",7.5,1,0
+"1635",256,"black birch",18.2,1,1
+"1636",256,"red maple",38.3,1,1
+"1637",256,"red maple",41.5,1,1
+"1638",256,"white ash",8,1,1
+"1639",256,"white ash",8.1,1,1
+"1640",256,"white ash",8.3,1,1
+"1641",256,"white ash",19.7,1,1
+"1642",257,"white ash",NA,2,0
+"1643",257,"white pine",NA,4,0
+"1644",257,"winterberry",NA,1,0
+"1645",257,"winterberry",NA,1,1
+"1646",257,"black cherry",NA,1,0
+"1647",257,"lyonia",NA,1,0
+"1648",257,"black birch",8.1,1,0
+"1649",257,"red maple",33.3,1,0
+"1650",257,"red maple",44.8,1,0
+"1651",257,"red pine",39.8,1,0
+"1652",257,"white pine",2.6,1,0
+"1653",257,"white pine",3,1,1
+"1654",257,"white pine",3.9,1,0
+"1655",258,"musclewood",NA,4,0
+"1656",258,"striped maple",NA,1,1
+"1657",258,"grape",NA,1,0
+"1658",258,"blackberry",NA,1,0
+"1659",258,"black birch",NA,2,0
+"1660",258,"red maple",NA,2,1
+"1661",258,"black birch",2.5,1,0
+"1662",258,"black birch",3,1,0
+"1663",258,"black birch",3.2,1,0
+"1664",258,"black birch",4.1,1,0
+"1665",258,"musclewood",3.1,1,0
+"1666",258,"red maple",2.5,1,0
+"1667",258,"red maple",2.6,1,1
+"1668",258,"red maple",3.1,1,1
+"1669",258,"red maple",3.3,1,0
+"1670",258,"red maple",3.5,1,1
+"1671",258,"sugar maple",25.4,1,1
+"1672",258,"white ash",6.4,1,0
+"1673",258,"white ash",7.9,1,0
+"1674",258,"white ash",8.9,1,0
+"1675",258,"white ash",16.7,1,0
+"1676",258,"white ash",17.3,1,0
+"1677",258,"white ash",30.8,1,0
+"1678",258,"white ash",33,1,0
+"1679",258,"white ash",33.4,1,0
+"1680",258,"white ash",35.1,1,0
+"1681",258,"white ash",44.7,1,0
+"1682",268,"hemlock",24.5,1,0
+"1683",268,"hemlock",34.8,1,0
+"1684",268,"hemlock",38.8,1,0
+"1685",268,"hemlock",44.2,1,0
+"1686",268,"red maple",12.7,1,0
+"1687",268,"red maple",15,1,0
+"1688",268,"red maple",15.3,1,0
+"1689",268,"red maple",15.7,1,0
+"1690",268,"red maple",16.3,1,0
+"1691",268,"red maple",19.8,1,0
+"1692",268,"red oak",23.4,1,0
+"1693",268,"red oak",24.5,1,0
+"1694",268,"red oak",30.1,1,0
+"1695",268,"red oak",55.5,1,0
+"1696",268,"white pine",61.8,1,0
+"1697",268,"yellow birch",26.1,1,0
+"1698",269,"black birch",10.7,1,1
+"1699",269,"black birch",11.1,1,1
+"1700",269,"black birch",11.4,1,1
+"1701",269,"black birch",12,1,1
+"1702",269,"black birch",14.5,1,1
+"1703",269,"black birch",14.5,1,1
+"1704",269,"black birch",14.7,1,1
+"1705",269,"black birch",18.9,1,1
+"1706",269,"black birch",22.4,1,1
+"1707",269,"black birch",23.1,1,1
+"1708",269,"black birch",25,1,1
+"1709",269,"black birch",48.3,1,1
+"1710",269,"hop hornbeam",3.9,1,1
+"1711",269,"hop hornbeam",10,1,1
+"1712",269,"red maple",27.3,1,1
+"1713",269,"red maple",28.6,1,1
+"1714",269,"red maple",31.7,1,1
+"1715",269,"red maple",44.7,1,1
+"1716",269,"sugar maple",10.8,1,1
+"1717",269,"white pine",18.5,1,1
+"1718",272,"sugar maple",NA,1,1
+"1719",272,"hickory",2.7,1,1
+"1720",272,"hickory",5.8,1,1
+"1721",272,"hickory",9.2,1,1
+"1722",272,"hickory",12,1,1
+"1723",272,"red maple",9.6,1,1
+"1724",272,"red maple",10.4,1,1
+"1725",272,"red maple",12.1,1,1
+"1726",272,"red maple",13.7,1,1
+"1727",272,"red maple",20.2,1,1
+"1728",272,"red oak",49.7,1,1
+"1729",272,"shagbark hickory",17.7,1,1
+"1730",272,"shagbark hickory",20,1,1
+"1731",272,"sugar maple",2.8,1,1
+"1732",272,"sugar maple",2.9,1,1
+"1733",272,"sugar maple",3.2,1,1
+"1734",272,"sugar maple",5,1,1
+"1735",272,"sugar maple",6.6,1,1
+"1736",272,"sugar maple",6.7,1,1
+"1737",276,"black birch",NA,8,0
+"1738",276,"black birch",8.2,1,0
+"1739",276,"hemlock",23.8,1,1
+"1740",276,"hemlock",30.5,1,1
+"1741",276,"hemlock",73,1,1
+"1742",276,"red oak",40,1,0
+"1743",276,"red oak",45,1,0
+"1744",276,"white pine",17.3,1,0
+"1745",293,"beech",NA,1,0
+"1746",293,"beech",2.7,1,1
+"1747",293,"black birch",7.3,1,0
+"1748",293,"black birch",13.6,1,0
+"1749",293,"black birch",16.3,1,0
+"1750",293,"black birch",22.7,1,0
+"1751",293,"hemlock",4.8,1,0
+"1752",293,"hemlock",6.1,1,1
+"1753",293,"hemlock",6.9,1,1
+"1754",293,"hemlock",19.4,1,0
+"1755",293,"hemlock",19.5,1,0
+"1756",293,"hemlock",21.3,1,0
+"1757",293,"hemlock",35.7,1,0
+"1758",293,"hemlock",46.6,1,0
+"1759",293,"red maple",38.1,1,0
+"1760",293,"red maple",44.5,1,0
+"1761",293,"red maple",59.4,1,0
+"1762",293,"red oak",35.1,1,0
+"1763",299,"witch hazel",NA,3,1
+"1764",299,"witch hazel",NA,1,0
+"1765",299,"mountain laurel",NA,2,0
+"1766",299,"hemlock",NA,1,1
+"1767",299,"black birch",11.6,1,0
+"1768",299,"black birch",14.6,1,0
+"1769",299,"black birch",19.7,1,0
+"1770",299,"black birch",26.4,1,0
+"1771",299,"black birch",28.6,1,0
+"1772",299,"hemlock",2.6,1,0
+"1773",299,"hemlock",2.7,1,0
+"1774",299,"hemlock",2.9,1,0
+"1775",299,"hemlock",4,1,1
+"1776",299,"hemlock",4.1,1,1
+"1777",299,"hemlock",4.2,1,0
+"1778",299,"hemlock",5.4,1,0
+"1779",299,"hemlock",7,1,1
+"1780",299,"hemlock",7.3,1,0
+"1781",299,"hemlock",7.9,1,1
+"1782",299,"hemlock",7.9,1,0
+"1783",299,"hemlock",9.3,1,0
+"1784",299,"hemlock",9.9,1,1
+"1785",299,"hemlock",10.5,1,0
+"1786",299,"hemlock",14,1,1
+"1787",299,"hemlock",14.1,1,0
+"1788",299,"hemlock",15.5,1,1
+"1789",299,"hemlock",16.3,1,1
+"1790",299,"red maple",8,1,1
+"1791",299,"red maple",9.6,1,0
+"1792",299,"red maple",18.3,1,0
+"1793",299,"red maple",24.3,1,0
+"1794",299,"red maple",29.9,1,0
+"1795",299,"red maple",36.3,1,0
+"1796",299,"white ash",19.4,1,0
+"1797",299,"white ash",19.8,1,1
+"1798",299,"yellow birch",5.4,1,0
+"1799",299,"yellow birch",12.9,1,0
+"1800",299,"yellow birch",14,1,0
+"1801",307,"beech",3.1,1,1
+"1802",307,"black cherry",4.3,1,1
+"1803",307,"black cherry",9,1,1
+"1804",307,"black cherry",14.7,1,1
+"1805",307,"black cherry",17.3,1,1
+"1806",307,"black cherry",17.9,1,1
+"1807",307,"black cherry",24.9,1,1
+"1808",307,"hemlock",2.5,1,1
+"1809",307,"red maple",2.8,1,1
+"1810",307,"red maple",4.6,1,1
+"1811",307,"red maple",5,1,1
+"1812",307,"red maple",6.3,1,1
+"1813",307,"red maple",9.4,1,1
+"1814",307,"red maple",12.1,1,1
+"1815",307,"red maple",12.9,1,1
+"1816",307,"red maple",19.4,1,1
+"1817",307,"red maple",20.5,1,1
+"1818",307,"red maple",25.4,1,1
+"1819",307,"red maple",36.7,1,1
+"1820",307,"red oak",3.7,1,1
+"1821",307,"white pine",7.9,1,1
+"1822",307,"white pine",35.1,1,1
+"1823",307,"white pine",48.7,1,1
+"1824",307,"white pine",60.9,1,1
+"1825",307,"white pine",65.6,1,1
+"1826",307,"white pine",70,1,1
+"1827",308,"black cherry",42.1,1,1
+"1828",308,"hemlock",2.6,1,1
+"1829",308,"hemlock",3.3,1,1
+"1830",308,"hemlock",3.8,1,1
+"1831",308,"hemlock",4.2,1,1
+"1832",308,"hemlock",4.6,1,1
+"1833",308,"hemlock",5,1,1
+"1834",308,"hemlock",5.4,1,1
+"1835",308,"hemlock",6.7,1,1
+"1836",308,"hemlock",7,1,1
+"1837",308,"hemlock",7,1,1
+"1838",308,"hemlock",7.1,1,1
+"1839",308,"hemlock",7.6,1,1
+"1840",308,"hemlock",9.3,1,1
+"1841",308,"hemlock",9.4,1,1
+"1842",308,"hemlock",11.6,1,1
+"1843",308,"hemlock",12.6,1,1
+"1844",308,"hemlock",13.6,1,1
+"1845",308,"hemlock",13.7,1,1
+"1846",308,"hemlock",14.5,1,1
+"1847",308,"hemlock",15.4,1,1
+"1848",308,"hemlock",16,1,1
+"1849",308,"hemlock",18.2,1,1
+"1850",308,"hemlock",19.2,1,1
+"1851",308,"hemlock",19.3,1,1
+"1852",308,"hemlock",19.8,1,1
+"1853",308,"hemlock",22.6,1,1
+"1854",308,"hemlock",26.1,1,1
+"1855",308,"hemlock",30,1,1
+"1856",308,"hemlock",33.4,1,1
+"1857",308,"hemlock",34,1,1
+"1858",308,"hemlock",37.6,1,1
+"1859",308,"hemlock",37.8,1,1
+"1860",308,"hemlock",42.4,1,1
+"1861",308,"hemlock",46.1,1,1
+"1862",308,"hemlock",49.8,1,1
+"1863",308,"white pine",33.3,1,1
+"1864",310,"beech",NA,3,0
+"1865",310,"hemlock",5.3,1,0
+"1866",310,"hemlock",5.7,1,0
+"1867",310,"hemlock",7.6,1,0
+"1868",310,"hemlock",8.6,1,0
+"1869",310,"hemlock",12.3,1,0
+"1870",310,"hemlock",14.3,1,1
+"1871",310,"hemlock",21.3,1,0
+"1872",310,"hemlock",30.5,1,0
+"1873",310,"hemlock",38.3,1,0
+"1874",310,"hemlock",42.6,1,0
+"1875",310,"hemlock",44.6,1,0
+"1876",310,"red maple",7.1,1,0
+"1877",310,"red maple",38.6,1,0
+"1878",310,"red oak",37,1,0
+"1879",311,"black cherry",18.6,1,0
+"1880",311,"hemlock",4.3,1,0
+"1881",311,"hemlock",4.4,1,0
+"1882",311,"hemlock",5.1,1,0
+"1883",311,"hemlock",6.7,1,0
+"1884",311,"hemlock",8.7,1,0
+"1885",311,"hemlock",18.5,1,0
+"1886",311,"hemlock",20.4,1,0
+"1887",311,"red maple",8.7,1,0
+"1888",311,"red maple",9.3,1,0
+"1889",311,"red oak",28.3,1,0
+"1890",311,"red oak",31.7,1,0
+"1891",311,"red oak",37.6,1,0
+"1892",311,"white oak",25.5,1,0
+"1893",324,"hemlock",17.1,1,0
+"1894",324,"hemlock",19.7,1,1
+"1895",324,"hemlock",22.5,1,1
+"1896",324,"hemlock",26,1,1
+"1897",324,"hemlock",30.3,1,1
+"1898",324,"hemlock",34.5,1,1
+"1899",324,"hemlock",38.6,1,1
+"1900",324,"red maple",22,1,0
+"1901",324,"red maple",30.9,1,0
+"1902",324,"red oak",32.8,1,0
+"1903",324,"red oak",42.5,1,0
+"1904",324,"yellow birch",3,1,0
+"1905",324,"yellow birch",4.8,1,0
+"1906",324,"yellow birch",37.3,1,0
+"1907",328,"black birch",14.5,1,1
+"1908",328,"black birch",25.3,1,1
+"1909",328,"hemlock",2.7,1,1
+"1910",328,"hemlock",8.8,1,1
+"1911",328,"hemlock",16.8,1,1
+"1912",328,"hemlock",19.6,1,1
+"1913",328,"hemlock",22.6,1,1
+"1914",328,"red maple",19.4,1,1
+"1915",328,"red maple",20.2,1,1
+"1916",328,"red maple",25.4,1,1
+"1917",328,"red maple",30.3,1,1
+"1918",328,"red maple",42.8,1,1
+"1919",328,"red oak",16.6,1,1
+"1920",328,"red oak",19.7,1,1
+"1921",328,"red oak",22,1,1
+"1922",328,"red oak",30.8,1,1
+"1923",328,"sugar maple",6.6,1,1
+"1924",328,"sugar maple",11.7,1,1
+"1925",328,"white birch",9.9,1,1
+"1926",328,"white birch",20.8,1,1
+"1927",328,"white oak",24.7,1,1
+"1928",328,"white pine",4.4,1,1
+"1929",328,"white pine",7,1,1
+"1930",328,"white pine",14,1,1
+"1931",328,"white pine",18.3,1,1
+"1932",328,"white pine",19.2,1,1
+"1933",328,"yellow birch",10.3,1,1
+"1934",332,"white pine",NA,5,0
+"1935",332,"shadbush",NA,1,0
+"1936",332,"white pine",NA,1,1
+"1937",332,"black cherry",13.4,1,0
+"1938",332,"red maple",14.3,1,0
+"1939",332,"red maple",14.8,1,0
+"1940",332,"red maple",17.8,1,0
+"1941",332,"red maple",18.1,1,0
+"1942",332,"red maple",18.9,1,0
+"1943",332,"red maple",21.1,1,0
+"1944",332,"white oak",10.5,1,0
+"1945",332,"white oak",11.3,1,0
+"1946",332,"white oak",11.7,1,0
+"1947",332,"white oak",19,1,0
+"1948",332,"white pine",2.7,1,0
+"1949",332,"white pine",3.1,1,0
+"1950",332,"white pine",3.2,1,0
+"1951",332,"white pine",3.4,1,0
+"1952",332,"white pine",3.5,1,0
+"1953",332,"white pine",3.7,1,0
+"1954",332,"white pine",3.8,1,0
+"1955",332,"white pine",4.7,1,0
+"1956",332,"white pine",5.3,1,0
+"1957",332,"white pine",6,1,0
+"1958",332,"white pine",7.3,1,0
+"1959",332,"white pine",9.3,1,0
+"1960",332,"white pine",10,1,0
+"1961",332,"white pine",11.2,1,0
+"1962",332,"white pine",17.9,1,0
+"1963",332,"white pine",27.7,1,0
+"1964",334,"red maple",NA,2,1
+"1965",334,"high bush blueberry",NA,1,0
+"1966",334,"high bush blueberry",NA,5,1
+"1967",334,"mountain laurel",NA,4,0
+"1968",334,"hemlock",NA,2,1
+"1969",334,"hemlock",4.5,1,1
+"1970",334,"hemlock",4.9,1,1
+"1971",334,"hemlock",5.1,1,1
+"1972",334,"hemlock",5.2,1,1
+"1973",334,"hemlock",8,1,1
+"1974",334,"red maple",4.1,1,0
+"1975",334,"red maple",5.8,1,1
+"1976",334,"red maple",7.2,1,1
+"1977",334,"red maple",7.2,1,1
+"1978",334,"red maple",11.2,1,0
+"1979",334,"red maple",11.8,1,1
+"1980",334,"red maple",12.6,1,1
+"1981",334,"red maple",12.7,1,1
+"1982",334,"red maple",13.9,1,1
+"1983",334,"red maple",23.5,1,0
+"1984",334,"red oak",12.9,1,0
+"1985",334,"red oak",22.6,1,0
+"1986",334,"red oak",25.5,1,0
+"1987",334,"red oak",27.7,1,0
+"1988",334,"red oak",34.1,1,0
+"1989",334,"white pine",20.5,1,0
+"1990",334,"white pine",29.1,1,0
+"1991",334,"white pine",30.2,1,0
+"1992",335,"red maple",NA,10,1
+"1993",335,"red maple",NA,2,0
+"1994",335,"red oak",NA,2,0
+"1995",335,"white pine",NA,3,0
+"1996",335,"high bush blueberry",NA,2,0
+"1997",335,"chestnut",NA,1,1
+"1998",335,"red maple",3.6,1,0
+"1999",335,"red oak",28.2,1,0
+"2000",335,"red oak",32.6,1,0
+"2001",335,"striped maple",2.7,1,1
+"2002",335,"striped maple",3.2,1,1
+"2003",335,"striped maple",3.7,1,1
+"2004",335,"white oak",19,1,0
+"2005",335,"white oak",24.4,1,0
+"2006",335,"white oak",25.5,1,0
+"2007",335,"white oak",28.3,1,0
+"2008",335,"white oak",28.4,1,0
+"2009",335,"white pine",2.6,1,0
+"2010",335,"white pine",3.2,1,0
+"2011",335,"white pine",4.4,1,0
+"2012",335,"white pine",4.5,1,0
+"2013",335,"white pine",4.7,1,0
+"2014",335,"white pine",6,1,0
+"2015",335,"white pine",7.3,1,0
+"2016",335,"white pine",8.2,1,0
+"2017",335,"white pine",9.3,1,0
+"2018",335,"white pine",10,1,1
+"2019",335,"white pine",10.2,1,0
+"2020",335,"white pine",10.3,1,0
+"2021",335,"white pine",12.7,1,0
+"2022",335,"white pine",15.5,1,0
+"2023",335,"white pine",17.7,1,0
+"2024",335,"white pine",20.6,1,0
+"2025",335,"white pine",22.4,1,0
+"2026",335,"white pine",23.1,1,0
+"2027",357,"high bush blueberry",NA,2,0
+"2028",357,"yellow birch",NA,1,1
+"2029",357,"yellow birch",NA,1,0
+"2030",357,"winterberry",NA,8,0
+"2031",357,"winterberry",NA,3,1
+"2032",357,"winterberry",NA,2,0
+"2033",357,"arrowwood",NA,5,1
+"2034",357,"red maple",NA,1,1
+"2035",357,"red maple",NA,1,0
+"2036",357,"black birch",9.4,1,0
+"2037",357,"black birch",16.1,1,0
+"2038",357,"black birch",21.8,1,0
+"2039",357,"red maple",2.7,1,0
+"2040",357,"red maple",3,1,0
+"2041",357,"red maple",3.5,1,1
+"2042",357,"red maple",3.5,1,0
+"2043",357,"red maple",12.2,1,0
+"2044",357,"red maple",12.8,1,0
+"2045",357,"red maple",16,1,0
+"2046",357,"red maple",21.2,1,0
+"2047",357,"red maple",24,1,0
+"2048",357,"red maple",27.2,1,0
+"2049",357,"red maple",30.6,1,0
+"2050",357,"white pine",18.8,1,0
+"2051",357,"yellow birch",2.6,1,0
+"2052",357,"yellow birch",4.9,1,0
+"2053",357,"yellow birch",8,1,0
+"2054",357,"yellow birch",8.3,1,0
+"2055",357,"yellow birch",9.7,1,1
+"2056",357,"yellow birch",11.5,1,0
+"2057",357,"yellow birch",15.8,1,0
+"2058",357,"yellow birch",16,1,0
+"2059",359,"hemlock",3.1,1,0
+"2060",359,"hemlock",4.1,1,0
+"2061",359,"hemlock",4.4,1,0
+"2062",359,"hemlock",5.6,1,0
+"2063",359,"hemlock",6.9,1,0
+"2064",359,"hemlock",7.3,1,0
+"2065",359,"hemlock",8,1,0
+"2066",359,"hemlock",8.1,1,0
+"2067",359,"hemlock",9.2,1,0
+"2068",359,"hemlock",9.2,1,0
+"2069",359,"hemlock",9.5,1,0
+"2070",359,"hemlock",9.6,1,0
+"2071",359,"hemlock",9.7,1,0
+"2072",359,"hemlock",10.1,1,0
+"2073",359,"hemlock",10.2,1,0
+"2074",359,"hemlock",11.7,1,0
+"2075",359,"hemlock",12.2,1,0
+"2076",359,"hemlock",12.5,1,0
+"2077",359,"hemlock",13,1,0
+"2078",359,"hemlock",14,1,0
+"2079",359,"hemlock",14.5,1,0
+"2080",359,"hemlock",15.3,1,0
+"2081",359,"hemlock",16.3,1,0
+"2082",359,"hemlock",17.4,1,0
+"2083",359,"hemlock",17.9,1,0
+"2084",359,"hemlock",18.5,1,0
+"2085",359,"hemlock",19.8,1,0
+"2086",359,"hemlock",22.1,1,0
+"2087",359,"hemlock",31.6,1,0
+"2088",359,"hemlock",37.5,1,0
+"2089",359,"red maple",8.9,1,1
+"2090",359,"red maple",18,1,0
+"2091",359,"red spruce",6.8,1,0
+"2092",359,"red spruce",20.6,1,0
+"2093",359,"red spruce",21.4,1,0
+"2094",359,"red spruce",24.1,1,0
+"2095",359,"red spruce",26.1,1,0
+"2096",359,"red spruce",29.6,1,0
+"2097",359,"white pine",38.4,1,0
+"2098",359,"white pine",40.6,1,0
+"2099",363,"balsam fir",2.5,1,0
+"2100",363,"winterberry",NA,4,0
+"2101",363,"winterberry",NA,9,0
+"2102",363,"winterberry",NA,9,1
+"2103",363,"nannyberry",NA,3,1
+"2104",363,"red maple",NA,1,1
+"2105",363,"american hazelnut",NA,2,1
+"2106",363,"red spruce",NA,6,0
+"2107",363,"balsam fir",NA,1,1
+"2108",363,"high bush blueberry",NA,1,1
+"2109",363,"arrowwood",NA,1,1
+"2110",363,"poison sumac",NA,4,1
+"2111",363,"lyonia",NA,1,0
+"2112",363,"mountain holly",NA,1,1
+"2113",363,"arrowwood",NA,1,0
+"2114",363,"balsam fir",3.2,1,1
+"2115",363,"balsam fir",4.9,1,1
+"2116",363,"balsam fir",4.9,1,0
+"2117",363,"balsam fir",5.3,1,1
+"2118",363,"balsam fir",6.5,1,0
+"2119",363,"balsam fir",9.5,1,1
+"2120",363,"balsam fir",15.2,1,0
+"2121",363,"black ash",6.2,1,0
+"2122",363,"red maple",6.6,1,0
+"2123",363,"red maple",7.9,1,1
+"2124",363,"red maple",8.5,1,0
+"2125",363,"red maple",9.6,1,0
+"2126",363,"red maple",10.1,1,1
+"2127",363,"red maple",10.4,1,1
+"2128",363,"red maple",10.7,1,1
+"2129",363,"red maple",14,1,0
+"2130",363,"red spruce",2.6,1,0
+"2131",363,"red spruce",8.7,1,0
+"2132",363,"red spruce",12.2,1,0
+"2133",363,"red spruce",13.2,1,0
+"2134",363,"red spruce",13.8,1,0
+"2135",363,"red spruce",14,1,0
+"2136",363,"red spruce",14.8,1,0
+"2137",363,"red spruce",17,1,0
+"2138",363,"red spruce",20.5,1,0
+"2139",363,"red spruce",20.5,1,0
+"2140",363,"red spruce",22.6,1,0
+"2141",363,"red spruce",23.9,1,0
+"2142",363,"red spruce",24.4,1,0
+"2143",363,"white pine",33,1,0
+"2144",368,"red maple",6.6,1,0
+"2145",368,"winterberry",NA,17,1
+"2146",368,"winterberry",NA,5,0
+"2147",368,"winterberry",NA,4,0
+"2148",368,"high bush blueberry",NA,3,0
+"2149",368,"high bush blueberry",NA,1,0
+"2150",368,"high bush blueberry",NA,1,1
+"2151",368,"lyonia",NA,1,0
+"2152",368,"red maple",8.5,1,1
+"2153",368,"red maple",11,1,1
+"2154",368,"red maple",12,1,0
+"2155",368,"red maple",12.1,1,1
+"2156",368,"red maple",12.2,1,0
+"2157",368,"red maple",12.5,1,0
+"2158",368,"red maple",13.5,1,1
+"2159",368,"red maple",13.7,1,0
+"2160",368,"red maple",13.8,1,0
+"2161",368,"red maple",13.9,1,0
+"2162",368,"red maple",14,1,1
+"2163",368,"red maple",14.2,1,1
+"2164",368,"red maple",14.3,1,0
+"2165",368,"gray birch",14.4,1,0
+"2166",368,"red maple",14.7,1,0
+"2167",368,"red maple",15.6,1,0
+"2168",368,"red maple",15.8,1,0
+"2169",368,"red maple",16.4,1,0
+"2170",368,"red maple",17,1,0
+"2171",368,"red maple",17.1,1,0
+"2172",368,"red maple",18.1,1,0
+"2173",368,"red maple",19.6,1,1
+"2174",368,"red maple",20.3,1,0
+"2175",368,"red maple",20.4,1,0
+"2176",368,"red maple",20.5,1,0
+"2177",368,"red maple",21.3,1,0
+"2178",368,"red maple",21.8,1,0
+"2179",368,"red maple",21.9,1,0
+"2180",370,"red maple",8.2,1,0
+"2181",370,"arrowwood",NA,1,1
+"2182",370,"arrowwood",NA,3,0
+"2183",370,"winterberry",NA,1,0
+"2184",370,"lyonia",NA,2,1
+"2185",370,"red maple",13.1,1,0
+"2186",370,"red maple",15.1,1,0
+"2187",370,"red maple",16,1,0
+"2188",370,"red maple",18.2,1,0
+"2189",370,"red maple",19.2,1,0
+"2190",370,"red maple",20.3,1,0
+"2191",370,"red maple",20.4,1,0
+"2192",370,"red maple",20.7,1,0
+"2193",370,"red maple",21.5,1,0
+"2194",370,"red maple",22.4,1,0
+"2195",370,"red maple",23.6,1,0
+"2196",370,"red maple",24.1,1,0
+"2197",370,"red maple",26.8,1,0
+"2198",370,"red maple",31.6,1,0
+"2199",370,"red maple",33.4,1,0
+"2200",372,"swamp dogwood",NA,1,0
+"2201",372,"arrowwood",NA,3,1
+"2202",372,"arrowwood",NA,3,0
+"2203",372,"red oak",NA,1,0
+"2204",372,"black cherry",NA,1,0
+"2205",372,"hawthorn",NA,1,0
+"2206",372,"shadbush",NA,1,0
+"2207",372,"black cherry",2.9,1,0
+"2208",372,"black cherry",3.2,1,0
+"2209",372,"black cherry",5.3,1,0
+"2210",372,"black cherry",39.2,1,0
+"2211",372,"elm",3.6,1,0
+"2212",372,"elm",4.4,1,0
+"2213",372,"elm",6.8,1,0
+"2214",372,"elm",7,1,0
+"2215",372,"elm",7.6,1,0
+"2216",372,"elm",8.6,1,0
+"2217",372,"elm",9.3,1,0
+"2218",372,"elm",12.9,1,0
+"2219",372,"elm",14.2,1,0
+"2220",372,"elm",16.7,1,0
+"2221",372,"red maple",3.6,1,0
+"2222",372,"red maple",33.9,1,0
+"2223",372,"red maple",36.5,1,0
+"2224",372,"red oak",2.5,1,1
+"2225",372,"red oak",7.5,1,0
+"2226",372,"sugar maple",10.1,1,0
+"2227",372,"white oak",2.9,1,0
+"2228",373,"red maple",10.3,1,0
+"2229",373,"arrowwood",NA,4,0
+"2230",373,"arrowwood",NA,3,1
+"2231",373,"arrowwood",NA,1,0
+"2232",373,"winterberry",NA,4,0
+"2233",373,"winterberry",NA,1,1
+"2234",373,"european buckthorn",NA,6,0
+"2235",373,"high bush blueberry",NA,1,0
+"2236",373,"red maple",16.5,1,0
+"2237",373,"red maple",17.4,1,0
+"2238",373,"red maple",18.2,1,0
+"2239",373,"red maple",19,1,0
+"2240",373,"red maple",21.1,1,0
+"2241",373,"black cherry",28.9,1,0
+"2242",373,"red maple",32.1,1,0
+"2243",373,"red maple",32.2,1,0
+"2244",373,"black cherry",32.8,1,0
+"2245",373,"black cherry",36.8,1,0
+"2246",373,"black cherry",41.5,1,0
+"2247",379,"winterberry",NA,3,0
+"2248",379,"european buckthorn",NA,1,0
+"2249",379,"grape",NA,1,0
+"2250",379,"musclewood",NA,3,0
+"2251",379,"red oak",NA,1,0
+"2252",379,"swamp dogwood",NA,1,0
+"2253",379,"black cherry",28.4,1,0
+"2254",379,"black cherry",39.7,1,0
+"2255",379,"musclewood",3,1,0
+"2256",379,"musclewood",7.5,1,0
+"2257",379,"musclewood",10.7,1,0
+"2258",379,"musclewood",11.4,1,0
+"2259",379,"red maple",9.1,1,0
+"2260",379,"red maple",30.3,1,0
+"2261",379,"red maple",39.1,1,0
+"2262",379,"red oak",43.6,1,0
+"2263",382,"musclewood",NA,2,0
+"2264",382,"sugar maple",NA,3,0
+"2265",382,"white ash",NA,1,0
+"2266",382,"chokecherry",NA,6,0
+"2267",382,"winterberry",NA,1,0
+"2268",382,"grape",NA,2,0
+"2269",382,"black cherry",3,1,0
+"2270",382,"black cherry",6.6,1,0
+"2271",382,"black cherry",31.6,1,0
+"2272",382,"black cherry",32.1,1,0
+"2273",382,"elm",4.5,1,0
+"2274",382,"elm",27.5,1,0
+"2275",382,"musclewood",3.7,1,0
+"2276",382,"red maple",10.6,1,0
+"2277",382,"red maple",11.1,1,0
+"2278",382,"red maple",13.8,1,0
+"2279",382,"red maple",14.1,1,0
+"2280",382,"red maple",14.8,1,0
+"2281",382,"red maple",25.8,1,0
+"2282",382,"red maple",48.8,1,0
+"2283",382,"red maple",61,1,0
+"2284",382,"white ash",20.5,1,0
+"2285",382,"white ash",40.5,1,0
+"2286",384,"spicebush",NA,1,0
+"2287",384,"red oak",NA,2,0
+"2288",384,"white ash",NA,2,0
+"2289",384,"hickory",NA,1,0
+"2290",384,"hickory",3.5,1,0
+"2291",384,"musclewood",3.8,1,0
+"2292",384,"musclewood",5,1,0
+"2293",384,"musclewood",7.8,1,0
+"2294",384,"musclewood",8.7,1,0
+"2295",384,"musclewood",9,1,0
+"2296",384,"musclewood",9.1,1,0
+"2297",384,"musclewood",9.2,1,0
+"2298",384,"musclewood",9.6,1,0
+"2299",384,"musclewood",12.2,1,0
+"2300",384,"musclewood",12.4,1,0
+"2301",384,"musclewood",12.9,1,0
+"2302",384,"musclewood",15.6,1,0
+"2303",384,"red maple",25.6,1,0
+"2304",384,"red maple",39.4,1,0
+"2305",384,"red maple",43.7,1,0
+"2306",384,"sugar maple",7.5,1,0
+"2307",387,"hickory",NA,2,0
+"2308",387,"winterberry",NA,1,0
+"2309",387,"elm",NA,1,0
+"2310",387,"sugar maple",NA,1,0
+"2311",387,"black cherry",17.2,1,0
+"2312",387,"black cherry",31,1,0
+"2313",387,"black cherry",33.2,1,0
+"2314",387,"black cherry",35.3,1,0
+"2315",387,"elm",3.7,1,0
+"2316",387,"elm",4.9,1,0
+"2317",387,"elm",5.9,1,0
+"2318",387,"elm",8,1,0
+"2319",387,"elm",18.1,1,0
+"2320",387,"musclewood",7,1,0
+"2321",387,"red maple",3,1,0
+"2322",387,"red maple",3.6,1,0
+"2323",387,"red maple",3.6,1,0
+"2324",387,"red maple",3.8,1,0
+"2325",387,"red maple",4.6,1,0
+"2326",387,"red maple",18.8,1,0
+"2327",387,"red maple",32.1,1,0
+"2328",387,"red maple",42.7,1,0
+"2329",387,"red oak",10.1,1,0
+"2330",387,"sugar maple",3.5,1,0
+"2331",387,"sugar maple",6.2,1,0
+"2332",387,"sugar maple",13.3,1,0
+"2333",387,"sugar maple",22.5,1,0
+"2334",387,"sugar maple",25.2,1,0
+"2335",387,"white ash",5.4,1,0
+"2336",387,"white ash",6,1,0
+"2337",387,"white ash",11.3,1,0
+"2338",387,"white ash",13.9,1,0
+"2339",387,"white ash",14.3,1,0
+"2340",387,"white ash",15.4,1,0
+"2341",394,"european buckthorn",NA,21,0
+"2342",394,"red maple",14.5,1,0
+"2343",394,"red maple",17.2,1,0
+"2344",394,"red maple",20.1,1,0
+"2345",394,"red maple",22.4,1,0
+"2346",394,"red maple",23.7,1,0
+"2347",394,"red maple",23.9,1,0
+"2348",394,"red maple",28.9,1,0
+"2349",394,"red maple",33.3,1,0
+"2350",394,"red maple",34.1,1,0
+"2351",394,"red maple",37.4,1,0
+"2352",394,"red maple",38.8,1,0
+"2353",396,"arrowwood",NA,4,0
+"2354",396,"shadbush",NA,1,0
+"2355",396,"red maple",NA,1,0
+"2356",396,"hemlock",NA,1,0
+"2357",396,"red oak",NA,1,0
+"2358",396,"european buckthorn",NA,1,0
+"2359",396,"grape",NA,1,0
+"2360",396,"black cherry",12.5,1,0
+"2361",396,"elm",21.3,1,0
+"2362",396,"hemlock",4.2,1,0
+"2363",396,"hemlock",5.2,1,0
+"2364",396,"hemlock",11.2,1,0
+"2365",396,"red maple",9.6,1,0
+"2366",396,"red maple",10.2,1,0
+"2367",396,"red maple",28.4,1,0
+"2368",396,"red maple",33.6,1,0
+"2369",396,"red maple",44.4,1,0
+"2370",396,"red oak",82,1,0
+"2371",396,"sugar maple",35.4,1,0
+"2372",396,"white ash",10.4,1,0
+"2373",396,"white ash",11.7,1,0
+"2374",398,"hemlock",7.7,1,0
+"2375",398,"hemlock",14,1,0
+"2376",398,"hop hornbeam",21.8,1,0
+"2377",398,"red maple",14.1,1,0
+"2378",398,"red maple",26.3,1,0
+"2379",398,"red oak",49.3,1,0
+"2380",398,"sugar maple",6.8,1,0
+"2381",398,"sugar maple",8.9,1,0
+"2382",398,"sugar maple",14.2,1,0
+"2383",398,"sugar maple",46.2,1,0
+"2384",398,"white ash",25.6,1,0
+"2385",398,"white ash",36.6,1,0
+"2386",398,"white oak",24.9,1,0
+"2387",398,"witch hazel",NA,6,0
+"2388",398,"yellow birch",33.9,1,0
+"2389",398,"yellow birch",37,1,0
+"2390",400,"gray birch",3.8,1,0
+"2391",400,"witch hazel",NA,1,0
+"2392",400,"high bush blueberry",NA,7,0
+"2393",400,"high bush blueberry",NA,1,0
+"2394",400,"european buckthorn",NA,1,0
+"2395",400,"black chokeberry",NA,1,1
+"2396",400,"black chokeberry",NA,1,0
+"2397",400,"mountain holly",NA,1,0
+"2398",400,"mountain holly",NA,2,1
+"2399",400,"red maple",7.3,1,0
+"2400",400,"red maple",9.8,1,0
+"2401",400,"red maple",10.4,1,0
+"2402",400,"red maple",16.2,1,0
+"2403",400,"red maple",17.3,1,0
+"2404",400,"red maple",24.3,1,0
+"2405",400,"red maple",25.5,1,0
+"2406",400,"red maple",26,1,0
+"2407",400,"red maple",40.6,1,0
+"2408",400,"red spruce",5.8,1,0
+"2409",400,"red spruce",13.3,1,0
+"2410",400,"red spruce",19.4,1,0
+"2411",400,"red spruce",20.9,1,0
+"2412",400,"red spruce",21.3,1,0
+"2413",400,"red spruce",24.4,1,0
+"2414",400,"red spruce",25.4,1,0
+"2415",400,"red spruce",32.3,1,0
+"2416",400,"white oak",27,1,0
+"2417",400,"white pine",62.3,1,0
+"2418",402,"hemlock",2.5,1,0
+"2419",402,"high bush blueberry",NA,1,1
+"2420",402,"winterberry",NA,1,0
+"2421",402,"hemlock",3.4,1,1
+"2422",402,"hemlock",4.1,1,0
+"2423",402,"hemlock",5.1,1,0
+"2424",402,"hemlock",5.8,1,0
+"2425",402,"hemlock",7,1,1
+"2426",402,"hemlock",9,1,0
+"2427",402,"hemlock",9.7,1,1
+"2428",402,"hemlock",16.3,1,1
+"2429",402,"hemlock",16.8,1,0
+"2430",402,"hemlock",25.4,1,0
+"2431",402,"red maple",2.6,1,0
+"2432",402,"red maple",3.3,1,0
+"2433",402,"red maple",4.2,1,1
+"2434",402,"red maple",5.1,1,0
+"2435",402,"red maple",5.2,1,1
+"2436",402,"red maple",12,1,0
+"2437",402,"red maple",14.5,1,0
+"2438",402,"red spruce",7.1,1,0
+"2439",402,"red spruce",8.8,1,0
+"2440",402,"red spruce",11.5,1,0
+"2441",402,"red spruce",11.9,1,0
+"2442",402,"red spruce",12.1,1,0
+"2443",402,"red spruce",12.2,1,0
+"2444",402,"red spruce",12.6,1,0
+"2445",402,"red spruce",13.2,1,0
+"2446",402,"red spruce",14.3,1,0
+"2447",402,"red spruce",14.3,1,0
+"2448",402,"red spruce",18.1,1,0
+"2449",402,"red spruce",18.1,1,0
+"2450",402,"red spruce",18.6,1,0
+"2451",402,"red spruce",18.8,1,0
+"2452",402,"red spruce",19.4,1,0
+"2453",402,"red spruce",20.8,1,0
+"2454",402,"red spruce",20.8,1,0
+"2455",402,"red spruce",22.2,1,0
+"2456",402,"red spruce",23.2,1,0
+"2457",402,"red spruce",26.6,1,0
+"2458",402,"red spruce",31.3,1,0
+"2459",402,"white pine",29.7,1,0
+"2460",403,"balsam fir",3.4,1,1
+"2461",403,"balsam fir",3.8,1,0
+"2462",403,"balsam fir",4.2,1,0
+"2463",403,"balsam fir",6.2,1,0
+"2464",403,"black cherry",14.7,1,0
+"2465",403,"hemlock",5.3,1,0
+"2466",403,"hemlock",22,1,0
+"2467",403,"hemlock",23.4,1,0
+"2468",403,"hemlock",32.1,1,0
+"2469",403,"hemlock",32.8,1,0
+"2470",403,"hemlock",39.4,1,0
+"2471",403,"red maple",9,1,0
+"2472",403,"red maple",10.3,1,0
+"2473",403,"red maple",13.6,1,0
+"2474",403,"red maple",18.4,1,0
+"2475",403,"red maple",26.2,1,0
+"2476",403,"red maple",31.1,1,0
+"2477",403,"red spruce",32.7,1,0
+"2478",403,"red spruce",44,1,0
+"2479",403,"white pine",53.7,1,0
+"2480",410,"high bush blueberry",NA,14,0
+"2481",410,"mountain holly",NA,2,0
+"2482",410,"winterberry",NA,1,0
+"2483",410,"hemlock",8.5,1,1
+"2484",410,"red maple",7.6,1,0
+"2485",410,"red maple",10,1,0
+"2486",410,"red maple",12.2,1,0
+"2487",410,"red maple",13.1,1,0
+"2488",410,"red maple",16.7,1,0
+"2489",410,"red spruce",3,1,0
+"2490",410,"red spruce",10,1,0
+"2491",410,"red spruce",10.7,1,0
+"2492",410,"spruce",4.3,1,0
+"2493",410,"spruce",5.6,1,0
+"2494",410,"spruce",6.5,1,0
+"2495",410,"spruce",10,1,0
+"2496",410,"spruce",10.3,1,0
+"2497",410,"spruce",10.4,1,0
+"2498",410,"spruce",10.4,1,0
+"2499",410,"spruce",13.7,1,0
+"2500",410,"spruce",15.5,1,0
+"2501",410,"spruce",21.4,1,0
+"2502",410,"tamarack",8.3,1,0
+"2503",410,"tamarack",30.1,1,0
+"2504",410,"tamarack",30.2,1,0
+"2505",410,"tamarack",30.8,1,0
+"2506",410,"white pine",8.4,1,0
+"2507",410,"white pine",9,1,0
+"2508",410,"white pine",11.5,1,0
+"2509",410,"white pine",11.7,1,0
+"2510",410,"white pine",17.1,1,0
+"2511",410,"white pine",24.4,1,0
+"2512",410,"yellow birch",4.4,1,0
+"2513",410,"yellow birch",7.5,1,0
+"2514",411,"red maple",9.7,1,1
+"2515",411,"red maple",6.2,1,1
+"2516",411,"red maple",2.8,1,1
+"2517",411,"red maple",5.7,1,0
+"2518",411,"red oak",19,1,0
+"2519",411,"red oak",17,1,0
+"2520",411,"red oak",16.7,1,0
+"2521",411,"red oak",22.6,1,0
+"2522",411,"red oak",24.7,1,0
+"2523",411,"red oak",16.9,1,0
+"2524",411,"red oak",21.1,1,0
+"2525",411,"red oak",19.1,1,0
+"2526",411,"red oak",24.4,1,0
+"2527",411,"scarlet oak",22.3,1,0
+"2528",411,"white pine",15.7,1,0
+"2529",411,"white pine",18,1,0
+"2530",411,"white pine",13.5,1,0
+"2531",411,"white pine",17.7,1,0
+"2532",412,"black cherry",12.3,1,0
+"2533",412,"black oak",15.8,1,0
+"2534",412,"black oak",19.5,1,0
+"2535",412,"black oak",25.8,1,0
+"2536",412,"black oak",46.6,1,0
+"2537",412,"black oak",21.4,1,0
+"2538",412,"pignut hickory",6.3,1,1
+"2539",412,"white oak",25.3,1,0
+"2540",412,"white pine",28.8,1,0
+"2541",412,"white pine",21.4,1,0
+"2542",412,"white pine",19.5,1,0
+"2543",412,"white pine",14.8,1,0
+"2544",412,"white pine",4.5,1,0
+"2545",412,"white pine",14.8,1,0
+"2546",412,"white pine",23.5,1,0
+"2547",412,"white pine",16.8,1,0
+"2548",416,"black oak",22.1,1,0
+"2549",416,"black oak",25,1,0
+"2550",416,"pignut hickory",7,1,0
+"2551",416,"pignut hickory",8.1,1,1
+"2552",416,"pignut hickory",8.5,1,0
+"2553",416,"pignut hickory",14.4,1,0
+"2554",416,"pignut hickory",16,1,0
+"2555",416,"pignut hickory",17,1,0
+"2556",416,"pignut hickory",19.8,1,0
+"2557",416,"pignut hickory",22,1,0
+"2558",416,"pignut hickory",22.1,1,0
+"2559",416,"pignut hickory",22.1,1,0
+"2560",416,"red maple",7.2,1,0
+"2561",416,"red maple",13.3,1,0
+"2562",416,"red oak",32.8,1,0
+"2563",416,"red oak",36.9,1,0
+"2564",418,"chestnut oak",17.8,1,0
+"2565",418,"chestnut oak",18.6,1,0
+"2566",418,"chestnut oak",26,1,0
+"2567",418,"chestnut oak",30.3,1,0
+"2568",418,"hemlock",2.5,1,0
+"2569",418,"white pine",2.5,1,0
+"2570",418,"white pine",2.5,1,0
+"2571",418,"white pine",2.6,1,0
+"2572",418,"white pine",2.6,1,0
+"2573",418,"white pine",2.6,1,0
+"2574",418,"white pine",2.6,1,0
+"2575",418,"white pine",2.6,1,0
+"2576",418,"white pine",2.7,1,0
+"2577",418,"white pine",2.7,1,0
+"2578",418,"white pine",2.7,1,0
+"2579",418,"white pine",2.7,1,0
+"2580",418,"white pine",2.7,1,0
+"2581",418,"white pine",2.7,1,0
+"2582",418,"white pine",2.7,1,0
+"2583",418,"white pine",2.7,1,0
+"2584",418,"white pine",2.8,1,0
+"2585",418,"white pine",2.8,1,0
+"2586",418,"white pine",2.8,1,0
+"2587",418,"white pine",2.8,1,0
+"2588",418,"white pine",2.8,1,0
+"2589",418,"white pine",2.8,1,0
+"2590",418,"white pine",2.8,1,0
+"2591",418,"white pine",2.9,1,0
+"2592",418,"white pine",2.9,1,0
+"2593",418,"white pine",3,1,0
+"2594",418,"white pine",3,1,0
+"2595",418,"white pine",3,1,0
+"2596",418,"white pine",3.1,1,0
+"2597",418,"white pine",3.1,1,0
+"2598",418,"white pine",3.2,1,0
+"2599",418,"white pine",3.2,1,0
+"2600",418,"white pine",3.2,1,0
+"2601",418,"white pine",3.2,1,0
+"2602",418,"white pine",3.2,1,0
+"2603",418,"white pine",3.3,1,0
+"2604",418,"white pine",3.3,1,0
+"2605",418,"white pine",3.3,1,0
+"2606",418,"white pine",3.4,1,0
+"2607",418,"white pine",3.4,1,0
+"2608",418,"white pine",3.4,1,0
+"2609",418,"white pine",3.4,1,0
+"2610",418,"white pine",3.5,1,0
+"2611",418,"white pine",3.5,1,0
+"2612",418,"white pine",3.5,1,0
+"2613",418,"white pine",3.5,1,0
+"2614",418,"white pine",3.7,1,0
+"2615",418,"white pine",3.7,1,0
+"2616",418,"white pine",3.7,1,0
+"2617",418,"white pine",3.8,1,0
+"2618",418,"white pine",3.9,1,0
+"2619",418,"white pine",4,1,0
+"2620",418,"white pine",4.3,1,0
+"2621",418,"white pine",4.3,1,0
+"2622",418,"white pine",4.4,1,0
+"2623",418,"white pine",4.5,1,0
+"2624",418,"white pine",5.1,1,0
+"2625",418,"white pine",5.5,1,0
+"2626",418,"white pine",5.6,1,0
+"2627",418,"white pine",7,1,0
+"2628",418,"white pine",8,1,0
+"2629",418,"white pine",8.8,1,0
+"2630",418,"white pine",8.9,1,0
+"2631",418,"white pine",10.1,1,0
+"2632",418,"white pine",11.3,1,0
+"2633",418,"white pine",12.7,1,0
+"2634",418,"white pine",13,1,0
+"2635",418,"white pine",14.3,1,0
+"2636",418,"white pine",16,1,0
+"2637",418,"white pine",18.2,1,0
+"2638",418,"white pine",37.6,1,0
+"2639",425,"black oak",23.6,1,0
+"2640",425,"black oak",26.1,1,0
+"2641",425,"hemlock",2.8,1,0
+"2642",425,"hemlock",2.9,1,1
+"2643",425,"hemlock",3.3,1,1
+"2644",425,"hemlock",3.7,1,1
+"2645",425,"hemlock",6.7,1,0
+"2646",425,"hemlock",12.8,1,1
+"2647",425,"hemlock",34.7,1,1
+"2648",425,"hemlock",47.8,1,1
+"2649",425,"red oak",11.3,1,0
+"2650",425,"red oak",14.4,1,0
+"2651",425,"red oak",22.4,1,0
+"2652",425,"red oak",25.7,1,0
+"2653",425,"red oak",33.3,1,0
+"2654",425,"red oak",35.5,1,0
+"2655",425,"white oak",20.4,1,0
+"2656",425,"white oak",28,1,0
+"2657",425,"white pine",4.4,1,0
+"2658",425,"white pine",4.5,1,0
+"2659",425,"white pine",11.9,1,0
+"2660",425,"white pine",12.3,1,0
+"2661",425,"white pine",12.5,1,0
+"2662",425,"white pine",12.7,1,0
+"2663",425,"white pine",12.9,1,0
+"2664",425,"white pine",13.3,1,0
+"2665",425,"white pine",15.1,1,0
+"2666",425,"white pine",17.3,1,0
+"2667",425,"white pine",17.5,1,0
+"2668",425,"white pine",18.3,1,0
+"2669",425,"white pine",21.5,1,0
+"2670",425,"white pine",24.6,1,0
+"2671",425,"white pine",25.8,1,0
+"2672",428,"black cherry",6.7,1,1
+"2673",428,"hemlock",3.3,1,1
+"2674",428,"hemlock",8.5,1,1
+"2675",428,"hemlock",14.2,1,1
+"2676",428,"hemlock",14.6,1,1
+"2677",428,"hemlock",17.8,1,1
+"2678",428,"hemlock",19.2,1,1
+"2679",428,"hemlock",22.1,1,1
+"2680",428,"hemlock",22.3,1,1
+"2681",428,"hemlock",22.9,1,1
+"2682",428,"hemlock",23.2,1,1
+"2683",428,"hemlock",30.9,1,1
+"2684",428,"hemlock",31.6,1,1
+"2685",428,"hemlock",36.4,1,1
+"2686",428,"hemlock",54.3,1,1
+"2687",428,"red maple",5.4,1,1
+"2688",428,"red maple",26.5,1,1
+"2689",428,"red oak",7.1,1,1
+"2690",432,"black birch",NA,1,1
+"2691",432,"black birch",2.6,1,0
+"2692",432,"black birch",5.2,1,0
+"2693",432,"black birch",5.8,1,0
+"2694",432,"black birch",18.8,1,0
+"2695",432,"sugarmaple",54.5,1,0
+"2696",432,"sugarmaple",85,1,0
+"2697",432,"yellow birch",6.4,1,0
+"2698",435,"white pine",NA,1,0
+"2699",435,"high bush blueberry",NA,2,1
+"2700",435,"high bush blueberry",NA,1,0
+"2701",435,"paper birch",27,1,0
+"2702",435,"red maple",13.2,1,0
+"2703",435,"red maple",14.7,1,0
+"2704",435,"red maple",27.9,1,0
+"2705",435,"red maple",28.6,1,0
+"2706",435,"red maple",33,1,0
+"2707",435,"red maple",37.8,1,0
+"2708",435,"yellow birch",6.4,1,0
+"2709",435,"yellow birch",7.6,1,0
+"2710",435,"yellow birch",10.2,1,0
+"2711",435,"yellow birch",10.3,1,0
+"2712",435,"yellow birch",11.8,1,0
+"2713",435,"yellow birch",15.5,1,0
+"2714",435,"yellow birch",16.7,1,0
+"2715",435,"yellow birch",17.2,1,0
+"2716",435,"yellow birch",18.1,1,0
+"2717",435,"yellow birch",18.8,1,0
+"2718",435,"yellow birch",24.2,1,0
+"2719",435,"yellow birch",28.9,1,0
+"2720",435,"yellow birch",34.5,1,0
+"2721",437,"white pine",NA,5,0
+"2722",437,"pignut hickory",3.3,1,0
+"2723",437,"pignut hickory",7.9,1,0
+"2724",437,"pignut hickory",9.8,1,0
+"2725",437,"pignut hickory",10.4,1,0
+"2726",437,"pignut hickory",10.5,1,0
+"2727",437,"pignut hickory",12.5,1,0
+"2728",437,"pignut hickory",13.8,1,0
+"2729",437,"pignut hickory",14.9,1,0
+"2730",437,"pignut hickory",18.2,1,0
+"2731",437,"pignut hickory",20.5,1,0
+"2732",437,"pignut hickory",20.5,1,0
+"2733",437,"pignut hickory",20.6,1,0
+"2734",437,"pignut hickory",22.6,1,0
+"2735",437,"red oak",23.5,1,1
+"2736",437,"red oak",26,1,0
+"2737",437,"red oak",27.6,1,0
+"2738",437,"red oak",30,1,0
+"2739",437,"red oak",38.2,1,0
+"2740",437,"white pine",3.3,1,0
+"2741",437,"white pine",19.7,1,0
+"2742",440,"red maple",11.9,1,0
+"2743",440,"red maple",18,1,0
+"2744",440,"red maple",19.1,1,0
+"2745",440,"red maple",24.2,1,0
+"2746",440,"red oak",9.6,1,0
+"2747",440,"sugar maple",2.9,1,0
+"2748",440,"sugar maple",3.1,1,0
+"2749",440,"sugar maple",3.5,1,0
+"2750",440,"sugar maple",3.8,1,0
+"2751",440,"sugar maple",5,1,0
+"2752",440,"sugar maple",5.5,1,0
+"2753",440,"sugar maple",5.9,1,0
+"2754",440,"sugar maple",6.8,1,0
+"2755",440,"sugar maple",7,1,0
+"2756",440,"sugar maple",8.5,1,0
+"2757",440,"sugar maple",8.6,1,0
+"2758",440,"sugar maple",8.8,1,0
+"2759",440,"sugar maple",20.3,1,0
+"2760",440,"sugar maple",22.9,1,0
+"2761",440,"sugar maple",23.2,1,0
+"2762",440,"white ash",16.6,1,0
+"2763",440,"white ash",22.5,1,0
+"2764",440,"white ash",31.5,1,0
+"2765",440,"white ash",32.1,1,0
+"2766",440,"white ash",34.1,1,0
+"2767",440,"white ash",60,1,0
+"2768",442,"white pine",NA,8,0
+"2769",442,"black birch",NA,9,0
+"2770",442,"high bush blueberry",NA,1,0
+"2771",442,"black birch",36.9,1,0
+"2772",442,"red oak",29,1,0
+"2773",442,"red oak",61,1,0
+"2774",442,"sugar maple",8.7,1,0
+"2775",442,"white pine",2.7,1,1
+"2776",442,"white pine",4,1,0
+"2777",442,"white pine",22.5,1,0
+"2778",442,"white pine",27.6,1,0
+"2779",443,"white pine",NA,1,0
+"2780",443,"pignut hickory",18,1,0
+"2781",443,"red maple",3.2,1,0
+"2782",443,"red maple",3.4,1,0
+"2783",443,"red maple",4.8,1,0
+"2784",443,"red maple",6.2,1,0
+"2785",443,"red maple",6.2,1,1
+"2786",443,"red maple",6.9,1,1
+"2787",443,"red maple",7.5,1,0
+"2788",443,"red maple",7.5,1,0
+"2789",443,"red maple",8.5,1,0
+"2790",443,"red maple",9.1,1,0
+"2791",443,"red maple",10.1,1,1
+"2792",443,"red maple",13.1,1,0
+"2793",443,"red oak",12.5,1,0
+"2794",443,"red oak",12.9,1,0
+"2795",443,"red oak",13.8,1,0
+"2796",443,"red oak",15.1,1,0
+"2797",443,"red oak",19.4,1,0
+"2798",443,"red oak",19.6,1,0
+"2799",443,"red oak",19.8,1,0
+"2800",443,"red oak",19.8,1,0
+"2801",443,"red oak",20.1,1,0
+"2802",443,"red oak",21.2,1,0
+"2803",443,"red oak",21.9,1,0
+"2804",443,"red oak",22.4,1,0
+"2805",443,"red oak",26.6,1,0
+"2806",443,"red oak",31.5,1,0
+"2807",444,"black cherry",NA,1,1
+"2808",444,"black cherry",NA,1,0
+"2809",444,"high bush blackberry",NA,1,0
+"2810",444,"sugar maple",16.4,1,1
+"2811",444,"sugar maple",23.3,1,1
+"2812",444,"sugar maple",24.1,1,0
+"2813",444,"sugar maple",24.6,1,0
+"2814",444,"sugar maple",30.2,1,0
+"2815",444,"sugar maple",30.9,1,1
+"2816",444,"white ash",18.3,1,0
+"2817",444,"white ash",26.1,1,0
+"2818",447,"white pine",2.5,1,1
+"2819",448,"red maple",NA,1,0
+"2820",448,"chestnut",NA,1,0
+"2821",448,"high bush blueberry",NA,1,0
+"2822",448,"red maple",3.3,1,0
+"2823",448,"red maple",3.3,1,0
+"2824",448,"red maple",3.8,1,0
+"2825",448,"red maple",4.3,1,0
+"2826",448,"red maple",5.7,1,0
+"2827",448,"red maple",6.3,1,0
+"2828",448,"red maple",6.5,1,1
+"2829",448,"red maple",6.9,1,1
+"2830",448,"red maple",8,1,0
+"2831",448,"red maple",8.3,1,0
+"2832",448,"red maple",8.7,1,0
+"2833",448,"red maple",8.7,1,0
+"2834",448,"red maple",8.9,1,0
+"2835",448,"red maple",9.7,1,0
+"2836",448,"red maple",10.4,1,0
+"2837",448,"red maple",11.4,1,0
+"2838",448,"red oak",24.2,1,0
+"2839",448,"red oak",34.6,1,0
+"2840",448,"red oak",34.7,1,0
+"2841",448,"red oak",35.6,1,0
+"2842",449,"chestnut",NA,1,0
+"2843",449,"white pine",NA,1,0
+"2844",449,"red maple",NA,1,1
+"2845",449,"chestnut",NA,2,1
+"2846",449,"witch hazel",NA,1,0
+"2847",449,"black birch",8.1,1,1
+"2848",449,"black birch",16.7,1,0
+"2849",449,"chestnut",2.9,1,0
+"2850",449,"chestnut",2.9,1,1
+"2851",449,"chestnut",3.4,1,1
+"2852",449,"pignut hickory",4.4,1,0
+"2853",449,"red maple",4.2,1,1
+"2854",449,"red maple",5.6,1,0
+"2855",449,"red maple",6.9,1,0
+"2856",449,"red maple",8.1,1,0
+"2857",449,"red maple",8.8,1,0
+"2858",449,"red maple",9.3,1,0
+"2859",449,"red maple",10.5,1,0
+"2860",449,"red maple",11,1,0
+"2861",449,"red maple",14.4,1,0
+"2862",449,"red maple",15.2,1,0
+"2863",449,"red maple",19.9,1,0
+"2864",449,"red oak",3,1,0
+"2865",449,"red oak",36.7,1,0
+"2866",449,"white pine",2.9,1,0
+"2867",449,"white pine",3.7,1,0
+"2868",449,"white pine",43.6,1,0
+"2869",452,"winterberry",NA,3,1
+"2870",452,"winterberry",NA,6,0
+"2871",452,"winterberry",NA,1,0
+"2872",452,"high bush blueberry",NA,1,1
+"2873",452,"black ash",4.6,1,0
+"2874",452,"black ash",7.4,1,0
+"2875",452,"black ash",8.7,1,0
+"2876",452,"black ash",9,1,0
+"2877",452,"black ash",12,1,0
+"2878",452,"hemlock",6,1,0
+"2879",452,"hemlock",15,1,0
+"2880",452,"hemlock",23.8,1,0
+"2881",452,"red maple",9,1,0
+"2882",452,"red maple",10.7,1,0
+"2883",452,"red maple",13,1,0
+"2884",452,"red maple",14.3,1,0
+"2885",452,"red maple",15.2,1,0
+"2886",452,"red maple",16.6,1,0
+"2887",452,"red maple",17.9,1,0
+"2888",452,"red maple",20.5,1,0
+"2889",452,"red maple",22,1,0
+"2890",452,"red maple",24.4,1,0
+"2891",452,"white pine",19.4,1,0
+"2892",452,"white pine",29.4,1,0
+"2893",452,"yellow birch",4.3,1,0
+"2894",452,"yellow birch",4.3,1,0
+"2895",452,"yellow birch",7.2,1,0
+"2896",452,"yellow birch",8,1,0
+"2897",452,"yellow birch",10.2,1,0
+"2898",452,"yellow birch",14.3,1,0
+"2899",453,"virginia creeper",NA,1,0
+"2900",453,"norway spruce",6.5,1,0
+"2901",453,"norway spruce",7.6,1,0
+"2902",453,"norway spruce",10,1,0
+"2903",453,"red maple",26.6,1,0
+"2904",453,"sugar maple",7.2,1,0
+"2905",453,"sugar maple",29.9,1,0
+"2906",453,"sugar maple",33.4,1,0
+"2907",453,"sugar maple",35.7,1,0
+"2908",453,"white ash",39.5,1,0
+"2909",455,"quaking aspen",NA,5,1
+"2910",455,"quaking aspen",NA,4,1
+"2911",455,"rubus",NA,4,0
+"2912",455,"white ash",NA,1,1
+"2913",455,"red maple",NA,1,1
+"2914",455,"white ash",2.8,1,0
+"2915",455,"red maple",2.9,1,1
+"2916",455,"white ash",3.4,1,0
+"2917",455,"white ash",4,1,0
+"2918",455,"white ash",4,1,0
+"2919",455,"white ash",4.3,1,0
+"2920",455,"white ash",4.4,1,0
+"2921",455,"quaking aspen",36.5,1,0
+"2922",455,"sugar maple",42.7,1,1
+"2923",455,"sugar maple",57.8,1,0
+"2924",462,"yellow birch",5.1,1,0
+"2925",462,"high bush blueberry",NA,2,0
+"2926",462,"high bush blueberry",NA,3,1
+"2927",462,"arrowwood",NA,1,0
+"2928",462,"nannyberry",NA,2,1
+"2929",462,"winterberry",NA,7,1
+"2930",462,"winterberry",NA,1,0
+"2931",462,"winterberry",NA,1,0
+"2932",462,"lyonia",NA,1,0
+"2933",462,"lyonia",NA,1,1
+"2934",462,"yellow birch",5.2,1,0
+"2935",462,"hemlock",6.3,1,1
+"2936",462,"red maple",6.5,1,0
+"2937",462,"red maple",8.2,1,1
+"2938",462,"yellow birch",9.1,1,1
+"2939",462,"white pine",9.3,1,0
+"2940",462,"red oak",9.7,1,0
+"2941",462,"white pine",10.3,1,0
+"2942",462,"white pine",10.3,1,0
+"2943",462,"yellow birch",10.5,1,0
+"2944",462,"yellow birch",10.8,1,0
+"2945",462,"red maple",11.2,1,0
+"2946",462,"yellow birch",12,1,0
+"2947",462,"yellow birch",12.4,1,0
+"2948",462,"red maple",12.7,1,1
+"2949",462,"red maple",13.2,1,0
+"2950",462,"red maple",13.5,1,0
+"2951",462,"white pine",15.5,1,0
+"2952",462,"white pine",15.7,1,0
+"2953",462,"red maple",16.1,1,1
+"2954",462,"yellow birch",16.2,1,0
+"2955",462,"white pine",17.5,1,0
+"2956",462,"white pine",20.3,1,0
+"2957",462,"hemlock",23.5,1,0
+"2958",462,"red maple",23.7,1,0
+"2959",462,"white pine",24.6,1,0
+"2960",462,"white pine",26.8,1,0
+"2961",462,"red maple",29.6,1,0
+"2962",462,"red maple",32.9,1,0
+"2963",462,"red maple",36.5,1,0
+"2964",462,"red maple",39.3,1,0
+"2965",462,"red maple",40.3,1,0
+"2966",464,"red maple",3,1,0
+"2967",464,"winterberry",NA,2,0
+"2968",464,"winterberry",NA,7,0
+"2969",464,"winterberry",NA,3,1
+"2970",464,"high bush blueberry",NA,3,1
+"2971",464,"mountain holly",NA,1,1
+"2972",464,"red spruce",3.3,1,0
+"2973",464,"yellow birch",3.4,1,1
+"2974",464,"red maple",3.6,1,0
+"2975",464,"red maple",4.3,1,0
+"2976",464,"red maple",5.4,1,0
+"2977",464,"hemlock",5.8,1,1
+"2978",464,"hemlock",6.1,1,1
+"2979",464,"red maple",6.2,1,1
+"2980",464,"hemlock",6.9,1,0
+"2981",464,"red maple",7.3,1,1
+"2982",464,"red maple",7.3,1,1
+"2983",464,"hemlock",8.3,1,0
+"2984",464,"hemlock",8.4,1,1
+"2985",464,"hemlock",8.4,1,1
+"2986",464,"red maple",8.6,1,1
+"2987",464,"hemlock",8.7,1,0
+"2988",464,"red maple",9.3,1,1
+"2989",464,"red spruce",9.7,1,0
+"2990",464,"hemlock",10.1,1,0
+"2991",464,"hemlock",10.1,1,0
+"2992",464,"red spruce",10.7,1,0
+"2993",464,"red maple",11.3,1,1
+"2994",464,"red maple",11.3,1,1
+"2995",464,"hemlock",11.4,1,1
+"2996",464,"red spruce",11.5,1,0
+"2997",464,"red maple",12.5,1,0
+"2998",464,"red maple",13.4,1,0
+"2999",464,"hemlock",15.6,1,1
+"3000",464,"hemlock",16,1,0
+"3001",464,"red maple",17.1,1,0
+"3002",464,"red maple",17.9,1,0
+"3003",464,"red spruce",21.5,1,0
+"3004",464,"red spruce",23.2,1,0
+"3005",464,"white pine",26,1,0
+"3006",464,"red spruce",26.9,1,0
+"3007",464,"white pine",27.9,1,0
+"3008",464,"white pine",28.8,1,0
+"3009",464,"white pine",38.8,1,0
+"3010",465,"hemlock",6.6,1,0
+"3011",465,"hemlock",7.2,1,0
+"3012",465,"hemlock",8.3,1,0
+"3013",465,"hemlock",18.4,1,0
+"3014",465,"hemlock",18.5,1,0
+"3015",465,"hemlock",18.8,1,0
+"3016",465,"hemlock",30.4,1,0
+"3017",465,"hemlock",33.2,1,0
+"3018",465,"red oak",15.8,1,0
+"3019",465,"red oak",18.7,1,0
+"3020",465,"red oak",28.2,1,0
+"3021",465,"red oak",40.5,1,0
+"3022",473,"winterberry",NA,1,0
+"3023",473,"mountain laurel",NA,5,0
+"3024",473,"hemlock",4,1,0
+"3025",473,"hemlock",7.3,1,0
+"3026",473,"hemlock",10.1,1,0
+"3027",473,"hemlock",11.4,1,0
+"3028",473,"hemlock",18.5,1,0
+"3029",473,"red maple",13.7,1,0
+"3030",473,"red maple",17.3,1,0
+"3031",473,"red maple",18.7,1,0
+"3032",473,"red maple",25.7,1,0
+"3033",473,"red maple",26.5,1,0
+"3034",473,"red spruce",14.4,1,0
+"3035",473,"red spruce",16.9,1,0
+"3036",473,"red spruce",18.6,1,0
+"3037",473,"red spruce",18.6,1,0
+"3038",473,"red spruce",19.3,1,0
+"3039",473,"red spruce",20.3,1,0
+"3040",473,"red spruce",21.3,1,0
+"3041",473,"red spruce",23.6,1,0
+"3042",473,"red spruce",24,1,0
+"3043",473,"red spruce",28.9,1,0
+"3044",473,"red spruce",31.8,1,0
+"3045",473,"white pine",15.5,1,0
+"3046",473,"yellow birch",9.2,1,0
+"3047",474,"red maple",NA,1,0
+"3048",474,"red spruce",NA,1,0
+"3049",474,"mountain laurel",NA,5,0
+"3050",474,"high bush blueberry",NA,2,0
+"3051",474,"mountain holly",NA,2,0
+"3052",474,"winterberry",NA,1,0
+"3053",474,"hemlock",3.3,1,0
+"3054",474,"hemlock",4.6,1,0
+"3055",474,"hemlock",9.9,1,0
+"3056",474,"hemlock",10.6,1,0
+"3057",474,"hemlock",11.2,1,0
+"3058",474,"hemlock",12.6,1,0
+"3059",474,"hemlock",14,1,0
+"3060",474,"hemlock",14.1,1,0
+"3061",474,"hemlock",16.4,1,0
+"3062",474,"hemlock",17.7,1,0
+"3063",474,"hemlock",18.1,1,0
+"3064",474,"hemlock",25.2,1,0
+"3065",474,"red maple",10.9,1,0
+"3066",474,"red maple",14,1,0
+"3067",474,"red maple",14.9,1,0
+"3068",474,"red maple",19.7,1,0
+"3069",474,"red maple",30.4,1,0
+"3070",474,"red maple",32.6,1,0
+"3071",474,"red spruce",2.5,1,0
+"3072",474,"red spruce",15,1,0
+"3073",474,"red spruce",19.1,1,0
+"3074",474,"red spruce",20.2,1,0
+"3075",474,"red spruce",21.5,1,0
+"3076",474,"red spruce",22.3,1,0
+"3077",474,"red spruce",29.3,1,0
+"3078",474,"white pine",24.8,1,0
+"3079",474,"white pine",24.9,1,0
+"3080",474,"white pine",25.6,1,0
+"3081",474,"white pine",26.2,1,0
+"3082",474,"white pine",33.8,1,0
+"3083",476,"sugar maple",3.3,1,0
+"3084",476,"sugar maple",9.6,1,0
+"3085",476,"sugar maple",12.7,1,0
+"3086",476,"sugar maple",12.7,1,0
+"3087",476,"sugar maple",13.8,1,0
+"3088",476,"sugar maple",13.9,1,0
+"3089",476,"sugar maple",15.5,1,0
+"3090",476,"sugar maple",17.7,1,0
+"3091",476,"sugar maple",19.1,1,0
+"3092",476,"sugar maple",19.6,1,0
+"3093",476,"sugar maple",23,1,0
+"3094",476,"sugar maple",23,1,0
+"3095",476,"sugar maple",25.2,1,0
+"3096",476,"white ash",36.7,1,0
+"3097",476,"white pine",2.5,1,0
+"3098",476,"white pine",3,1,0
+"3099",476,"white pine",3.3,1,0
+"3100",476,"white pine",3.6,1,0
+"3101",476,"white pine",3.9,1,0
+"3102",476,"white pine",4.8,1,0
+"3103",476,"white pine",9.2,1,0
+"3104",477,"winterberry",NA,1,0
+"3105",477,"red maple",NA,2,0
+"3106",477,"black cherry",NA,1,1
+"3107",477,"hickory",NA,2,0
+"3108",477,"sugar maple",NA,1,1
+"3109",477,"sugar maple",NA,1,0
+"3110",477,"white pine",NA,1,0
+"3111",477,"unknown shrub",NA,1,0
+"3112",477,"grape",NA,1,0
+"3113",477,"black cherry",2.7,1,0
+"3114",477,"black cherry",2.8,1,1
+"3115",477,"black cherry",2.9,1,1
+"3116",477,"black cherry",40.3,1,0
+"3117",477,"black cherry",3.5,1,1
+"3118",477,"sugar maple",4.2,1,0
+"3119",477,"sugar maple",9.2,1,0
+"3120",477,"sugar maple",9.2,1,0
+"3121",477,"sugar maple",26.9,1,0
+"3122",477,"sugar maple",28.9,1,1
+"3123",477,"white ash",30,1,0
+"3124",477,"white ash",46.2,1,0
+"3125",480,"white pine",NA,2,0
+"3126",480,"sugar maple",NA,1,0
+"3127",480,"grape",NA,1,0
+"3128",480,"black cherry",NA,7,1
+"3129",480,"black cherry",NA,4,0
+"3130",480,"black birch",NA,1,0
+"3131",480,"black birch",3.2,1,0
+"3132",480,"black cherry",3,1,1
+"3133",480,"sugar maple",11.6,1,0
+"3134",480,"sugar maple",12.3,1,0
+"3135",480,"sugar maple",15.7,1,0
+"3136",480,"sugar maple",16.6,1,0
+"3137",480,"sugar maple",19,1,0
+"3138",480,"sugar maple",20.9,1,0
+"3139",480,"sugar maple",22.2,1,0
+"3140",480,"sugar maple",26.8,1,0
+"3141",480,"sugar maple",27.5,1,0
+"3142",480,"sugar maple",30.3,1,0
+"3143",480,"sugar maple",34.9,1,0
+"3144",480,"sugar maple",36,1,0
+"3145",480,"sugar maple",50.3,1,0
+"3146",480,"sugar maple",65.5,1,0
+"3147",480,"white ash",41,1,0
+"3148",480,"white ash",44.8,1,0
+"3149",480,"white ash",45,1,0
+"3150",480,"white ash",47,1,0
+"3151",480,"white pine",3,1,0
+"3152",481,"black birch",NA,21,0
+"3153",481,"hemlock",20,1,0
+"3154",481,"hemlock",23.4,1,0
+"3155",481,"hemlock",24.4,1,1
+"3156",481,"hemlock",26.6,1,1
+"3157",481,"hemlock",26.7,1,0
+"3158",481,"hemlock",28.9,1,0
+"3159",481,"hemlock",35.6,1,0
+"3160",481,"hemlock",38.8,1,0
+"3161",481,"hemlock",58.3,1,0
+"3162",481,"red maple",20.3,1,0
+"3163",482,"white pine",NA,2,1
+"3164",482,"white pine",NA,1,0
+"3165",482,"black birch",3,1,0
+"3166",482,"black birch",3.1,1,0
+"3167",482,"black birch",3.5,1,0
+"3168",482,"black birch",4.2,1,0
+"3169",482,"black birch",5.3,1,0
+"3170",482,"black birch",5.6,1,1
+"3171",482,"black birch",5.9,1,1
+"3172",482,"sugar maple",21.5,1,0
+"3173",482,"sugar maple",41.6,1,0
+"3174",482,"sugar maple",62.7,1,0
+"3175",482,"white pine",2.5,1,1
+"3176",482,"white pine",3.1,1,1
+"3177",482,"white pine",3.1,1,0
+"3178",482,"white pine",3.3,1,1
+"3179",482,"white pine",4.4,1,1
+"3180",482,"white pine",5.7,1,1
+"3181",483,"hemlock",NA,1,0
+"3182",483,"black birch",12.7,1,0
+"3183",483,"hemlock",15.6,1,0
+"3184",483,"hemlock",20.3,1,0
+"3185",483,"hemlock",32.6,1,0
+"3186",483,"hemlock",34.3,1,1
+"3187",483,"hemlock",40.3,1,0
+"3188",483,"hemlock",45.8,1,0
+"3189",483,"hemlock",55,1,1
+"3190",483,"hemlock",56.1,1,0
+"3191",483,"red maple",13.5,1,0
+"3192",483,"white pine",13.5,1,0
+"3193",483,"white pine",40.3,1,0
+"3194",483,"white pine",52.9,1,0
+"3195",484,"white pine",NA,4,0
+"3196",484,"striped maple",NA,1,1
+"3197",484,"witch hazel",NA,3,1
+"3198",484,"black birch",NA,2,1
+"3199",484,"black birch",4.1,1,0
+"3200",484,"black birch",16.1,1,0
+"3201",484,"black birch",21.1,1,0
+"3202",484,"black birch",26.9,1,0
+"3203",484,"black birch",31.5,1,0
+"3204",484,"hickory",5.5,1,1
+"3205",484,"red maple",40,1,0
+"3206",484,"red oak",18.7,1,0
+"3207",484,"white pine",2.7,1,0
+"3208",484,"white pine",2.9,1,0
+"3209",484,"white pine",3.1,1,0
+"3210",484,"white pine",4.2,1,0
+"3211",484,"white pine",4.4,1,0
+"3212",484,"white pine",23,1,0
+"3213",484,"white pine",69.5,1,0
+"3214",484,"white pine",69.5,1,0
+"3215",485,"hemlock",4.6,1,0
+"3216",485,"hemlock",9.5,1,0
+"3217",485,"hemlock",12.3,1,0
+"3218",485,"hemlock",26.2,1,0
+"3219",485,"hemlock",27.5,1,0
+"3220",485,"hemlock",27.6,1,0
+"3221",485,"hemlock",31.6,1,0
+"3222",485,"hemlock",38.3,1,0
+"3223",485,"hemlock",41.5,1,0
+"3224",485,"hemlock",45.7,1,0
+"3225",485,"hemlock",59.3,1,0
+"3226",485,"red maple",16.1,1,0
+"3227",485,"red maple",18.1,1,0
+"3228",485,"red maple",41.5,1,0
+"3229",485,"white birch",24.9,1,0
+"3230",485,"white birch",32.1,1,0
+"3231",485,"white oak",27.9,1,0
+"3232",485,"mountain laurel",NA,3,0
+"3233",487,"black birch",NA,9,0
+"3234",487,"white pine",NA,4,0
+"3235",487,"hemlock",NA,1,0
+"3236",487,"red maple",26.1,1,0
+"3237",487,"red maple",59.9,1,0
+"3238",487,"sugar maple",7.6,1,0
+"3239",487,"sugar maple",14,1,1
+"3240",487,"white oak",19.1,1,0
+"3241",487,"white pine",2.9,1,0
+"3242",487,"white pine",22,1,0
+"3243",487,"white pine",54.1,1,0
+"3244",487,"white pine",60.8,1,0
+"3245",488,"black cherry",27.1,1,0
+"3246",488,"sugar maple",3.2,1,0
+"3247",488,"sugar maple",4.5,1,0
+"3248",488,"sugar maple",5.4,1,0
+"3249",488,"sugar maple",8.9,1,0
+"3250",488,"sugar maple",11.1,1,0
+"3251",488,"sugar maple",16.2,1,0
+"3252",488,"sugar maple",18.5,1,0
+"3253",488,"sugar maple",22.3,1,0
+"3254",488,"sugar maple",28,1,0
+"3255",488,"sugar maple",28,1,0
+"3256",488,"sugar maple",28.7,1,0
+"3257",488,"sugar maple",31.2,1,0
+"3258",488,"sugar maple",31.8,1,0
+"3259",488,"sugar maple",33.1,1,0
+"3260",488,"sugar maple",35.4,1,0
+"3261",488,"sugar maple",61.5,1,0
+"3262",488,"sugar maple",62.7,1,0
+"3263",488,"white ash",16.2,1,0
+"3264",488,"white ash",24.5,1,0
+"3265",489,"witch hazel",NA,1,0
+"3266",489,"sugar maple",NA,1,0
+"3267",489,"black birch",NA,1,0
+"3268",489,"sugar maple",2.6,1,0
+"3269",489,"sugar maple",3.5,1,0
+"3270",489,"sugar maple",4.5,1,0
+"3271",489,"sugar maple",4.8,1,0
+"3272",489,"sugar maple",4.8,1,0
+"3273",489,"sugar maple",5.4,1,0
+"3274",489,"sugar maple",5.7,1,0
+"3275",489,"sugar maple",6.1,1,0
+"3276",489,"sugar maple",6.4,1,0
+"3277",489,"sugar maple",6.4,1,0
+"3278",489,"sugar maple",7,1,0
+"3279",489,"sugar maple",7,1,0
+"3280",489,"sugar maple",7.6,1,0
+"3281",489,"sugar maple",12.4,1,0
+"3282",489,"sugar maple",16.2,2,0
+"3283",489,"sugar maple",17.8,1,0
+"3284",489,"sugar maple",19.1,1,0
+"3285",489,"sugar maple",20.4,1,0
+"3286",489,"sugar maple",20.7,1,0
+"3287",489,"sugar maple",21.7,1,0
+"3288",489,"sugar maple",24.8,1,0
+"3289",489,"sugar maple",27.1,1,0
+"3290",489,"sugar maple",29.6,1,0
+"3291",489,"white ash",22,1,0
+"3292",489,"white ash",22.3,1,0
+"3293",489,"white ash",22.6,1,0
+"3294",489,"white ash",34.7,1,0
+"3295",489,"white ash",47.8,1,0
+"3296",490,"black birch",NA,1,0
+"3297",490,"white pine",NA,2,0
+"3298",490,"sugar maple",NA,2,0
+"3299",490,"sugar maple",2.8,1,0
+"3300",490,"sugar maple",4.5,1,0
+"3301",490,"sugar maple",4.5,1,0
+"3302",490,"sugar maple",4.8,1,0
+"3303",490,"sugar maple",5.4,1,0
+"3304",490,"sugar maple",5.7,1,0
+"3305",490,"sugar maple",5.7,1,0
+"3306",490,"sugar maple",5.7,1,0
+"3307",490,"sugar maple",5.7,1,0
+"3308",490,"sugar maple",6.1,1,0
+"3309",490,"sugar maple",6.4,1,0
+"3310",490,"sugar maple",6.7,1,0
+"3311",490,"sugar maple",7,1,0
+"3312",490,"sugar maple",7.3,1,0
+"3313",490,"sugar maple",8,1,0
+"3314",490,"sugar maple",8.3,1,0
+"3315",490,"sugar maple",8.3,1,0
+"3316",490,"sugar maple",9.6,1,0
+"3317",490,"sugar maple",11.1,1,0
+"3318",490,"sugar maple",11.8,1,0
+"3319",490,"sugar maple",13.4,1,0
+"3320",490,"sugar maple",13.4,1,0
+"3321",490,"sugar maple",13.7,1,0
+"3322",490,"sugar maple",22.3,1,0
+"3323",490,"sugar maple",26.8,1,0
+"3324",490,"sugar maple",29.3,1,0
+"3325",490,"sugar maple",37.3,1,0
+"3326",490,"sugar maple",41.4,1,0
+"3327",490,"sugar maple",43,1,0
+"3328",490,"sugar maple",43.9,1,0
+"3329",490,"sugar maple",46.2,1,0
+"3330",490,"sugar maple",58,1,0
+"3331",490,"sugar maple",66.9,1,0
+"3332",490,"white pine",2.7,1,0
+"3333",490,"white pine",3.2,1,0
+"3334",491,"black birch",3,1,0
+"3335",491,"black birch",3,1,1
+"3336",491,"sugar maple",6.1,1,0
+"3337",491,"sugar maple",9.9,1,0
+"3338",491,"sugar maple",11.5,1,0
+"3339",491,"sugar maple",22.6,1,0
+"3340",491,"sugar maple",22.9,1,0
+"3341",491,"sugar maple",43.6,1,0
+"3342",491,"sugar maple",44.6,1,0
+"3343",491,"sugar maple",46.5,1,0
+"3344",492,"red maple",21.3,1,0
+"3345",492,"red maple",27,1,0
+"3346",492,"sugar maple",5.4,1,0
+"3347",492,"sugar maple",12.1,1,0
+"3348",492,"sugar maple",19.1,1,0
+"3349",492,"sugar maple",19.4,1,0
+"3350",492,"sugar maple",20.4,1,0
+"3351",492,"sugar maple",22.9,1,0
+"3352",492,"sugar maple",28.3,1,0
+"3353",492,"sugar maple",29.9,1,1
+"3354",492,"sugar maple",34.4,1,0
+"3355",492,"sugar maple",42.4,1,0
+"3356",492,"white ash",24.5,1,0
+"3357",492,"white ash",31.8,1,0
+"3358",492,"white ash",49.4,1,0
+"3359",492,"white ash",58.2,1,0
+"3360",493,"white pine",NA,2,0
+"3361",493,"white pine",NA,3,1
+"3362",493,"black cherry",NA,2,0
+"3363",493,"white ash",NA,1,0
+"3364",493,"sugar maple",4.8,1,1
+"3365",493,"sugar maple",9.2,1,0
+"3366",493,"sugar maple",20.1,1,0
+"3367",493,"sugar maple",36,1,0
+"3368",493,"sugar maple",41.1,1,0
+"3369",493,"sugar maple",48.1,1,0
+"3370",493,"white pine",3.5,1,1
+"3371",494,"white pine",NA,6,0
+"3372",494,"black birch",4.8,1,0
+"3373",494,"black birch",8.9,1,0
+"3374",494,"musclewood",2.9,1,0
+"3375",494,"musclewood",4.5,1,0
+"3376",494,"musclewood",4.8,1,0
+"3377",494,"musclewood",7.6,1,0
+"3378",494,"shagbark hickory",32.2,1,0
+"3379",494,"sugar maple",2.7,1,0
+"3380",494,"sugar maple",4.1,1,0
+"3381",494,"sugar maple",4.1,1,0
+"3382",494,"sugar maple",4.5,1,0
+"3383",494,"sugar maple",6.4,1,0
+"3384",494,"sugar maple",6.7,1,0
+"3385",494,"sugar maple",7,1,0
+"3386",494,"sugar maple",7.6,1,0
+"3387",494,"sugar maple",13.1,1,0
+"3388",494,"sugar maple",14.6,1,0
+"3389",494,"sugar maple",19.4,1,0
+"3390",494,"sugar maple",25.2,1,0
+"3391",494,"sugar maple",32.8,1,0
+"3392",494,"white ash",28.7,1,0
+"3393",494,"white ash",38.9,1,0
+"3394",494,"white pine",2.5,1,0
+"3395",494,"white pine",2.7,1,0
+"3396",494,"white pine",2.9,1,1
+"3397",494,"white pine",3.2,1,0
+"3398",494,"white pine",15.3,1,0
+"3399",499,"sugar maple",NA,1,1
+"3400",499,"black birch",2.9,1,0
+"3401",499,"black birch",3.4,1,1
+"3402",499,"black birch",3.7,1,1
+"3403",499,"black birch",4.4,1,0
+"3404",499,"sugar maple",2.7,1,0
+"3405",499,"sugar maple",2.7,1,0
+"3406",499,"sugar maple",3.9,1,1
+"3407",499,"sugar maple",5.6,1,1
+"3408",499,"sugar maple",8.3,1,0
+"3409",499,"sugar maple",9.5,1,0
+"3410",499,"sugar maple",12,1,0
+"3411",499,"sugar maple",12.7,1,0
+"3412",499,"sugar maple",13,1,0
+"3413",499,"sugar maple",15.5,1,0
+"3414",499,"sugar maple",19.1,1,0
+"3415",499,"sugar maple",20.8,1,0
+"3416",499,"sugar maple",35.9,1,0
+"3417",507,"mountain laurel",NA,6,0
+"3418",507,"mountain laurel",NA,1,1
+"3419",507,"mountain laurel",NA,1,0
+"3420",507,"beech",2.7,1,1
+"3421",507,"red maple",11.8,1,0
+"3422",507,"red maple",18.3,1,0
+"3423",507,"red maple",18.6,1,0
+"3424",507,"white pine",15,1,0
+"3425",507,"white pine",16.1,1,0
+"3426",507,"white pine",16.3,1,0
+"3427",507,"white pine",16.9,1,0
+"3428",507,"white pine",17.3,1,0
+"3429",507,"white pine",17.6,1,0
+"3430",507,"white pine",18.5,1,0
+"3431",507,"white pine",39.8,1,0
+"3432",507,"white pine",45.2,1,0
+"3433",507,"white pine",52.4,1,0
+"3434",507,"white pine",54.4,1,0
+"3435",507,"yellow birch",30.1,1,0
+"3436",509,"white pine",NA,2,1
+"3437",509,"white pine",NA,4,0
+"3438",509,"beech",6.5,1,0
+"3439",509,"chestnut",2.8,1,0
+"3440",509,"chestnut",3.7,1,0
+"3441",509,"chestnut",3.8,1,0
+"3442",509,"chestnut",4.6,1,1
+"3443",509,"red maple",4.1,1,1
+"3444",509,"white oak",16.7,1,0
+"3445",509,"white oak",21,1,0
+"3446",509,"white oak",21.7,1,0
+"3447",509,"white oak",24.9,1,0
+"3448",509,"white oak",30.2,1,0
+"3449",509,"white pine",2.7,1,1
+"3450",509,"white pine",2.7,1,0
+"3451",509,"white pine",2.9,1,0
+"3452",509,"white pine",2.9,1,1
+"3453",509,"white pine",3.2,1,0
+"3454",509,"white pine",3.3,1,1
+"3455",509,"white pine",3.6,1,1
+"3456",509,"white pine",3.6,1,0
+"3457",509,"white pine",3.8,1,0
+"3458",509,"white pine",3.9,1,0
+"3459",509,"white pine",4.3,1,0
+"3460",509,"white pine",4.4,1,0
+"3461",509,"white pine",5.2,1,0
+"3462",509,"white pine",6.2,1,0
+"3463",509,"white pine",6.7,1,0
+"3464",509,"white pine",10.8,1,0
+"3465",509,"white pine",14.5,1,0
+"3466",509,"white pine",20.4,1,0
+"3467",509,"white pine",23.1,1,0
+"3468",509,"white pine",25,1,0
+"3469",509,"white pine",37,1,0
+"3470",509,"white pine",40.1,1,0
+"3471",509,"white pine",56,1,0
+"3472",509,"white pine",57,1,0
+"3473",511,"beech",NA,1,1
+"3474",511,"red maple",NA,2,0
+"3475",511,"red maple",NA,1,1
+"3476",511,"white pine",NA,1,0
+"3477",511,"red oak",NA,4,1
+"3478",511,"beech",4.9,1,1
+"3479",511,"white pine",2.6,1,0
+"3480",511,"white pine",3,1,0
+"3481",511,"white pine",3,1,0
+"3482",511,"white pine",3.5,1,0
+"3483",511,"white pine",5,1,0
+"3484",513,"white ash",NA,4,0
+"3485",513,"black cherry",NA,1,1
+"3486",513,"black cherry",NA,3,0
+"3487",513,"lonicera",NA,2,0
+"3488",513,"bittersweet",NA,10,0
+"3489",513,"grape",NA,2,0
+"3490",513,"winterberry",NA,1,0
+"3491",513,"winterberry",NA,1,0
+"3492",513,"winterberry",NA,1,1
+"3493",513,"red maple",NA,1,0
+"3494",513,"black cherry",2.5,1,1
+"3495",513,"black cherry",2.6,1,0
+"3496",513,"black cherry",2.7,1,0
+"3497",513,"black cherry",2.7,1,0
+"3498",513,"black cherry",3.3,1,0
+"3499",513,"black cherry",3.6,1,1
+"3500",513,"black cherry",3.6,1,0
+"3501",513,"black cherry",4.1,1,0
+"3502",513,"black cherry",4.8,1,0
+"3503",513,"gray birch",2.5,1,1
+"3504",513,"red maple",2.9,1,1
+"3505",513,"red maple",3.3,1,0
+"3506",513,"red maple",3.3,1,0
+"3507",513,"red maple",3.5,1,0
+"3508",513,"red maple",4.1,1,1
+"3509",513,"red maple",4.4,1,0
+"3510",513,"red oak",3.1,1,1
+"3511",513,"red oak",3.8,1,1
+"3512",513,"red oak",6.3,1,1
+"3513",513,"white ash",2.5,1,0
+"3514",513,"white ash",3,1,0
+"3515",513,"white ash",3.4,1,0
+"3516",513,"white pine",2.5,1,0
+"3517",513,"white pine",3.1,1,0
+"3518",513,"white pine",4.2,1,0
+"3519",513,"white pine",4.3,1,0
+"3520",513,"white pine",4.6,1,0
+"3521",513,"white pine",5.5,1,0
+"3522",513,"white pine",6.3,1,0
+"3523",519,"high bush blueberry",NA,3,0
+"3524",519,"high bush blueberry",NA,1,1
+"3525",519,"yellow birch",NA,1,1
+"3526",519,"shadbush",NA,1,0
+"3527",519,"shadbush",NA,1,0
+"3528",519,"hawthorn",NA,1,0
+"3529",519,"hemlock",3.7,1,0
+"3530",519,"hemlock",5.7,1,0
+"3531",519,"hemlock",12.4,1,0
+"3532",519,"hemlock",13.9,1,0
+"3533",519,"red maple",6,1,0
+"3534",519,"red maple",10.7,1,0
+"3535",519,"red maple",32.4,1,0
+"3536",519,"red oak",10.9,1,0
+"3537",519,"red oak",29.2,1,0
+"3538",519,"sugar maple",6,1,0
+"3539",519,"white birch",6.5,1,0
+"3540",519,"white pine",8.5,1,0
+"3541",519,"white pine",55.2,1,0
+"3542",519,"yellow birch",2.5,1,0
+"3543",519,"yellow birch",3.8,1,0
+"3544",519,"yellow birch",5.4,1,0
+"3545",519,"yellow birch",5.5,1,0
+"3546",519,"yellow birch",9.3,1,0
+"3547",519,"yellow birch",9.5,1,0
+"3548",519,"yellow birch",10.5,1,0
+"3549",519,"yellow birch",14.6,1,1
+"3550",519,"yellow birch",19.9,1,0
+"3551",520,"white ash",NA,3,0
+"3552",520,"lonicera",NA,1,0
+"3553",520,"lonicera",NA,3,0
+"3554",520,"shadbush",NA,2,0
+"3555",520,"red maple",NA,3,0
+"3556",520,"sugar maple",NA,3,0
+"3557",520,"white pine",NA,1,0
+"3558",520,"black cherry",NA,1,0
+"3559",520,"hawthorn",NA,1,0
+"3560",520,"black birch",NA,2,0
+"3561",520,"black cherry",16,1,0
+"3562",520,"black cherry",33.8,1,0
+"3563",520,"gray birch",4.9,1,0
+"3564",520,"paper birch",14.1,1,0
+"3565",520,"quaking aspen",16.6,1,0
+"3566",520,"red maple",2.8,1,0
+"3567",520,"red maple",3,1,0
+"3568",520,"red maple",3.7,1,1
+"3569",520,"red maple",3.8,1,0
+"3570",520,"red maple",5,1,0
+"3571",520,"red maple",6.3,1,0
+"3572",520,"red maple",9.4,1,0
+"3573",520,"red oak",12.2,1,0
+"3574",520,"red oak",19.2,1,0
+"3575",520,"sugar maple",4.2,1,0
+"3576",520,"sugar maple",4.5,1,0
+"3577",520,"white ash",2.8,1,0
+"3578",520,"white ash",2.8,1,0
+"3579",520,"white ash",3.2,1,0
+"3580",520,"white ash",5.4,1,0
+"3581",520,"white ash",6.9,1,0
+"3582",520,"white ash",7.6,1,0
+"3583",520,"white ash",15.6,1,0
+"3584",520,"white pine",51.1,1,0
+"3585",520,"white pine",56.5,1,0
+"3586",521,"black birch",3,1,1
+"3587",521,"black birch",3.2,1,1
+"3588",521,"black birch",3.2,1,1
+"3589",521,"black birch",4,1,1
+"3590",521,"black birch",5.5,1,1
+"3591",521,"black birch",6.8,1,1
+"3592",521,"black birch",6.9,1,1
+"3593",521,"black birch",7.5,1,1
+"3594",521,"black birch",8,1,1
+"3595",521,"black birch",8.3,1,1
+"3596",521,"black birch",8.8,1,1
+"3597",521,"black birch",11.4,1,1
+"3598",521,"white pine",2.6,1,1
+"3599",521,"white pine",3,1,1
+"3600",521,"white pine",3.9,1,1
+"3601",521,"white pine",4.4,1,1
+"3602",521,"white pine",4.4,1,1
+"3603",521,"white pine",4.4,1,1
+"3604",521,"white pine",4.5,1,1
+"3605",521,"white pine",4.8,1,1
+"3606",521,"white pine",4.8,1,1
+"3607",521,"white pine",4.9,1,1
+"3608",521,"white pine",5,1,1
+"3609",521,"white pine",5.4,1,1
+"3610",521,"white pine",5.6,1,1
+"3611",521,"white pine",5.9,1,1
+"3612",521,"white pine",6,1,1
+"3613",521,"white pine",6.1,1,1
+"3614",521,"white pine",6.3,1,1
+"3615",521,"white pine",6.4,1,1
+"3616",521,"white pine",6.6,1,1
+"3617",521,"white pine",6.7,1,1
+"3618",521,"white pine",6.8,1,1
+"3619",521,"white pine",6.8,1,1
+"3620",521,"white pine",7.1,1,1
+"3621",521,"white pine",7.2,1,1
+"3622",521,"white pine",7.3,1,1
+"3623",521,"white pine",7.3,1,1
+"3624",521,"white pine",7.3,1,1
+"3625",521,"white pine",7.5,1,1
+"3626",521,"white pine",7.5,1,1
+"3627",521,"white pine",7.6,1,1
+"3628",521,"white pine",7.6,1,1
+"3629",521,"white pine",7.7,1,1
+"3630",521,"white pine",8.2,1,1
+"3631",521,"white pine",8.6,1,1
+"3632",521,"white pine",8.9,1,1
+"3633",521,"white pine",8.9,1,1
+"3634",521,"white pine",9,1,1
+"3635",521,"white pine",9.3,1,1
+"3636",521,"white pine",9.5,1,1
+"3637",521,"white pine",9.6,1,1
+"3638",521,"white pine",9.6,1,1
+"3639",521,"white pine",9.6,1,1
+"3640",521,"white pine",9.7,1,1
+"3641",521,"white pine",9.8,1,1
+"3642",521,"white pine",10.2,1,1
+"3643",521,"white pine",10.4,1,1
+"3644",521,"white pine",10.6,1,1
+"3645",521,"white pine",10.9,1,1
+"3646",521,"white pine",10.9,1,1
+"3647",521,"white pine",11.6,1,1
+"3648",521,"white pine",12,1,1
+"3649",521,"white pine",14,1,1
+"3650",522,"red maple",NA,1,1
+"3651",522,"witch hazel",NA,2,0
+"3652",522,"black birch",NA,1,0
+"3653",522,"red maple",6.8,1,0
+"3654",522,"red maple",8.8,1,0
+"3655",522,"red maple",14.1,1,0
+"3656",522,"red oak",32.7,1,0
+"3657",522,"red oak",37.4,1,0
+"3658",522,"red oak",55,1,0
+"3659",522,"white pine",11,1,0
+"3660",522,"yellow birch",14.1,1,1
+"3661",525,"red maple",NA,2,0
+"3662",525,"red maple",NA,1,1
+"3663",525,"high bush blueberry",NA,1,0
+"3664",525,"black birch",2.9,1,0
+"3665",525,"black birch",4,1,0
+"3666",525,"black birch",4.7,1,0
+"3667",525,"black birch",4.7,1,0
+"3668",525,"black birch",5.1,1,0
+"3669",525,"black birch",5.1,1,0
+"3670",525,"black birch",6.6,1,1
+"3671",525,"black birch",7,1,0
+"3672",525,"black birch",7.3,1,0
+"3673",525,"black birch",10.6,1,0
+"3674",525,"black cherry",2.8,1,1
+"3675",525,"black cherry",3.9,1,1
+"3676",525,"black cherry",4.8,1,0
+"3677",525,"black cherry",4.8,1,0
+"3678",525,"black cherry",5.6,1,1
+"3679",525,"black cherry",9.5,1,1
+"3680",525,"gray birch",2.8,1,1
+"3681",525,"gray birch",6.1,1,1
+"3682",525,"gray birch",7.6,1,0
+"3683",525,"gray birch",8.5,1,0
+"3684",525,"gray birch",9.1,1,0
+"3685",525,"gray birch",10.8,1,0
+"3686",525,"red maple",3.1,1,0
+"3687",525,"red maple",4.6,1,1
+"3688",525,"red maple",5,1,0
+"3689",525,"white birch",6.7,1,1
+"3690",525,"white birch",8.7,1,1
+"3691",525,"white pine",11.4,1,0
+"3692",526,"high bush blueberry",NA,3,0
+"3693",526,"witch hazel",NA,1,1
+"3694",526,"witch hazel",NA,1,0
+"3695",526,"high bush blueberry",NA,2,0
+"3696",526,"witch hazel",NA,5,0
+"3697",526,"striped maple",NA,1,0
+"3698",526,"red maple",9.3,1,0
+"3699",526,"red maple",10,1,0
+"3700",526,"red maple",11.8,1,0
+"3701",526,"red maple",12.2,1,0
+"3702",526,"red maple",24.3,1,0
+"3703",526,"red oak",31.6,1,0
+"3704",526,"red oak",38.5,1,0
+"3705",526,"red oak",65.5,1,0
+"3706",526,"striped maple",2.6,1,0
+"3707",526,"striped maple",2.7,1,0
+"3708",526,"striped maple",5.4,1,0
+"3709",526,"striped maple",7.1,1,0
+"3710",526,"striped maple",9,1,0
+"3711",526,"striped maple",10.3,1,0
+"3712",526,"striped maple",12.4,1,0
+"3713",526,"white ash",72,1,0
+"3714",526,"white pine",25.3,1,0
+"3715",533,"red maple",NA,3,1
+"3716",533,"red maple",NA,1,0
+"3717",533,"white pine",NA,2,0
+"3718",533,"chestnut",6.1,1,0
+"3719",533,"red maple",2.9,1,0
+"3720",533,"red maple",3,1,1
+"3721",533,"red maple",3.2,1,0
+"3722",533,"red maple",3.5,1,1
+"3723",533,"red maple",3.9,1,1
+"3724",533,"red maple",4.8,1,0
+"3725",533,"red oak",2.5,1,1
+"3726",533,"red oak",2.8,1,1
+"3727",533,"white oak",2.8,1,0
+"3728",533,"white pine",2.5,1,0
+"3729",533,"white pine",2.5,1,0
+"3730",533,"white pine",4.6,1,0
+"3731",534,"red maple",NA,1,0
+"3732",534,"witch hazel",NA,5,0
+"3733",534,"chestnut",NA,2,0
+"3734",534,"hemlock",NA,1,0
+"3735",534,"red oak",NA,1,0
+"3736",534,"black birch",30.2,1,0
+"3737",534,"black birch",37.9,1,0
+"3738",534,"chestnut",3.4,1,0
+"3739",534,"hemlock",3.3,1,0
+"3740",534,"hemlock",5.1,1,0
+"3741",534,"hemlock",33.7,1,0
+"3742",534,"red maple",2.6,1,0
+"3743",534,"red maple",3,1,0
+"3744",534,"red maple",3.7,1,0
+"3745",534,"red maple",20.8,1,0
+"3746",534,"white pine",11.2,1,0
+"3747",534,"white pine",26.6,1,0
+"3748",534,"white pine",56.2,1,0
+"3749",534,"white pine",59.4,1,0
+"3750",535,"sugar maple",NA,3,0
+"3751",535,"winterberry",NA,2,1
+"3752",535,"winterberry",NA,2,0
+"3753",535,"hemlock",NA,1,0
+"3754",535,"white pine",NA,2,0
+"3755",535,"black cherry",NA,1,1
+"3756",535,"black cherry",24,1,0
+"3757",535,"hemlock",17,1,0
+"3758",535,"hemlock",20.1,1,0
+"3759",535,"musclewood",2.5,1,0
+"3760",535,"musclewood",2.5,1,0
+"3761",535,"musclewood",3,1,0
+"3762",535,"musclewood",3,1,0
+"3763",535,"red maple",2.6,1,0
+"3764",535,"red maple",2.6,1,0
+"3765",535,"red maple",3.3,1,0
+"3766",535,"red maple",3.8,1,0
+"3767",535,"red maple",8.3,1,0
+"3768",535,"red maple",27.6,1,0
+"3769",535,"red maple",39.7,1,0
+"3770",535,"white pine",2.7,1,0
+"3771",535,"white pine",3.3,1,0
+"3772",535,"white pine",3.4,1,0
+"3773",535,"white pine",3.5,1,0
+"3774",535,"white pine",3.7,1,0
+"3775",535,"white pine",5.7,1,0
+"3776",535,"white pine",10.7,1,0
+"3777",535,"white pine",11.1,1,0
+"3778",535,"white pine",11.5,1,0
+"3779",535,"white pine",12.5,1,0
+"3780",535,"white pine",27.1,1,0
+"3781",535,"white pine",34.4,1,0
+"3782",535,"white pine",34.7,1,0
+"3783",535,"white pine",34.9,1,0
+"3784",535,"white pine",48.1,1,0
+"3785",535,"white pine",48.1,1,0
+"3786",535,"yellow birch",3.7,1,0
+"3787",535,"yellow birch",7.7,1,0
+"3788",536,"red maple",NA,5,0
+"3789",536,"red maple",NA,4,1
+"3790",536,"gray birch",6.4,1,1
+"3791",536,"red maple",2.5,1,0
+"3792",536,"red maple",2.6,1,0
+"3793",536,"red maple",3.4,1,1
+"3794",536,"red maple",4.2,1,0
+"3795",536,"red pine",5.9,1,0
+"3796",536,"white pine",2.5,1,0
+"3797",536,"white pine",3.1,1,0
+"3798",536,"white pine",3.2,1,0
+"3799",536,"white pine",3.3,1,0
+"3800",536,"white pine",3.3,1,0
+"3801",536,"white pine",3.5,1,0
+"3802",536,"white pine",3.5,1,0
+"3803",536,"white pine",3.7,1,0
+"3804",536,"white pine",8,1,0
+"3805",538,"black oak",25.7,1,0
+"3806",538,"hemlock",10.2,1,0
+"3807",538,"hemlock",11.4,1,0
+"3808",538,"hickory",10.4,1,0
+"3809",538,"red maple",4.1,1,0
+"3810",538,"red maple",5.2,1,0
+"3811",538,"red maple",7.4,1,0
+"3812",538,"red maple",9.4,1,0
+"3813",538,"red maple",12.1,1,0
+"3814",538,"red oak",21.3,1,0
+"3815",538,"red oak",25.1,1,0
+"3816",538,"red oak",31.9,1,0
+"3817",538,"red oak",41.5,1,0
+"3818",538,"white oak",11.9,1,0
+"3819",538,"white oak",24.2,1,0
+"3820",538,"white oak",28.2,1,0
+"3821",538,"white pine",12.5,1,0
+"3822",538,"white pine",15.5,1,0
+"3823",538,"white pine",15.8,1,0
+"3824",538,"white pine",17.8,1,0
+"3825",538,"white pine",18.7,1,0
+"3826",538,"white pine",20.1,1,0
+"3827",538,"white pine",36.2,1,0
+"3828",539,"black cherry",NA,6,0
+"3829",539,"black cherry",NA,1,1
+"3830",539,"white ash",NA,1,0
+"3831",539,"red maple",NA,2,0
+"3832",539,"rubus",NA,8,0
+"3833",539,"winterberry",NA,1,0
+"3834",539,"black cherry",2.5,1,0
+"3835",539,"black cherry",2.5,1,1
+"3836",539,"black cherry",2.6,1,1
+"3837",539,"black cherry",2.7,1,0
+"3838",539,"black cherry",2.7,1,0
+"3839",539,"black cherry",2.7,1,1
+"3840",539,"black cherry",2.9,1,0
+"3841",539,"black cherry",2.9,1,0
+"3842",539,"black cherry",2.9,1,0
+"3843",539,"black cherry",3,1,0
+"3844",539,"black cherry",3,1,0
+"3845",539,"black cherry",3.1,1,0
+"3846",539,"gray birch",3,1,0
+"3847",539,"gray birch",3.5,1,0
+"3848",539,"gray birch",3.7,1,0
+"3849",539,"gray birch",4.2,1,1
+"3850",539,"gray birch",7.5,1,0
+"3851",539,"red oak",2.9,1,0
+"3852",539,"white pine",3.1,1,0
+"3853",540,"red maple",NA,2,1
+"3854",540,"white pine",NA,2,0
+"3855",540,"black birch",3,1,1
+"3856",540,"black birch",3.2,1,1
+"3857",540,"black birch",3.6,1,0
+"3858",540,"black birch",4.7,1,1
+"3859",540,"black birch",6.3,1,1
+"3860",540,"black birch",7.4,1,0
+"3861",540,"black cherry",4.5,1,1
+"3862",540,"red maple",2.7,1,1
+"3863",540,"red maple",3.4,1,1
+"3864",540,"red maple",4.7,1,1
+"3865",540,"white pine",2.6,1,0
+"3866",540,"white pine",3.1,1,0
+"3867",540,"white pine",3.2,1,0
+"3868",540,"white pine",3.2,1,0
+"3869",540,"white pine",3.5,1,0
+"3870",540,"white pine",3.7,1,0
+"3871",540,"white pine",4,1,0
+"3872",540,"white pine",4.2,1,0
+"3873",540,"white pine",4.2,1,0
+"3874",540,"white pine",4.3,1,0
+"3875",540,"white pine",4.3,1,0
+"3876",540,"white pine",4.4,1,0
+"3877",540,"white pine",4.8,1,0
+"3878",540,"white pine",5.2,1,0
+"3879",540,"white pine",5.2,1,0
+"3880",540,"white pine",5.5,1,0
+"3881",540,"white pine",5.7,1,0
+"3882",540,"white pine",6,1,0
+"3883",540,"white pine",6.3,1,0
+"3884",540,"white pine",6.5,1,0
+"3885",540,"white pine",6.8,1,0
+"3886",540,"white pine",7,1,0
+"3887",540,"whte pine",6,1,0
+"3888",541,"red maple",NA,3,0
+"3889",541,"red maple",NA,3,1
+"3890",541,"gray birch",NA,1,0
+"3891",541,"gray birch",NA,1,1
+"3892",541,"black birch",NA,2,0
+"3893",541,"high bush blueberry",NA,2,0
+"3894",541,"lyonia",NA,3,0
+"3895",541,"black birch",NA,1,1
+"3896",541,"black birch",2.8,1,1
+"3897",541,"black birch",2.8,1,1
+"3898",541,"black birch",3,1,1
+"3899",541,"black birch",3.1,1,0
+"3900",541,"black birch",3.2,1,1
+"3901",541,"black birch",3.7,1,0
+"3902",541,"black birch",4.7,1,1
+"3903",541,"black birch",6.1,1,1
+"3904",541,"black birch",9.6,1,1
+"3905",541,"gray birch",2.7,1,0
+"3906",541,"red maple",2.5,1,1
+"3907",541,"red maple",2.8,1,1
+"3908",541,"red maple",2.8,1,1
+"3909",541,"red maple",3,1,1
+"3910",541,"red maple",3,1,1
+"3911",541,"red maple",3.1,1,1
+"3912",541,"red maple",4.3,1,0
+"3913",541,"red maple",5.3,1,1
