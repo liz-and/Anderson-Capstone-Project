@@ -368,7 +368,7 @@ Because they are all the same model, don't need to compare them.
 Create the model:
 
 ```{r}
-mod_best <- lm(browse_index ~ harvest_intensity_m2.ha + elev_m, data = preds)
+final_mod <- lm(browse_index ~ harvest_intensity_m2.ha + elev_m, data = preds)
 ```
 
 ## 
